@@ -44,22 +44,14 @@ void Update()
 
 [Unity Docs Input.GetTouch()](https://docs.unity3d.com/ScriptReference/Input.GetTouch.html)  
 [Unity Docs Input.touchCount](https://docs.unity3d.com/ScriptReference/Input-touchCount.html)
-#### NonAlloc
+#### NonAlloc versies
 
 Sommige API calls in Unity hebben een speciale functie die geen garbage creëert, deze alternatieven werken vaak presies het zelfde als de 'normale' versies 
 Maar zijn beter te gebruiken in een 'update loop' die vaak vrij performance gevoelig zijn.  
 hieronder een voorbeeld van SphereCastAll en zijn alternatief SphereCastAllNonAlloc:
 
 ```C#
-
 RaycastHit[] hitInfos;
-Vector3 origin = new Vector3(0,0,0);
-float radius = 10f;
-Vector3 direction = new Vector3(1,0,0);
-float maxDistance = Mathf.Infinity;
-int layerMask = DefaultRaycastLayers;
-QueryTriggerInteraction queryTriggerInteraction = QueryTriggerInteraction.UseGlobal;
-
 
 void Update() 
 {
@@ -71,9 +63,13 @@ void Update()
 		//DO SOMETHING
 	}
 }
-```
-
+```  
+Onderstaand voorbeeld gebruikt de NonAlloc versie van deze functie om zo een bestaande array te vullen in plaats van te vervangen.
+Als van te voren bekend is hoe groot de terugkomende array maximaal kan zijn kan hierop ingespeeld worden door deze array met dit formaat aan te maken. 
+Hierdoor kan gezorgd worden dat er nooit garbage gemaakt word bij aanroepen van deze functie.  
 ```C#
+RaycastHit[maxHits] hitInfos;
+
 void Update() 
 {
 	SphereCastNonAlloc(origin, radius, direction, hitInfos, maxDistance, layerMask, queryTriggerInteraction);
