@@ -8,7 +8,8 @@ moeten komen waar je teveel gebruik maakt van zware API calls. Door het op een s
 weg gewerkt worden zodat het geen framerate meer hoeft te kosten.
 
 ### Array returning API calls
-Door het gebruik van Array returning API calls kan snel veel framerate verloren gaan. Het is aan te raden deze functies niet in een 'update loop' te gebruiken 
-of naar alternatieven te zoeken.  
+Door het gebruik API calls die Arrays teruggeven kan snel veel framerate verloren gaan, vooral als dit in een 'update loop' gebeurd. 
+Het is aan te raden deze functies niet in een 'update loop' te gebruiken of naar alternatieven te zoeken.  
+
 Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
 
