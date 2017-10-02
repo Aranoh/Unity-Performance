@@ -14,7 +14,7 @@ Het is aan te raden deze functies niet in een 'update loop' te gebruiken of naar
 
 Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
 
-#### __Zoeken alternatieven__  
+__#### Zoeken alternatieven__  
 
 ##### Touch input
 ```C#
