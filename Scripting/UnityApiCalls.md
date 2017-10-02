@@ -20,14 +20,11 @@ Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
 ```C#
 void Update() 
 {
-	int fingerCount = 0;
 	foreach (Touch touch in Input.touches) 
 	{
 		if (touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled)
-		fingerCount++;       
+		// DO SOMETHING      
 	}
-	if (fingerCount > 0)
-		print("User has " + fingerCount + " finger(s) touching the screen");
 }
 ```  
 [Unity Docs Input.touches](https://docs.unity3d.com/ScriptReference/Input-touches.html)
@@ -37,14 +34,11 @@ Input.touchCount en Input.getTouch() om zo presies het zelfde te doen als bovens
 ```C#
 void Update() 
 {
-	int fingerCount = 0;
 	for (int i = 0; i <= Input.touchCount; i++)
 	{
 		if (Input.GetTouch(i).phase != TouchPhase.Ended && Input.GetTouch(i).phase != TouchPhase.Canceled)
-		fingerCount++;
-	}
-	if (fingerCount > 0)
-		print("User has " + fingerCount + " finger(s) touching the screen");       
+		// DO SOMETHING
+	}     
 }
 ```
 
