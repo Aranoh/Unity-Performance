@@ -93,6 +93,7 @@ Een van de meest gebruikte voorbeelden van zo'n niet gecachede waarde is het geb
 aanroep naar de main camera van Unity maar achter de schermen maakt deze API call gebruik van "FindGameObjectWithTag" die door alle GameObjecten 
 in de scene zoekt naar de tag "maincamera". Aan te raden is dus om zo veel mogelijk objecten te cachen vooral als je niet weet hoe Unity aan deze 
 waarden komt.  
+
 Denk er bij cachen van waardes wel altijd aan dat deze waardes kunnen veranderen, er kan bijvoorbeeld een andere camera gebruikt worden als main camera.
 
 ```C#
