@@ -83,7 +83,38 @@ void Update()
 	}
 }
 ```  
-[Unity Docs: Physics.SphereCastNonAlloc](https://docs.unity3d.com/ScriptReference/Physics.SphereCastNonAlloc.html)  
+[Unity Docs: Physics.SphereCastNonAlloc](https://docs.unity3d.com/ScriptReference/Physics.SphereCastNonAlloc.html)   
+
+Een tweede voorbeeld is het gebruik van "GetComponents" dit geeft een lijst terug van alle gevonden resultaten binnen het aangegeven kader. GetComponents heeft twee 
+versies waarmee gewerkt kan worden. De tweede versie heeft een return value binnen de functie die van te voren aangemaakt kan worden en dus geen garbage meer creëert 
+op het moment van aanroepen.
+
+```c#
+void Start()
+    {
+        HingeJoint[] hingeJoints;
+
+        hingeJoints = GetComponents<HingeJoint>();
+
+        foreach (HingeJoint joint in hingeJoints)
+            joint.useSpring = false;
+    }
+```  
+
+Betere versie hier onder weergegeven:  
+
+```c#
+ void Start()
+    {
+        // Disable the spring on all HingeJoints in this game object
+        List<Component> hingeJoints = new List<Component>();
+
+        GetComponents(typeof(HingeJoint), hingeJoints);
+
+        foreach (HingeJoint joint in hingeJoints)
+            joint.useSpring = false;
+    }
+```   
 
 #### Caching Unity Objects
 
