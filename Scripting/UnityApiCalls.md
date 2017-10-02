@@ -7,7 +7,7 @@ Development van Unity staat ook niet stil dus deze lijst van functies zal consta
 moeten komen waar je teveel gebruik maakt van zware API calls. Door het op een slimme manier omschrijven van je code kan veel van de zware code 
 weg gewerkt worden zodat het geen framerate meer hoeft te kosten.
 
-```C#
+```
  static void Main(string[] args)
         {
             Principal g = new Principal();
