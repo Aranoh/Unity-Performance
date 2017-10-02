@@ -14,6 +14,8 @@ Het is aan te raden deze functies niet in een 'update loop' te gebruiken of naar
 Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
 
 #### Zoeken alternatieven  
+
+##### Touches ophalen
 ```C#
 void Update() {
         int fingerCount = 0;
