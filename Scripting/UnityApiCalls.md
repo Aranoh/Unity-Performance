@@ -87,4 +87,29 @@ void Update()
 
 #### Caching values
 
-Binnen Unity bestaan Onderdelen die in eerste instantie makkelijk te gebruiken lijken maar die 
+Niet alle Objecten of value's die je via Unity opvraagd worden gecached binnen het Unity systeem, aan te raden is dan ook om dit zelf te doen.  
+Een van de meest gebruikte voorbeelden van zo'n niet gecachede waarde is het gebruik van Camera.main, dit lijkt in eerste instantie een simpele 
+aanroep naar de main camera van Unity maar achter de schermen maakt deze API call gebruik van "FindGameObjectWithTag" die door alle GameObjecten 
+in de scene zoekt naar de tag "maincamera". Aan te raden is dus om zo veel mogelijk objecten te cachen vooral als je niet weet hoe Unity aan deze 
+waarden komt.  
+Denk er bij cachen van waardes wel altijd aan dat deze waardes kunnen veranderen, er kan bijvoorbeeld een andere camera gebruikt worden als main camera.
+
+```C#
+void Update() 
+{
+	if (Input.GetKeyDown("space"))
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+}
+```
+Bij bovenstaande code zal elke keer dat op spatie gedrukt worden door alle GameObjecten heen geloopt worden om zo de main camera te vinden. Onderstaande 
+code cached deze maincamera om minder last te hebben van deze aanroep.
+
+```C#
+Camera mainCam = Camera.main;
+
+void Update() 
+{
+	if (Input.GetKeyDown("space"))
+            Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
+}
+```
