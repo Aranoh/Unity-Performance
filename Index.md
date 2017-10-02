@@ -17,19 +17,19 @@ om te de test pagina te zien klik hier:
 ##Scripting
 
 ###	CPU:
-[Unity API calls](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[Datastructures](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[Unity UI](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[best practices](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[fonts](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[pooling](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[Object Pooling](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[Garbage Collector](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[best practices](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[Strack vs Heap](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[Update loop](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[Use of Strings](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-[Coroutines](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
+[Unity API calls](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)        
+[Datastructures](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)         
+[Unity UI](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)               
+[best practices](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)         
+[fonts](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)                  
+[pooling](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)                
+[Object Pooling](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)         
+[Garbage Collector](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)      
+[best practices](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)         
+[Strack vs Heap](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)         
+[Update loop](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)            
+[Use of Strings](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)         
+[Coroutines](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)             
 
 ###	Both:
 Particle Systems
