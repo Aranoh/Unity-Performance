@@ -85,7 +85,7 @@ void Update()
 ```  
 [Unity Docs Physics.SphereCastNonAlloc](https://docs.unity3d.com/ScriptReference/Physics.SphereCastNonAlloc.html)  
 
-#### Caching values
+#### Caching Unity Objects
 
 Niet alle Objecten of value's die je via Unity opvraagd worden gecached binnen het Unity systeem, aan te raden is dan ook om dit zelf te doen.  
 
