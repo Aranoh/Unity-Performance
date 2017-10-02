@@ -48,5 +48,5 @@ void Update() {
     }
 ```
 
-[Unity Docs Input.GetTouch()](https://docs.unity3d.com/ScriptReference/Input.GetTouch.html)
+[Unity Docs Input.GetTouch()](https://docs.unity3d.com/ScriptReference/Input.GetTouch.html)  
 [Unity Docs Input.touchCount](https://docs.unity3d.com/ScriptReference/Input-touchCount.html)
