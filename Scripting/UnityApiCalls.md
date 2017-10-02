@@ -27,7 +27,7 @@ void Update()
 	}
 }
 ```  
-[Unity Docs Input.touches](https://docs.unity3d.com/ScriptReference/Input-touches.html)
+[Unity Docs: Input.touches](https://docs.unity3d.com/ScriptReference/Input-touches.html)
 
 Bovenstaand stuk code maakt gebruik van de Input.touches die hier in dit geval elke frame garbage creëert. Hieronder is een alternatief gegeven die gebruik maakt van 
 Input.touchCount en Input.getTouch() om zo presies het zelfde te doen als bovenstaande code.  
@@ -42,8 +42,8 @@ void Update()
 }
 ```
 
-[Unity Docs Input.GetTouch()](https://docs.unity3d.com/ScriptReference/Input.GetTouch.html)  
-[Unity Docs Input.touchCount](https://docs.unity3d.com/ScriptReference/Input-touchCount.html)  
+[Unity Docs: Input.GetTouch()](https://docs.unity3d.com/ScriptReference/Input.GetTouch.html)  
+[Unity Docs: Input.touchCount](https://docs.unity3d.com/ScriptReference/Input-touchCount.html)  
 
 #### NonAlloc versies
 
@@ -65,7 +65,7 @@ void Update()
 	}
 }
 ```  
-[Unity Docs Physics.SphereCastAll](https://docs.unity3d.com/ScriptReference/Physics.SphereCastAll.html)  
+[Unity Docs: Physics.SphereCastAll](https://docs.unity3d.com/ScriptReference/Physics.SphereCastAll.html)  
 Onderstaand voorbeeld gebruikt de NonAlloc versie van deze functie om zo een bestaande array te vullen in plaats van te vervangen.
 Als van te voren bekend is hoe groot de terugkomende array maximaal kan zijn kan hierop ingespeeld worden door deze array met dit formaat aan te maken. 
 Hierdoor kan gezorgd worden dat er nooit garbage gemaakt word bij aanroepen van deze functie.  
@@ -83,7 +83,7 @@ void Update()
 	}
 }
 ```  
-[Unity Docs Physics.SphereCastNonAlloc](https://docs.unity3d.com/ScriptReference/Physics.SphereCastNonAlloc.html)  
+[Unity Docs: Physics.SphereCastNonAlloc](https://docs.unity3d.com/ScriptReference/Physics.SphereCastNonAlloc.html)  
 
 #### Caching Unity Objects
 
@@ -116,4 +116,5 @@ void Update()
             Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
 }
 ```  
+[Unity Docs: Camera.main](https://docs.unity3d.com/ScriptReference/Camera-main.html)
 
