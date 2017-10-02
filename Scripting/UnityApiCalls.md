@@ -13,3 +13,18 @@ Het is aan te raden deze functies niet in een 'update loop' te gebruiken of naar
 
 Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
 
+#### Zoeken alternatieven  
+```C#
+void Update() {
+        int fingerCount = 0;
+        foreach (Touch touch in Input.touches) {
+            if (touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled)
+                fingerCount++;
+            
+        }
+        if (fingerCount > 0)
+            print("User has " + fingerCount + " finger(s) touching the screen");
+        
+    }
+```  
+[Unity Docs](https://docs.unity3d.com/ScriptReference/Input-touches.html)
