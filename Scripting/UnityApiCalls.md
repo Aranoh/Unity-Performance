@@ -121,6 +121,8 @@ Betere versie hier onder weergegeven:
     }
 ```   
 
+[Unity Docs: GetComponents](https://docs.unity3d.com/ScriptReference/GameObject.GetComponents.html)  
+
 #### __Caching Unity Objects__  
 
 Niet alle Objecten of value's die je via Unity opvraagd worden gecached binnen het Unity systeem, aan te raden is dan ook om dit zelf te doen.  
