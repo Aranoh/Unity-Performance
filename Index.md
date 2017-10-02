@@ -10,4 +10,4 @@ tags: "some tags here"
 # Hallo
 
 om te de test pagina te zien klik hier:  
-[test](/test1.md)
+[test](/Scripting/test1.md)
