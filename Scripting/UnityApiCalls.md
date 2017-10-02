@@ -7,31 +7,8 @@ Development van Unity staat ook niet stil dus deze lijst van functies zal consta
 moeten komen waar je teveel gebruik maakt van zware API calls. Door het op een slimme manier omschrijven van je code kan veel van de zware code 
 weg gewerkt worden zodat het geen framerate meer hoeft te kosten.
 
-```
- static void Main(string[] args)
-        {
-            Principal g = new Principal();
-            g.Monitor();
-            Teacher d = new Teacher();
-            d.Monitor();
-            d.Teach();
-            Student s = new Student();
-            s.Monitor();
-            s.Learn();
-            Console.ReadKey();
-        }
-        class Principal
-        {
-            public void Monitor()
-            {
-                Console.WriteLine("Monitor");
-            }
-        }
-        class Teacher : Principal
-        {
-            public void Teach()
-            {
-                Console.WriteLine("Teach");
-            }
-        }
-```
+## Array returning API calls
+Door het gebruik van Array returning API calls kan snel veel framerate verloren gaan. Het is aan te raden deze functies niet in een 'update loop' te gebruiken 
+of naar alternatieven te zoeken.  
+Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
+
