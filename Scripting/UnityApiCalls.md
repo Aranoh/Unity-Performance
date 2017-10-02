@@ -37,7 +37,7 @@ Input.touchCount en Input.getTouch() om zo presies het zelfde te doen als bovens
 ```C#
 void Update() {
         int fingerCount = 0;
-		 for (int i = 0; i <= Input.touchCount; i++)
+		for (int i = 0; i <= Input.touchCount; i++)
         {
             if (Input.GetTouch(i).phase != TouchPhase.Ended && Input.GetTouch(i).phase != TouchPhase.Canceled)
                 fingerCount++;
