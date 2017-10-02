@@ -16,7 +16,7 @@ Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
 
 #### Zoeken alternatieven  
 
-##### Touche input
+##### Touch input
 ```C#
 void Update() 
 {
@@ -44,3 +44,47 @@ void Update()
 
 [Unity Docs Input.GetTouch()](https://docs.unity3d.com/ScriptReference/Input.GetTouch.html)  
 [Unity Docs Input.touchCount](https://docs.unity3d.com/ScriptReference/Input-touchCount.html)
+#### NonAlloc
+
+Sommige API calls in Unity hebben een speciale functie die geen garbage creëert, deze alternatieven werken vaak presies het zelfde als de 'normale' versies 
+Maar zijn beter te gebruiken in een 'update loop' die vaak vrij performance gevoelig zijn.  
+hieronder een voorbeeld van SphereCastAll en zijn alternatief SphereCastAllNonAlloc:
+
+```C#
+
+RaycastHit[] hitInfos;
+Vector3 origin = new Vector3(0,0,0);
+float radius = 10f;
+Vector3 direction = new Vector3(1,0,0);
+float maxDistance = Mathf.Infinity;
+int layerMask = DefaultRaycastLayers;
+QueryTriggerInteraction queryTriggerInteraction = QueryTriggerInteraction.UseGlobal;
+
+
+void Update() 
+{
+	hitInfos = SphereCastAll(origin, radius, direction, maxDistance, layerMask, queryTriggerInteraction);
+
+	foreach(RaycastHit hit in hitInfos)
+	{
+		if (hit.distance > 0)
+		//DO SOMETHING
+	}
+}
+```
+
+```C#
+void Update() 
+{
+	SphereCastNonAlloc(origin, radius, direction, hitInfos, maxDistance, layerMask, queryTriggerInteraction);
+
+	foreach(RaycastHit hit in hitInfos)
+	{
+		if (hit.distance > 0)
+		//DO SOMETHING
+	}
+}
+```
+#### Caching values
+
+Binnen Unity bestaan Onderdelen die in eerste instantie makkelijk te gebruiken lijken maar die 
