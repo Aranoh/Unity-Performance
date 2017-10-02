@@ -14,7 +14,7 @@ Het is aan te raden deze functies niet in een 'update loop' te gebruiken of naar
 
 Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
 
-__#### Zoeken alternatieven__  
+#### Zoeken alternatieven  
 
 ##### Touch input
 ```C#
@@ -45,7 +45,7 @@ void Update()
 [Unity Docs: Input.GetTouch()](https://docs.unity3d.com/ScriptReference/Input.GetTouch.html)  
 [Unity Docs: Input.touchCount](https://docs.unity3d.com/ScriptReference/Input-touchCount.html)  
 
-#### __NonAlloc versies__
+#### NonAlloc versies
 
 Sommige API calls in Unity hebben een speciale functie die geen garbage creëert, deze alternatieven werken vaak presies het zelfde als de 'normale' versies 
 Maar zijn beter te gebruiken in een 'update loop' die vaak vrij performance gevoelig zijn. 
@@ -123,7 +123,7 @@ Betere versie hier onder weergegeven:
 
 [Unity Docs: GetComponents](https://docs.unity3d.com/ScriptReference/GameObject.GetComponents.html)  
 
-#### __Caching Unity Objects__  
+#### Caching Unity Objects  
 
 Niet alle Objecten of value's die je via Unity opvraagd worden gecached binnen het Unity systeem, aan te raden is dan ook om dit zelf te doen.  
 
