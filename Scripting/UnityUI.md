@@ -13,4 +13,6 @@ Het splitsen van je UI elementen in minstens 2 canvases is een goed startpunt hi
 met het veranderen van een object op het ene canvas blijft je andere canvas gewoon onaangetast. dit zorgd ervoor dat dit deel van je canvas niet opnieuw hoeft te rebuilden.  
 
 Met het gebruik van meerdere canvases kan wel gebruik gemaakt worden van een 'nested canvas' een zo een canvas neemt de render mode van zijn parent over waardoor 
-je dus geen problemen hoeft te krijgen met alignen van je verschillende canvases.
+je dus geen problemen hoeft te krijgen met alignen van je verschillende canvases.  
+
+### Graphic Raycaster
