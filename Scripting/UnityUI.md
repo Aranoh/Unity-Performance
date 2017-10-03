@@ -25,3 +25,8 @@ aangezien bij elke druk/klik op het scherm al deze raycasters gechecked worden i
 
 ### Camera.main  
 
+Op een canvas word van je verwacht dat je een camera insteld ofwel als render camera voor screen space canvases of als event camera voor world space canvases. 
+Aan te raden is hier altijd een camera in te stellen. wanneer dit niet gedaan word zal unity zelf naar de Camera.main vragen om deze te gebruiken, soms wel meerdere 
+keren per frame.  
+
+Waarom gebruik van Camera.main zo traag is is terug te vinden op de __[UnityApiCalls](/UnityApiCalls.md)__ pagina.
