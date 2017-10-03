@@ -19,9 +19,7 @@ je dus geen problemen hoeft te krijgen met alignen van je verschillende canvases
 
 Een graphic raycaster wordt gebruikt om screen/touch input te regelen op je canvas, dit object is bedoeld om input mogelijk te maken op verschillende UI elementen. 
 een graphic raycaster zit standaard op elk UI onderdeel dat Unity gebruikt. dit is echter overbodig en zorgd op zijn beurt ook weer voor performance loss. Dit 
-aangezien bij elke druk/klik op het scherm al deze raycasters gechecked worden is het verstandig deze uit te zetten op objecten die geen input nodig hebben.  
-
-3d graphic raycasters  
+aangezien bij elke druk/klik op het scherm al deze raycasters gechecked worden is het verstandig deze uit te zetten op objecten die geen input nodig hebben.    
 
 ### Camera.main  
 
@@ -30,7 +28,11 @@ Op een canvas word van je verwacht dat je een camera insteld ofwel als render ca
 Aan te raden is hier altijd een camera in te stellen. wanneer dit niet gedaan word zal unity zelf naar de Camera.main vragen om deze te gebruiken, soms wel meerdere 
 keren per frame.  
 
-Waarom gebruik van Camera.main zo traag is is terug te vinden op de _[UnityApiCalls](/Scripting/UnityApiCalls.md#L126)_ pagina onder het kopje "Caching Unity Objects".  
+Waarom gebruik van Camera.main zo traag is is terug te vinden op de _[UnityApiCalls](/Scripting/UnityApiCalls.md)_ pagina onder het kopje "Caching Unity Objects".  
 
 ### Layout Groups  
+
+Layout groepen zitten met ongeveer het zelfde probleem als canvases door het veranderen van
+
+step 1: avoid layout groups 
 
