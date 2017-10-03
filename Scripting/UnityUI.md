@@ -29,4 +29,4 @@ Op een canvas word van je verwacht dat je een camera insteld ofwel als render ca
 Aan te raden is hier altijd een camera in te stellen. wanneer dit niet gedaan word zal unity zelf naar de Camera.main vragen om deze te gebruiken, soms wel meerdere 
 keren per frame.  
 
-Waarom gebruik van Camera.main zo traag is is terug te vinden op de __[UnityApiCalls](/Scripting/UnityApiCalls.md)__ pagina.
+Waarom gebruik van Camera.main zo traag is is terug te vinden op de _[UnityApiCalls](/Scripting/UnityApiCalls.md)_ pagina onder het kopje ".
