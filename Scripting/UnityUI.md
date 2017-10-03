@@ -16,3 +16,12 @@ Met het gebruik van meerdere canvases kan wel gebruik gemaakt worden van een 'ne
 je dus geen problemen hoeft te krijgen met alignen van je verschillende canvases.  
 
 ### Graphic Raycaster
+
+Een graphic raycaster wordt gebruikt om screen/touch input te regelen op je canvas, dit object is bedoeld om input mogelijk te maken op verschillende UI elementen. 
+een graphic raycaster zit standaard op elk UI onderdeel dat Unity gebruikt. dit is echter overbodig en zorgd op zijn beurt ook weer voor performance loss. Dit 
+aangezien bij elke druk/klik op het scherm al deze raycasters gechecked worden is het verstandig deze uit te zetten op objecten die geen input nodig hebben.  
+
+3d graphic raycasters  
+
+### Camera.main  
+
