@@ -11,8 +11,7 @@ weg gewerkt worden zodat het geen framerate meer hoeft te kosten.
 
 * Alternatieven gebruiken met zuinigere calls
 * NonAlloc versies gebruiken met predefined Lists
-* Caching Unity Objects voor zuinigere update loop  
-
+* Caching Unity Objects voor zuinigere update loop
 ##    
 
 ### Array returning API calls
