@@ -1,8 +1,8 @@
 # Unity UI
 [terug naar index](/Index.md)  
 
-Unity UI is niet het zuinigste systeem wat draait binne Unity, al snel kan veel framerate verloren gaan door verkeerd gebruik van Unity UI. Wel zijn er wat dingen 
-die toegepast kunnen worden om toch een goede framerate te krijgen door het draaien van Unity UI.  
+Unity UI is niet het zuinigste systeem wat draait binne Unity, al snel kan veel framerate verloren gaan door verkeerd gebruik van Unity UI.Hieronder heb ik een aantal guidelines 
+staan voor het gebruik van Unity UI. Aangeraden word deze guidelines zo goed mogelijk te volgen bij het maken van een UI zodat er geen framedrops hoeven komen vanwege Unity UI.  
 
 ## Actie Punten
 * Gebruik los canvas voor static and dynamic objecten
