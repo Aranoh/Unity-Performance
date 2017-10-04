@@ -12,7 +12,7 @@ weg gewerkt worden zodat het geen framerate meer hoeft te kosten.
 * Alternatieven gebruiken met zuinigere calls
 * NonAlloc versies gebruiken met predefined Lists
 * Caching Unity Objects voor zuinigere update loop
-##    
+##  
 
 ### Array returning API calls
 Door het gebruik API calls die Arrays teruggeven kan snel veel framerate verloren gaan, vooral als dit in een 'update loop' gebeurd. 
