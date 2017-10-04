@@ -3,6 +3,12 @@
 Unity UI is niet het zuinigste systeem wat draait binne Unity, al snel kan veel framerate verloren gaan door verkeerd gebruik van Unity UI. Wel zijn er wat dingen 
 die toegepast kunnen worden om toch een goede framerate te krijgen door het draaien van Unity UI.  
 
+## Actie Punten
+* Gebruik Canvas voor static and dynamic objecten
+* Graphic raycasters niet gebruiken wanneer niet nodig
+* Let op render/event camera in te stellen
+##  
+
 ### Use Multiple canvases  
 
 Unity UI maakt in eerste instantie gebruik van canvases, dit zijn verzamel objecten van UI onderdelen. Een nadeel van gebruik van deze canvases is dat 
