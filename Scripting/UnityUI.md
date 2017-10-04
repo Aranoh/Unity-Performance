@@ -53,3 +53,5 @@ Object pooling kan bij UI net als bij 3D games best wel wat performance schelen.
 Om ervoor te zorgen dat je zo min mogelijk objecten "dirty" maakt is het aan te raden om eerst een object te disablen voordat je het gaat verplaatsen in de hierarchie 
 Dit zorgd ervoor dat alleen het oude parent object "dirty" wordt en het nieuwe objec wordt pas dirty als je het object enabled.
 Ook is het verstandig om eerst alle waardes te veranderen van het object voordat je het enabled. Ook dit zorgd voor minder "dirty" maken van het nieuwe canvas.
+
+Voor meer info over object pooling bekijk de wiki pagina over [Pooling](/Scripting/Pooling.md). 
