@@ -7,13 +7,13 @@ Development van Unity staat ook niet stil dus deze lijst van functies zal consta
 moeten komen waar je teveel gebruik maakt van zware API calls. Door het op een slimme manier omschrijven van je code kan veel van de zware code 
 weg gewerkt worden zodat het geen framerate meer hoeft te kosten.  
 
-## Actie Punten ---
+## Actie Punten  
 
 * Alternatieven gebruiken met zuinigere calls
 * NonAlloc versies gebruiken met predefined Lists
 * Caching Unity Objects voor zuinigere update loop  
 
----   
+##    
 
 ### Array returning API calls
 Door het gebruik API calls die Arrays teruggeven kan snel veel framerate verloren gaan, vooral als dit in een 'update loop' gebeurd. 
