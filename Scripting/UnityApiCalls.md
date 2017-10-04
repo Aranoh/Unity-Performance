@@ -1,5 +1,11 @@
 # Unity API calls
 
+## Actie Punten
+
+* Zoeken alternatieven met zuiniger gebruik
+* NonAlloc versies gebruiken met predefined Lists
+* Caching Unity Objects voor zuinigere update loop  
+
 Met het gebruik van Unity API calls moet je altijd goed opletten. Je weet van tevoren vaak niet wat er achter de schermen gebeurd. 
 Iets wat lijkt een makkelijke functie aanroep te zijn in Unity kan achter de schermen voor behoorlijk wat framerate loss of garbage allocation 
 zorgen. Om een complete lijst met API calls te geven die achter de schermen te druk zijn om te gebruiken in een update loop is bijna niet te doen. 
