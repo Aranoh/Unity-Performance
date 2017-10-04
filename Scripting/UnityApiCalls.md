@@ -1,5 +1,5 @@
 # Unity API calls
-[terug naar index](Index.md)  
+[terug naar index](/Index.md)  
 
 Met het gebruik van Unity API calls moet je altijd goed opletten. Je weet van tevoren vaak niet wat er achter de schermen gebeurd. 
 Iets wat lijkt een makkelijke functie aanroep te zijn in Unity kan achter de schermen voor behoorlijk wat framerate loss of garbage allocation 
