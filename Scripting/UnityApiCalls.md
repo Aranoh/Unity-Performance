@@ -13,10 +13,15 @@ weg gewerkt worden zodat het geen framerate meer hoeft te kosten.
 * NonAlloc versies gebruiken met predefined Lists
 * Caching Unity Objects voor zuinigere update loop  
 
+---   
+___
+
+***
+
 ### Array returning API calls
 Door het gebruik API calls die Arrays teruggeven kan snel veel framerate verloren gaan, vooral als dit in een 'update loop' gebeurd. 
-Unity maakt met het teruggeven van een array een nieuwe kopie aan van deze array. dit kan dus snel voor veel garbage zorgen.
-Het is aan te raden deze functies niet in een 'update loop' te gebruiken of naar alternatieven te zoeken.  
+Unity maakt met het teruggeven van een array een nieuwe kopie aan van deze array. dit kan dus ook snel voor veel garbage zorgen.
+Het is aan te raden deze functies niet in een 'update loop' te gebruiken of om naar alternatieven te zoeken.  
 
 Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
 

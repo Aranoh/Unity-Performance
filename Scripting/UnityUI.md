@@ -32,7 +32,6 @@ Waarom gebruik van Camera.main zo traag is is terug te vinden op de _[UnityApiCa
 
 ### Layout Groups  
 
-Layout groepen zitten met ongeveer het zelfde probleem als canvases door het veranderen van
-
-step 1: avoid layout groups 
+Layout groepen zitten met ongeveer het zelfde probleem als canvases door het veranderen van een object in een Layout groep word aanpassingen gedaan op al 
+de bovenliggende layout groepen in de hiërarchie 
 
