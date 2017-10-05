@@ -7,6 +7,8 @@ Door tijdens opstarten alvast het maximaal te gebruiken objecten te "Poolen" kan
 schelen in performance van je game.  
 
 ## Actie Punten
-* COMMING
-* COMMING
+* OnEnable gebruiken ipv Start voor pooled objects
+* Let op memory gebruik, pool geen onnodige dingen
+* Let op voor "Spikes" van objecten als de pool hiermee vergroot deze blijven in memory staan (terwijl ze niet gebruikt meer worden)
+* 
 ##  
