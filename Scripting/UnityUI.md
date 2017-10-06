@@ -103,3 +103,6 @@ Een belangerijke highlight uit de code:
 | Computer  | 1600 USD |  5   |
 | Phone     |   12 USD |  12  |
 | Pipe      |    1 USD | 234  |
+
+:--:
+dit is een stukje tekst
