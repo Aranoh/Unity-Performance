@@ -81,6 +81,7 @@ Code voorbeeld:
 	tran.position = new Vector3(0, 2, 0);
 ```  
 <div> <br> <br> </div>
+
 ## Optimaliseren garbage collector
 
 Voor we beginnen met optimaliseren moeten we eerst weten waar we dit kunnen doen. Voor de garbage collector is het aan te raden om de profiler goed te 
