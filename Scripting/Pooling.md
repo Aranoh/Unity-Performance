@@ -14,4 +14,6 @@ schelen in performance van je game.
 
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/UnityUI.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/GarbageCollector.md)
----
+--- 
+  
+  
