@@ -50,7 +50,24 @@ Het is wel zo dat memory op de heap door veel alloceren en dealloceren van memor
 die niet zo makkelijk meer gebruikt kunnen worden. Dit is een goede reden om goed op te letten op je memory allocatie om dit te voorkomen.
 
 
-#### Sub onderdeel
+#### Value typed VS reference typed
+
+Er word onderscheid gemaakt tussen twee verschillende variabelen, je hebt de 'Value-typed local variables', deze variabelen komen op de stack terecht. Naast deze 
+type heb je ook de 'Reference types' deze types komen op de heap terecht. 
+
+
+|Value types|Reference types|
+|:--:|:--:|
+|int|Classes|
+|float|Transform|
+|double|GameObject|
+|bool||
+|char||
+|Structs*||
+
+<div>
+* b.v. Vector3 of Quaternion
+</div>
 
 tekst van het sub onderdeel
 
