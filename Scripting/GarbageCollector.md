@@ -90,7 +90,7 @@ gebruiken, met de profiler kan je presies zien waar 'gc alloc' gedaan wordt.
 een beter framerate is te halen als:
 * De tijd die de garbage collector nodig heeft om op te schonen verkleind wordt
 * Het interval waarop de garbage collector draait vergroten
-* De garbage collector draaien op handige tijden waneer het geen performance kost
+* De garbage collector draaien op handige tijden waneer het geen performance kost   
 
 Dit brengt ons meteen op drie strategien om het te verbeteren:
 * Organiseer je code zo dat er minder objecten in de heap memory gezet worden. minder objecten betekend automatish een snellere garbage collection

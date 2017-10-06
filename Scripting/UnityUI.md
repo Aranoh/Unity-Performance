@@ -99,5 +99,20 @@ Een belangerijke highlight uit de code:
 
 [Unity Docs: Font.RequestCharactersInTexture](https://docs.unity3d.com/ScriptReference/Font.RequestCharactersInTexture.html)  
 
+##### Fallback font
+
+gebruik fallback font lel
+
+##### Best Fit
+
+gebruik geen best fit dit is kut lel
+
+### Scroll View
+
+stukje over scrollview dit is best een zwaar iets.
+
+##### Scroll view pooling
+
+##### position-based scroll view
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Datastructures.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Pooling.md)
