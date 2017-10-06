@@ -88,11 +88,11 @@ Een belangerijke highlight uit de code:
 
 ```C#
  void Update()
-    {
-	    string str = "Hello World";
-
-        // Keep requesting our characters each frame, so Unity will make sure that 
+	{
+		string str = "Hello World";
+		
+		// Keep requesting our characters each frame, so Unity will make sure that 
 		// they stay in the font when regenerating the font texture.
-        font.RequestCharactersInTexture(str);
-    }
+		font.RequestCharactersInTexture(str);
+	}
 ```
