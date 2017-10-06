@@ -128,18 +128,65 @@ void OnTriggerEnter(Collider other)
 	ExampleFunction(allRenderers);
 }
 ```
+### Alloceren in update
+
+Het is niet aan te raden om in een update loop een allocerende functie te hebben, aangezien deze elke frame aangeroepen wordt zal garbage snel oplopen en 
+moet de garbage collector veel werk verrichten om deze leeg te houden. Een techniek die toegepast kan worden is om de functie in update alleen uit te voeren 
+als de waardes ook echt veranderd zijn.
+
+Onderstaand voorbeeld laat zien dat een funcie elke frame aangeroepen word met als argument de x positie van dit object.
 
 ```C#
-
+void Update()
+{
+	ExampleGarbageGeneratingFunction(transform.position.x);
+}
 ```
-```C#
 
+Bovenstaande funcie zal elke frame garbage creëren. om dit te voorkomen is de functie herschreven om alleen een aanroep de doen op de garbage creërende funcie 
+als er iets veranderd is in de x positie van het object.
+```C#
+private float previousTransformPositionX;
+
+void Update()
+{
+	float transformPositionX = transform.position.x;
+	if (transformPositionX != previousTransformPositionX)
+	{
+		ExampleGarbageGeneratingFunction(transformPositionX);
+		previousTransformPositionX = transformPositionX;
+	}
+}
 ```
-```C#
 
+### Code draaien op een timer
+
+Een andere techniek die gebruikt kan worden is om in plaats van te kijken naar veranderingen je stuk code niet elke frame aan te roepen. misschien is 60 aanroepen 
+per seconde voor je object veel ste veel en kan er genoegen worden genomen met bijvoorbeeld een aanroep per seconde. Door op een slimme manier na te denken over 
+hoe vaak je code moet draaien om presies genoeg te zijn kan een hoop garbage allocatie tegen gegaan worden.
+
+### Hergebruiken van collecties
+
+Het constant aanmaken van een nieuwe collectie kan al snel voor veel garbage zorgen in je game. Het is daarom verstandig om beter om te gaan met verschillende 
+collecties. Hergebruik waar mogelijk dezelfde list of array om er opnieuw objecten in te stoppen, dit is een stuk zuiniger dan constant nieuwe lists of arrays 
+aanmaken.
+
+Onderstaand stuk code laat zien hoe het niet moet
+```C#
+void Update()
+{
+	List myList = new List();
+	PopulateList(myList);
+}
 ```
+door de 'Clear' functie aan te roepen op de van te voren aangemaakte lijst word er een stuk minder garbage gemaakt in dit stuk code
 ```C#
-
+private List myList = new List();
+void Update()
+{
+	myList.Clear();
+	PopulateList(myList);
+}
 ```
 ```C#
 
