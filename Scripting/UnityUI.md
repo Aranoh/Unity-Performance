@@ -10,7 +10,9 @@ staan voor het gebruik van Unity UI. Aangeraden word deze guidelines zo goed mog
 * Let op render/event camera in te stellen
 * Gebruik Anchors in plaats van Layout groepen
 * Slim objecten poolen door disablen elementen voor reparenting
-* Ga goed om met tekst elementen, verander niet te veel en let op bij gebruik dynamishe fonts
+* Ga slim om met tekst elementen, veranderende tekst kan best zwaar zijn
+* Gebruik op een slimme manier Dynamic fonts met fallback font en zonder Best Fit
+* Scroll view pooling voor betere performance
 ##  
 
 ### Use Multiple canvases  
