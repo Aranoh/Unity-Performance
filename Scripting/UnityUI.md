@@ -97,6 +97,9 @@ Een belangerijke highlight uit de code:
 }
 ```
 
-[^foot1]: And that's the footnote.
-
-[^foot2]: Here is the *text* of the **footnote**.
+---
+| Item      |    Value | Qty  |
+| :-------- | --------:| :--: |
+| Computer  | 1600 USD |  5   |
+| Phone     |   12 USD |  12  |
+| Pipe      |    1 USD | 234  |
