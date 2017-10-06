@@ -69,6 +69,15 @@ type heb je ook de 'Reference types' deze types komen op de heap terecht.
 * b.v. Vector3 of Quaternion
 <br><br>
 </div>  
+```c#
+	//Value type variable (changing pos does not change transofrm.position)
+	Vector3 pos = transform.position;
+	pos = new Vector3(0, 2, 0);
+	
+	//Reference type variable (changing tran will change transform.position)
+	Transform tran = transform;
+	tran.position = new Vector3(0, 2, 0);
+```
 tekst van het sub onderdeel
 
 
