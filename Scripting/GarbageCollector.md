@@ -188,6 +188,16 @@ void Update()
 	PopulateList(myList);
 }
 ```
+### Object pooling
+Game objecten zijn refrence types, het aanmaken van een GameObject zal dus direct invloed hebben op de heap memory. Object Pooling kan gebruikt worden om 
+ervoor te zorgen dat er at runtime geen garbage meer gemaakt kan worden door het spawnen en despawnen van game objecten, objecten kunnen dan namelijk uit 
+de al bestaande pool gehaald worden in plaats van te instantiëren. 
+
+voor meer info over pooling zie het hoofdstuk over [Pooling](/Scripting/Pooling.md).
+
+### Strings creëren garbage
+
+Strings zijn immutable
 ```C#
 
 ```
