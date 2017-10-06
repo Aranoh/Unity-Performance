@@ -66,11 +66,9 @@ type heb je ook de 'Reference types' deze types komen op de heap terecht.
 |Structs*||
 
 <div>
-* b.v. Vector3 of Quaternion \n
+* b.v. Vector3 of Quaternion
+<br><br>
 </div>  
- <div> 
-                             
-</div> 
 tekst van het sub onderdeel
 
 
