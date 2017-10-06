@@ -91,7 +91,8 @@ Een belangerijke highlight uit de code:
     {
 	    string str = "Hello World";
 
-        // Keep requesting our characters each frame, so Unity will make sure that they stay in the font when regenerating the font texture.
+        // Keep requesting our characters each frame, so Unity will make sure that 
+		// they stay in the font when regenerating the font texture.
         font.RequestCharactersInTexture(str);
     }
 ```
