@@ -100,4 +100,4 @@ Een belangerijke highlight uit de code:
 [Unity Docs: Font.RequestCharactersInTexture](https://docs.unity3d.com/ScriptReference/Font.RequestCharactersInTexture.html)  
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Datastructures.md)----------------[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Pooling.md)
+[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Datastructures.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Pooling.md)
