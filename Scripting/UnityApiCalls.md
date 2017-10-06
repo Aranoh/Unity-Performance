@@ -166,4 +166,3 @@ void Update()
 
 ---
 [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Datastructures.md)
----

@@ -101,4 +101,3 @@ Een belangerijke highlight uit de code:
 
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Datastructures.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Pooling.md)
----
