@@ -96,3 +96,7 @@ Een belangerijke highlight uit de code:
 	font.RequestCharactersInTexture(str);
 }
 ```
+
+[^foot1]: And that's the footnote.
+
+[^foot2]: Here is the *text* of the **footnote**.
