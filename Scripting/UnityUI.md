@@ -10,7 +10,7 @@ staan voor het gebruik van Unity UI. Aangeraden word deze guidelines zo goed mog
 * Let op render/event camera in te stellen
 * Gebruik Anchors in plaats van Layout groepen
 * Slim objecten poolen door disablen elementen voor reparenting
-* Ga goed om met tekst elementen, verander niet te veel en let op gebruik dynamishe fonts
+* Ga goed om met tekst elementen, verander niet te veel en let op bij gebruik dynamishe fonts
 ##  
 
 ### Use Multiple canvases  
