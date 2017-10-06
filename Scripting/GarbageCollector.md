@@ -70,6 +70,7 @@ type heb je ook de 'Reference types' deze types komen op de heap terecht.
 <br><br>
 </div>  
 
+Code voorbeeld:
 ```C#
 	//Value type variable (changing pos does not change transofrm.position)
 	Vector3 pos = transform.position;
@@ -78,9 +79,73 @@ type heb je ook de 'Reference types' deze types komen op de heap terecht.
 	//Reference type variable (changing tran will change transform.position)
 	Transform tran = transform;
 	tran.position = new Vector3(0, 2, 0);
-```
-tekst van het sub onderdeel
+```  
 
+## Optimaliseren garbage collector
+
+Voor we beginnen met optimaliseren moeten we eerst weten waar we dit kunnen doen. Voor de garbage collector is het aan te raden om de profiler goed te 
+gebruiken, met de profiler kan je presies zien waar 'gc alloc' gedaan wordt.
+
+een beter framerate is te halen als:
+* De tijd die de garbage collector nodig heeft om op te schonen verkleind wordt
+* Het interval waarop de garbage collector draait vergroten
+* De garbage collector draaien op handige tijden waneer het geen performance kost
+
+Dit brengt ons meteen op drie strategien om het te verbeteren:
+* Organiseer je code zo dat er minder objecten in de heap memory gezet worden. minder objecten betekend automatish een snellere garbage collection
+* Verminder het aantal allocaties en deallocaties op 'performance-critical' tijden, waneer er weinig gealloceerd word zal ook de garbage collector niet getriggerd worden
+* Draai de garbage collector zelf at runtime op rustige tijden wanneer je framerate er niet onder zal leiden
+
+De kopjes hieronder gaan dieper in hoe je de garbage allocatie kan verkleinen door het toepassen van 'best practices' tijdens coderen.
+
+### Cashing
+
+Door het slim cashen van waardes kan memory direct hergebruikt worden en hoeft het niet eerst gedealloceerd te worden om het vervolgens weer te alloceren.
+
+Het volgende voorbeeld laat een stuk code zien waarin garbage gecreëerd word door het aanmaken en vullen van een nieuwe array
+
+```C#
+void OnTriggerEnter(Collider other)
+{
+	Renderer[] allRenderers = FindObjectsOfType<Renderer>();
+	ExampleFunction(allRenderers);
+}
+```
+Onderstaand stukje code cashed deze array zodat deze constant opnieuw aangeroepen kan worden. Er word in dit geval maar een keer garbage gemaakt en niet 
+bij elke aanroep van 'OnTriggerEnter'  
+
+```C#
+private Renderer[] allRenderers;
+
+void Start()
+{
+	allRenderers = FindObjectsOfType<Renderer>();
+}
+
+void OnTriggerEnter(Collider other)
+{
+	ExampleFunction(allRenderers);
+}
+```
+
+```C#
+
+```
+```C#
+
+```
+```C#
+
+```
+```C#
+
+```
+```C#
+
+```
+```C#
+
+```
 
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Index.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Index.md)
