@@ -80,7 +80,7 @@ Code voorbeeld:
 	Transform tran = transform;
 	tran.position = new Vector3(0, 2, 0);
 ```  
-<div> <br> <br> </div>
+<div>  <br> </div>
 
 ## Optimaliseren garbage collector
 
