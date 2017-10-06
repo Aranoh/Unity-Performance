@@ -12,3 +12,6 @@ schelen in performance van je game.
 * Let op voor "Spikes" van objecten als de pool hiermee vergroot deze blijven in memory staan (terwijl ze niet gebruikt meer worden)
 ##  
 
+---
+[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/UnityUI.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/GarbageCollector.md)
+---

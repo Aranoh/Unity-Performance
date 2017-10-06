@@ -162,5 +162,8 @@ void Update()
             Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
 }
 ```  
-[Unity Docs: Camera.main](https://docs.unity3d.com/ScriptReference/Camera-main.html)
+[Unity Docs: Camera.main](https://docs.unity3d.com/ScriptReference/Camera-main.html)  
 
+---
+[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Datastructures.md)
+---
