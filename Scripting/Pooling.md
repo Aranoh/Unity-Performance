@@ -10,5 +10,5 @@ schelen in performance van je game.
 * OnEnable gebruiken ipv Start voor pooled objects
 * Let op memory gebruik, pool geen onnodige dingen
 * Let op voor "Spikes" van objecten als de pool hiermee vergroot deze blijven in memory staan (terwijl ze niet gebruikt meer worden)
-* 
 ##  
+

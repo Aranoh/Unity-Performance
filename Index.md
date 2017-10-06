@@ -4,8 +4,6 @@
 * [Unity API calls](/Scripting/UnityApiCalls.md)  
 * [Datastructures](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 * [Unity UI](/Scripting/UnityUI.md)  
-* [best practices](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
-* [fonts](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 * [pooling](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 * [Object Pooling](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 * [Garbage Collector](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  

@@ -56,3 +56,26 @@ Dit zorgd ervoor dat alleen het oude parent object "dirty" wordt en het nieuwe o
 Ook is het verstandig om eerst alle waardes te veranderen van het object voordat je het enabled. Ook dit zorgd voor minder "dirty" maken van het nieuwe canvas.
 
 Voor meer info over object pooling bekijk de wiki pagina over [Pooling](/Scripting/Pooling.md). 
+
+### UI Text
+
+Het gebruik van tekst komt niet altijd zonder performance verlies. Het grote probleem van tekst is dat het uit heel veel 'quads' bestaat en in deze quads zit ook veel 
+leegte. Deze quads kunnen er zelfs voor zorgen dat je de batching van andere UI objecten kapot gaat omdat ze toevallig in een rare positie staan. 
+
+UI Text gebruikt per karakter een quad, het veranderen van tekst zorgd ervoor dat al deze quads opnieuw berekent moeten worden. Ook het aan en uitzetten van 
+het text object of een van zijn parents zord voor het zelfde gedrag. Een truuk die gedaan kan worden is om verdwijnende tekst op een los canvas te zetten. 
+Op deze manier voorkom je. Let wel op dat deze componenten op dat canvas dan nog wel gezien kunnen worden door de graphic raycaster en dat MonoBehaviours op 
+het object nog zullen doorgaan.
+
+#### Dynamic fonts
+
+Het tekenen van fonts gaat in Unity via een texture atlas. In deze atlas zitten alle fonts die op het moment weergeven worden. Voor elke variant van een font 
+word een glyph aangemaakt binnen dit atlas, dit wil zeggen dat Arial en Arial Bold hun eigen plek krijgen op dit atlas, dit is ook waar voor alle verschillende 
+groote van dit font. Het is verstandig zuinig aan te doen met het constant scalen en veranderen van een font om performance te verbeteren. Als een font een 
+waarde tegen komt dat nog niet in de atlas staat word heel de atlas opnieuw gebouwd. 
+
+https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
+
+nog uitwerken, de oplossing is nogal vaag in mijn ogen
+
+##
