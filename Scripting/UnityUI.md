@@ -97,9 +97,7 @@ Een belangerijke highlight uit de code:
 }
 ```
 
----
-
-[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
-[![Last Page](https://i.imgur.com/yuWj9UE.png)](/Scripting/Datastructures.md)  [![Next Page](https://i.imgur.com/6r4xUov.png)](/Scripting/Pooling.md)
-
 [Unity Docs: Font.RequestCharactersInTexture](https://docs.unity3d.com/ScriptReference/Font.RequestCharactersInTexture.html)  
+
+---
+[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Datastructures.md)----------------[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Pooling.md)
