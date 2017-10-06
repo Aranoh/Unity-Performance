@@ -104,5 +104,6 @@ Een belangerijke highlight uit de code:
 | Phone     |   12 USD |  12  |
 | Pipe      |    1 USD | 234  |
 
+|test|
 |:--:|
 |dit is een stukje tekst|
