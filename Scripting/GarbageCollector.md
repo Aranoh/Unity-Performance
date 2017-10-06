@@ -68,7 +68,8 @@ type heb je ook de 'Reference types' deze types komen op de heap terecht.
 <div>
 * b.v. Vector3 of Quaternion \n
 </div>  
- 
+ <div>
+</div> 
 tekst van het sub onderdeel
 
 
