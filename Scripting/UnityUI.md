@@ -82,7 +82,7 @@ de string van karakter die je gaat gebruiken aan mee te sturen.
 Een ander voorbeeld waarvoor dit gebruikt kan worden is als je van te voren zeker weet dat je bijvoorbeeld alleen nummers gaat gebruiken. je kan deze nummers dan 
 in de texture zetten voor gebruik zodat dit niet meer at runtime hoeft te gebeuren.
 
-Code voorbeeld van "RequestCharactersInTexture" is te vinden in de [Unity Docs](https://docs.unity3d.com/ScriptReference/Font.RequestCharactersInTexture.html)  
+Code voorbeeld van "RequestCharactersInTexture" is te vinden in de [Unity Docs: Font.RequestCharactersInTexture](https://docs.unity3d.com/ScriptReference/Font.RequestCharactersInTexture.html)  
 
 Een belangerijke highlight uit de code:
 
