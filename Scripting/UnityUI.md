@@ -75,8 +75,23 @@ word een glyph aangemaakt binnen dit atlas, dit wil zeggen dat Arial en Arial Bo
 groote van dit font. Het is verstandig zuinig aan te doen met het constant scalen en veranderen van een font om performance te verbeteren. Als een font een 
 waarde tegen komt dat nog niet in de atlas staat word heel de atlas opnieuw gebouwd. 
 
-https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
+Het is mogelijk om met gebruik van dynamishe fonts van te voren aan te geven welke fonts in de texture atlas moeten komen, dit kan handig zijn voor als je veel 
+teksten wilt gaan veranderen door van te voren deze fonts al in de texture te zetten. Dit gebeurd door aanroep van "RequestCharactersInTexture" te doen en hier 
+de string van karakter die je gaat gebruiken aan mee te sturen.
 
-nog uitwerken, de oplossing is nogal vaag in mijn ogen
+Een ander voorbeeld waarvoor dit gebruikt kan worden is als je van te voren zeker weet dat je bijvoorbeeld alleen nummers gaat gebruiken. je kan deze nummers dan 
+in de texture zetten voor gebruik zodat dit niet meer at runtime hoeft te gebeuren.
 
-##
+Code voorbeeld van "RequestCharactersInTexture" is te vinden in de [Unity Docs](https://docs.unity3d.com/ScriptReference/Font.RequestCharactersInTexture.html)  
+
+Een belangerijke highlight uit de code:
+
+```C#
+ void Update()
+    {
+	    string str = "Hello World";
+
+        // Keep requesting our characters each frame, so Unity will make sure that they stay in the font when regenerating the font texture.
+        font.RequestCharactersInTexture(str);
+    }
+```
