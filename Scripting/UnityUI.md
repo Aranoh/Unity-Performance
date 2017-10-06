@@ -98,12 +98,8 @@ Een belangerijke highlight uit de code:
 ```
 
 ---
-| Item      |    Value | Qty  |
-| :-------- | --------:| :--: |
-| Computer  | 1600 USD |  5   |
-| Phone     |   12 USD |  12  |
-| Pipe      |    1 USD | 234  |
 
-|test|
-|:--:|
-|dit is een stukje tekst|
+[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
+[![Last Page](https://i.imgur.com/yuWj9UE.png)](/Scripting/Datastructures.md)  [![Next Page](https://i.imgur.com/6r4xUov.png)](/Scripting/Pooling.md)
+
+[Unity Docs: Font.RequestCharactersInTexture](https://docs.unity3d.com/ScriptReference/Font.RequestCharactersInTexture.html)  
