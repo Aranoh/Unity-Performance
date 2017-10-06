@@ -102,17 +102,25 @@ Een belangerijke highlight uit de code:
 ##### Fallback font
 
 gebruik fallback font lel
+https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
 
 ##### Best Fit
 
 gebruik geen best fit dit is kut lel
+https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
 
 ### Scroll View
 
 stukje over scrollview dit is best een zwaar iets.
+https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
 
 ##### Scroll view pooling
 
+https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
+
 ##### position-based scroll view
+
+https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
+
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Datastructures.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Pooling.md)
