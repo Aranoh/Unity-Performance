@@ -4,7 +4,7 @@
 * [Unity API calls](/Scripting/UnityApiCalls.md)  
 * [Datastructures](/Scripting/Datastructures.md)  
 * [Unity UI](/Scripting/UnityUI.md)  
-* [pooling](/Scripting/Pooling.md)  
+* [Pooling](/Scripting/Pooling.md)  
 * [Garbage Collector](/Scripting/GarbageCollector.md)  
 * [Coroutines](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 

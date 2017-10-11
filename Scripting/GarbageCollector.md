@@ -197,7 +197,11 @@ voor meer info over pooling zie het hoofdstuk over [Pooling](/Scripting/Pooling.
 
 ### Strings creëren garbage
 
-Strings zijn immutable
+Strings zijn immutable, dat wil zeggen dat ze na aanmaken niet meer veranderd kunnen worden. het 'veranderen' van een string spreekt een nieuw stuk memory aan op 
+de heap memory. Hierdoor kan het veel aanpassen van strings snel voor best wel wat garbage zorgen.
+
+Om dit tegen te gaan maken we gebruik van de zogehete 'stringbuilder' een stringbuilder kan je toepassen om veel aanpassingen te doen op een string of om verschillende strings 
+aan elkaar toe te voegen, hieronder wat voorbeelden.
 ```C#
 
 ```
