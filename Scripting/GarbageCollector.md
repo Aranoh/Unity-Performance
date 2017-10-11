@@ -276,8 +276,9 @@ public IEnumerator gameLogic()
 	}
 }
 ```
-Bovenstaande code creëert elke frame garbage, zowel voor het maken van een nieuwe 'WaitForEndOfFrame' als bij het teruggeven van een int waarde nul. Onderstaand 
-code blok laat zien hoe dit beter kan door van te voren een 'frame' object aan te maken en null terug te geven ipv int waarde nul. 
+Bovenstaande code creëert elke frame garbage, zowel voor het maken van een nieuwe 'WaitForEndOfFrame' als bij het teruggeven van een int waarde nul 
+die geboxt moet worden binnen de return. Onderstaand code blok laat zien hoe dit beter kan door van te voren een 'frame' object aan te maken en 
+null terug te geven ipv int waarde nul. 
 
 ```C#
 public IEnumerator gameLogic()
