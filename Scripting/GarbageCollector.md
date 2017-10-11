@@ -203,11 +203,31 @@ de heap memory. Hierdoor kan het veel aanpassen van strings snel voor best wel w
 Om dit tegen te gaan maken we gebruik van de zogehete 'stringbuilder' een stringbuilder kan je toepassen om veel aanpassingen te doen op een string of om verschillende strings 
 aan elkaar toe te voegen, hieronder wat voorbeelden.
 ```C#
-
+string test = "foo";
+void Update()
+{
+	test += "bar";
+	test = "foo";
+}
 ```
+Hierboven zal bij het aanmaken van de string "foo" memory gealloceerd worden, maar ook bij het toevoegen van "bar" aan deze string en bij het terug veranderen naar 
+"foo" zal memory alloceren, al deze memory word als garbage gezien.
+
+Door gebruik van stringbuilder kan een hoop minder garbage gemaakt worden.
 ```C#
-
+StringBuilder strBuilder1 = new StringBuilder("foo", 8);
+void Update()
+{
+	strBuilder1.Append("bar");
+	strBuilder1.Remove(0, 8);
+	strBuilder1.Append("foo"); 
+}
 ```
+bovenstaande methode zal alleen memory alloceren bij het opvragen van de string van de stringbuilder, dit gebeurd met 'toString()' waarbij een string object 
+gemaakt word (dus ook memory gebruikt) wel zal gedurende de update loop geen extra memory gealloceerd worden.
+
+[MSDN: StringBuilder](https://msdn.microsoft.com/en-us/library/system.text.stringbuilder(v=vs.110).aspx)
+
 
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Index.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Index.md)
