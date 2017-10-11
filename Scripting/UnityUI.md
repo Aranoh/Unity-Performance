@@ -101,24 +101,32 @@ Een belangerijke highlight uit de code:
 
 [Unity Docs: Font.RequestCharactersInTexture](https://docs.unity3d.com/ScriptReference/Font.RequestCharactersInTexture.html)  
 
-##### Fallback font
-
-gebruik fallback font lel
-https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
-
 ##### Best Fit
 
-gebruik geen best fit dit is kut lel
-https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
+Best fit bij een tekstfield en font zorgd ervoor dat Unity altijd de grootst mogelijke font size gebruikt wat past binnen de tekst boxen waar dit font in gebruikt 
+wordt. Dit is niet helemaal effectief en kan ervoor zorgen dat je font atlas snel zal groeien. Om dit te voorkomen en een betere prestatie te krijgen is 
+aan te raden 'best fit' niet zomaar te gebruiken. 
+
+Werk je met unity 5.3 of lager dan is het helemaal af te raden er gebruik van te maken. Vanaf unity 5.4 is 'best fit' aanzienlijk verbeterd maar het zal altijd 
+trager zijn dan gebruik maken van static fonts. Hoe meer tekst gebruikt maakt van 'best fit' hoe groter het performance probleem zal worden.
 
 ### Scroll View
 
-stukje over scrollview dit is best een zwaar iets.
-https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
+Scroll views in unity kunnen al snel voor performance issue's zorgen door de grote hoeveelheden objecten die vaak gebruikt worden in een scrollview. We hebben 
+twee oplossingen om de elementen van het scrollview op het scherm te weergeven.
 
-##### Scroll view pooling
+* Scrollview vullen met alle elementen die nodig zijn de content te weergeven.
+* Pooling gebruiken en elementen verplaatsen wanneer nodig om de content te weergeven.
 
-https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
+Voor een simpel klein scrollview kan de eerste optie gebruikt worden. Het nadeel is dat buiten een lange instantiatie tijd ook een lange 'rebuild' tijd voor nodig 
+is. Hierboven heb je kunnen lezen dat een verandering in een ander UI element ervoor kan zorgen dat dit scrollview zijn content ook moet rebuilden. Gebruik deze 
+methode alleen voor simpele scrollviews met bijvoorbeeld alleen een paar tekst elementen hierin.
+
+Tweede methode is niet eenvoudig te implementeren maar voor een complex scrollview vaak wel noodzakelijk.
+
+RectMask2D component kan gebruikt worden om ervoor te zorgen dat elementen buiten het scroll view geen drawcalls gebruiken.
+
+[Unity Docs: RectMask2D](https://docs.unity3d.com/Manual/script-RectMask2D.html)
 
 ##### position-based scroll view
 
