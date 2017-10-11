@@ -128,9 +128,11 @@ RectMask2D component kan gebruikt worden om ervoor te zorgen dat elementen buite
 
 [Unity Docs: RectMask2D](https://docs.unity3d.com/Manual/script-RectMask2D.html)
 
-##### position-based scroll view
+##### position-based scroll view pooling
 
-https://unity3d.com/learn/tutorials/topics/best-practices/optimizing-ui-controls
+Aangezien reparenting van UI elementen aan een canvas ervoor zorgd dat heel het canvas opnieuw opgebouwd moet worden is de standaard pooling oplossing in scrollviews 
+niet de beste om te kiezen kwa performance. Aangeraden word om een speciaal pool systeem te bouwen gebazeerd op het verplaatsen van UI objecten die nodig zijn 
+binnen het scrollview. Je kan dit doen door een custom implementatie te maken van het scrollview of layout systeem. 
 
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Datastructures.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Pooling.md)
