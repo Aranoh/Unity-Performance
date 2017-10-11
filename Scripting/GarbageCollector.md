@@ -228,6 +228,69 @@ gemaakt word (dus ook memory gebruikt) wel zal gedurende de update loop geen ext
 
 [MSDN: StringBuilder](https://msdn.microsoft.com/en-us/library/system.text.stringbuilder(v=vs.110).aspx)
 
+### Unity API calls
+
+Er zijn heel wat Unity API calls die garbage creëren, een completer overzicht over mogelijkheden en struikelblokken is te vinden op de wiki pagina over 
+[Unity API calls](/Scripting/UnityApiCalls.md).
+
+### Boxing
+
+Boxing is een term die gebruikt word voor het verwerken van een 'value type' om een 'reference type' te vullen met data. er zijn hier niet direct alternatieven 
+voor maar wel word afgeraden om deze te gebruiken als performance een probleem lijkt te worden.
+
+Hieronder een simpel voorbeeld van 'boxing'.
+
+```C#
+void ExampleFunction()
+{
+    int cost = 5;
+    string displayString = String.Format("Price: {0} gold", cost);
+}
+```
+
+in dit voorbeeld word 'cost' gebruikt om de display string op te bouwen, hierdoor word er memory tijdelijk gealloceerd om het cost object weg te zetten. 
+
+```C#
+int i = 123; 
+// The following line boxes i. 
+object o = i; 
+```
+Een ander simpel voorbeeld van 'boxing' hierin word een 'object' field gebruik voor het bijhouden van een simple int waarde. Deze int waarde zou geboxt moeten 
+worden en dus creëert dit garbage.  
+
+
+### Coroutine yields
+
+Gebruik maken van coroutines maakt in eerste instantie al garbage, deze coroutines worden namenlijk in het memory weg gezet. Dit is onvermeidelijk maar met 
+normaal gebruik van coroutines zou dit nooit een probleem moeten zijn. wel kan binnen een coroutine garbage gemaakt worden, met name met de yield functie. 
+
+Dit voorkomen is vrij eenvoudig, let op met welke waardes je returned en creëer van te voren return value's die je meerdere keren kan teruggeven.
+
+```C#
+public IEnumerator gameLogic()
+{
+	while (!isComplete)
+	{
+		yield return new WaitForEndOfFrame();
+		yield return 0;
+	}
+}
+```
+Bovenstaande code creëert elke frame garbage, zowel voor het maken van een nieuwe 'WaitForEndOfFrame' als bij het teruggeven van een int waarde nul. Onderstaand 
+code blok laat zien hoe dit beter kan door van te voren een 'frame' object aan te maken en null terug te geven ipv int waarde nul. 
+
+```C#
+public IEnumerator gameLogic()
+{
+	WaitForEndOfFrame frame = new WaitForEndOfFrame(); 
+	while (!isComplete)
+	{
+		yield return frame
+		yield return null;
+	}
+}
+```
+
 
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Index.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Index.md)

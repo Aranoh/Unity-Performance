@@ -15,14 +15,12 @@ weg gewerkt worden zodat het geen framerate meer hoeft te kosten.
 * Caching Unity Objects voor zuinigere update loop
 ##  
 
-### Array returning API calls
+### Garbage creating API calls
 Door het gebruik API calls die Arrays teruggeven kan snel veel framerate verloren gaan, vooral als dit in een 'update loop' gebeurd. 
 Unity maakt met het teruggeven van een array een nieuwe kopie aan van deze array. dit kan dus ook snel voor veel garbage zorgen.
 Het is aan te raden deze functies niet in een 'update loop' te gebruiken of om naar alternatieven te zoeken.  
 
 Hieronder een paar voorbeelden van werkwijzen die toegepast kunnen worden:
-
-#### Zoeken alternatieven  
 
 ##### Touch input
 ```C#
@@ -53,12 +51,10 @@ void Update()
 [Unity Docs: Input.GetTouch()](https://docs.unity3d.com/ScriptReference/Input.GetTouch.html)  
 [Unity Docs: Input.touchCount](https://docs.unity3d.com/ScriptReference/Input-touchCount.html)  
 
-#### NonAlloc versies
+##### NonAlloc versies 
 
 Sommige API calls in Unity hebben een speciale functie die geen garbage creëert, deze alternatieven werken vaak presies het zelfde als de 'normale' versies 
-Maar zijn beter te gebruiken in een 'update loop' die vaak vrij performance gevoelig zijn. 
-
-##### SphereCastAll  
+Maar zijn beter te gebruiken in een 'update loop' die vaak vrij performance gevoelig zijn.  
  
 hieronder een voorbeeld van SphereCastAll en zijn alternatief SphereCastAllNonAlloc:  
 
@@ -119,7 +115,6 @@ Betere versie hier onder weergegeven:
 ```c#
  void Start()
     {
-        // Disable the spring on all HingeJoints in this game object
         List<Component> hingeJoints = new List<Component>();
 
         GetComponents(typeof(HingeJoint), hingeJoints);
@@ -131,7 +126,37 @@ Betere versie hier onder weergegeven:
 
 [Unity Docs: GetComponents](https://docs.unity3d.com/ScriptReference/GameObject.GetComponents.html)  
 
-#### Caching Unity Objects  
+##### CompareTag
+
+API calls die objecten teruggeven creëren vaak ook garbage. Vaak zijn voor dit soort API calls alternatieven te vinden. zo is er de functie 'CompareTag()' die 
+gebruikt kan worden om tags met elkaar te verglijken zonder extra garbage te creëren.  
+
+```c#
+private string playerTag = "Player";
+
+void OnTriggerEnter(Collider other)
+{
+	bool isPlayer = other.gameObject.tag == playerTag;
+}
+``` 
+
+Door gebruik te maken van 'CompareTag' kan zonder nieuwe garbage tags vergleken worden van game objecten.  
+```c#
+private string playerTag = "Player";
+
+void OnTriggerEnter(Collider other)
+{
+	bool isPlayer = other.gameObject.CompareTag(playerTag);
+}
+``` 
+##### Andere API calls  
+
+Hierboven gebruikte API calls zijn in eerste instantie voorbeelden, Unity heeft een hele lijst met functies en objecten die gebruikt kunnen worden en om hier een 
+complete lijst van te maken van welke wel en niet garbage maken is wat overdreven. probeer daarom altijd eerst goed te kijken naar de mogelijkheden als je iets 
+wilt gaan maken. Zoek altijd eerst naar alternatieven en test je code en Unity calls op het aanmaken van garbage voor je ze gaat gebruiken. Vooral als je van plan 
+bent om een bepaalde Unity call in een 'update loop' neer te zetten.  
+
+### Caching Unity Objects  
 
 Niet alle Objecten of value's die je via Unity opvraagd worden gecached binnen het Unity systeem, aan te raden is dan ook om dit zelf te doen.  
 
