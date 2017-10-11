@@ -2,7 +2,7 @@
 
 ###	CPU:
 * [Unity API calls](/Scripting/UnityApiCalls.md)  
-* [Datastructures](/Scripting/Datastructures.md)  
+* [Data Structures](/Scripting/Datastructures.md)  
 * [Unity UI](/Scripting/UnityUI.md)  
 * [Pooling](/Scripting/Pooling.md)  
 * [Garbage Collector](/Scripting/GarbageCollector.md)  

@@ -7,20 +7,20 @@ zo min mogelijk "data te alloceren" tijdens het draaien van je spel. Hoe minder 
 
 ## Actie Punten
 * Weten verschil 'Stack' en 'Heap' memory en welke waardes waarin komen
-* Cashing data om niet elke frame memory te hoeven allocaten
+* Cashing data om niet elke frame memory te hoeven alloceren
 * Zuinig omgaan met gebruik garbage makende methode's
 * Draai 'dure' code niet elke frame maar op een timer
 * Hergebruiken van collecties
 * Gebruik Stringbuilder in de plaats van String voor minder garbage
 * Let op bij Unity API calls die garbage maken
-* 'Boxing' van waardes creert garbage, let op bij gebruik
+* 'Boxing' van waardes creëert garbage, let op bij gebruik
 * Voorkom aanmaken van garbage bij yields in coroutines
 ##  
 
 ### Heap VS Stack 
 
 Binnen Unity worden twee verschillende soorten memory gebruikt. Elke variabele die aangemaakt wordt zal op een van deze twee 'pools' terecht komen. Welke pool 
-gebruikt wordt hangt af van wat voor soort object er in het memory gezet wordt.  
+gebruikt wordt hangt af van wat voor soort object er in het memory geplaatst is.  
 Stack memory is snel en gemakkelijk. Memory op de stack word direct vrij gemaakt zodra een object 'buiten de scope' valt.  
 Heap memory is iets ingewikkelder. Heap memory word pas leeg gehaald als de garbage collector hier overheen kijkt.  
 
@@ -38,7 +38,7 @@ Stappen garbage collector:
 Wanneer draait de garbage collector:
 * Als een stuk data op de heap gezet wil worden maar er niet genoeg vrije ruimte is op dit deel memory
 * Om de zoveel tijd zal Unity de garbage collector automatish aanroepen
-* Wanneer dit zelf gedaan word uit code
+* Wanneer dit zelf gedaan word vanuit code
 
 Aanroepen garbage collector:
 ```c#
@@ -50,7 +50,7 @@ Het is wel zo dat memory op de heap door veel alloceren en dealloceren van memor
 die niet zo makkelijk meer gebruikt kunnen worden. Dit is een goede reden om goed op te letten op je memory allocatie om dit te voorkomen.
 
 
-#### Value typed VS reference typed
+#### Value typed VS Reference typed
 
 Er word onderscheid gemaakt tussen twee verschillende variabelen, je hebt de 'Value-typed local variables', deze variabelen komen op de stack terecht. Naast deze 
 type heb je ook de 'Reference types' deze types komen op de heap terecht. 
@@ -85,16 +85,16 @@ Code voorbeeld:
 ## Optimaliseren garbage collector
 
 Voor we beginnen met optimaliseren moeten we eerst weten waar we dit kunnen doen. Voor de garbage collector is het aan te raden om de profiler goed te 
-gebruiken, met de profiler kan je presies zien waar 'gc alloc' gedaan wordt.
+gebruiken, met de profiler kan je precies zien waar 'gc alloc' gedaan wordt.
 
-een beter framerate is te halen als:
+Een beter framerate is te halen als:
 * De tijd die de garbage collector nodig heeft om op te schonen verkleind wordt
 * Het interval waarop de garbage collector draait vergroten
 * De garbage collector draaien op handige tijden waneer het geen performance kost   
 
 Dit brengt ons meteen op drie strategien om het te verbeteren:
-* Organiseer je code zo dat er minder objecten in de heap memory gezet worden. minder objecten betekend automatish een snellere garbage collection
-* Verminder het aantal allocaties en deallocaties op 'performance-critical' tijden, waneer er weinig gealloceerd word zal ook de garbage collector niet getriggerd worden
+* Organiseer je code zo dat er minder objecten in de heap memory gezet worden. Minder objecten betekend automatish een snellere garbage collection
+* Verminder het aantal allocaties en deallocaties op 'performance-critical' tijden, wanneer er weinig gealloceerd word zal ook de garbage collector niet getriggerd worden
 * Draai de garbage collector zelf at runtime op rustige tijden wanneer je framerate er niet onder zal leiden
 
 De kopjes hieronder gaan dieper in hoe je de garbage allocatie kan verkleinen door het toepassen van 'best practices' tijdens coderen.
@@ -136,7 +136,7 @@ als de waardes ook echt veranderd zijn.
 
 #### Code draaien op veranderingen
 
-Onderstaand voorbeeld laat zien dat een funcie elke frame aangeroepen word met als argument de x positie van dit object.
+Onderstaand voorbeeld laat zien dat een functie elke frame aangeroepen word met als argument de x positie van dit object.
 
 ```C#
 void Update()
@@ -145,7 +145,7 @@ void Update()
 }
 ```
 
-Bovenstaande funcie zal elke frame garbage creëren. om dit te voorkomen is de functie herschreven om alleen een aanroep de doen op de garbage creërende funcie 
+Bovenstaande funcie zal elke frame garbage creëren. Om dit te voorkomen is de functie herschreven om alleen een aanroep de doen op de garbage creërende funcie 
 als er iets veranderd is in de x positie van het object.
 ```C#
 private float previousTransformPositionX;
@@ -164,8 +164,8 @@ void Update()
 #### Code draaien op een timer
 
 Een andere techniek die gebruikt kan worden is om in plaats van te kijken naar veranderingen je stuk code niet elke frame aan te roepen. misschien is 60 aanroepen 
-per seconde voor je object veel ste veel en kan er genoegen worden genomen met bijvoorbeeld een aanroep per seconde. Door op een slimme manier na te denken over 
-hoe vaak je code moet draaien om presies genoeg te zijn kan een hoop garbage allocatie tegen gegaan worden.
+per seconde voor je object veel te veel en kan er genoegen worden genomen met bijvoorbeeld een aanroep per seconde. Door op een slimme manier na te denken over 
+hoe vaak je code moet draaien om precies genoeg te zijn kan een hoop garbage allocatie tegen gegaan worden.
 
 ### Hergebruiken van collecties
 
@@ -199,10 +199,10 @@ voor meer info over pooling zie het hoofdstuk over [Pooling](/Scripting/Pooling.
 
 ### Strings creëren garbage
 
-Strings zijn immutable, dat wil zeggen dat ze na aanmaken niet meer veranderd kunnen worden. het 'veranderen' van een string spreekt een nieuw stuk memory aan op 
+Strings zijn immutable, dat wil zeggen dat ze na aanmaken niet meer veranderd kunnen worden. Het 'veranderen' van een string spreekt een nieuw stuk memory aan op 
 de heap memory. Hierdoor kan het veel aanpassen van strings snel voor best wel wat garbage zorgen.
 
-Om dit tegen te gaan maken we gebruik van de zogehete 'stringbuilder' een stringbuilder kan je toepassen om veel aanpassingen te doen op een string of om verschillende strings 
+Om dit tegen te gaan maken we gebruik van de zogeheten 'stringbuilder' een stringbuilder kan je toepassen om veel aanpassingen te doen op een string of om verschillende strings 
 aan elkaar toe te voegen, hieronder wat voorbeelden.
 ```C#
 string test = "foo";
@@ -237,7 +237,7 @@ Er zijn heel wat Unity API calls die garbage creëren, een completer overzicht o
 
 ### Boxing
 
-Boxing is een term die gebruikt word voor het verwerken van een 'value type' om een 'reference type' te vullen met data. er zijn hier niet direct alternatieven 
+Boxing is een term die gebruikt word voor het verwerken van een 'value type' om een 'reference type' te vullen met data. Er zijn hier niet direct alternatieven 
 voor maar wel word afgeraden om deze te gebruiken als performance een probleem lijkt te worden.
 
 Hieronder een simpel voorbeeld van 'boxing'.
@@ -250,21 +250,21 @@ void ExampleFunction()
 }
 ```
 
-in dit voorbeeld word 'cost' gebruikt om de display string op te bouwen, hierdoor word er memory tijdelijk gealloceerd om het cost object weg te zetten. 
+in dit voorbeeld word 'cost' gebruikt om de string 'displayString' op te bouwen, hierdoor word er memory tijdelijk gealloceerd om het cost object weg te zetten. 
 
 ```C#
 int i = 123; 
 // The following line boxes i. 
 object o = i; 
 ```
-Een ander simpel voorbeeld van 'boxing' hierin word een 'object' field gebruik voor het bijhouden van een simple int waarde. Deze int waarde zou geboxt moeten 
+Een ander simpel voorbeeld van 'boxing' hierin word een 'object' field gebruik voor het bijhouden van een simpele int waarde. Deze int waarde zou geboxt moeten 
 worden en dus creëert dit garbage.  
 
 
 ### Coroutine yields
 
 Gebruik maken van coroutines maakt in eerste instantie al garbage, deze coroutines worden namenlijk in het memory weg gezet. Dit is onvermeidelijk maar met 
-normaal gebruik van coroutines zou dit nooit een probleem moeten zijn. wel kan binnen een coroutine garbage gemaakt worden, met name met de yield functie. 
+normaal gebruik van coroutines zou dit nooit een probleem moeten zijn. Wel kan binnen een coroutine garbage gemaakt worden, met name met de yield functie. 
 
 Dit voorkomen is vrij eenvoudig, let op met welke waardes je returned en creëer van te voren return value's die je meerdere keren kan teruggeven.
 
@@ -280,7 +280,7 @@ public IEnumerator gameLogic()
 ```
 Bovenstaande code creëert elke frame garbage, zowel voor het maken van een nieuwe 'WaitForEndOfFrame' als bij het teruggeven van een int waarde nul 
 die geboxt moet worden binnen de return. Onderstaand code blok laat zien hoe dit beter kan door van te voren een 'frame' object aan te maken en 
-null terug te geven ipv int waarde nul. 
+null terug te geven i.p.v. int waarde nul. 
 
 ```C#
 public IEnumerator gameLogic()

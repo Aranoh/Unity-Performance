@@ -2,17 +2,17 @@
 [terug naar index](/Index.md)  
 
 Met het gebruik van Unity API calls moet je altijd goed opletten. Je weet van tevoren vaak niet wat er achter de schermen gebeurd. 
-Iets wat lijkt een makkelijke functie aanroep te zijn in Unity kan achter de schermen voor behoorlijk wat framerate loss of garbage allocation 
+Iets wat lijkt een makkelijke functie aanroep te zijn in Unity kan achter de schermen voor behoorlijk wat framerate loss of garbage allocatie 
 zorgen. Om een complete lijst met API calls te geven die achter de schermen te druk zijn om te gebruiken in een update loop is bijna niet te doen. 
-Development van Unity staat ook niet stil dus deze lijst van functies zal constant veranderen. Met behulp van Unity profiling zou je er snel achter 
+Development van Unity staat ook niet stil dus deze lijst van functies zal constant veranderen. Met behulp van de Unity profiler zou je er snel achter 
 moeten komen waar je teveel gebruik maakt van zware API calls. Door het op een slimme manier omschrijven van je code kan veel van de zware code 
 weg gewerkt worden zodat het geen framerate meer hoeft te kosten.  
 
 ## Actie Punten  
 
-* Alternatieven gebruiken met zuinigere calls
-* NonAlloc versies gebruiken met predefined Lists
-* Caching Unity Objects voor zuinigere update loop
+* Gebruik alternatieve calls met betere performance
+* NonAlloc versies gebruiken of versies met predefined Lists
+* Caching Unity Objects voor een zuinigere update loop
 ##  
 
 ### Garbage creating API calls
@@ -36,7 +36,7 @@ void Update()
 [Unity Docs: Input.touches](https://docs.unity3d.com/ScriptReference/Input-touches.html)
 
 Bovenstaand stuk code maakt gebruik van de Input.touches die hier in dit geval elke frame garbage creëert. Hieronder is een alternatief gegeven die gebruik maakt van 
-Input.touchCount en Input.getTouch() om zo presies het zelfde te doen als bovenstaande code.  
+Input.touchCount en Input.getTouch() om zo precies het zelfde te doen als bovenstaande code.  
 ```C#
 void Update() 
 {
@@ -53,7 +53,7 @@ void Update()
 
 ##### NonAlloc versies 
 
-Sommige API calls in Unity hebben een speciale functie die geen garbage creëert, deze alternatieven werken vaak presies het zelfde als de 'normale' versies 
+Sommige API calls in Unity hebben een speciale functie die geen garbage creëert, deze alternatieven werken vaak precies het zelfde als de 'normale' versies 
 Maar zijn beter te gebruiken in een 'update loop' die vaak vrij performance gevoelig zijn.  
  
 hieronder een voorbeeld van SphereCastAll en zijn alternatief SphereCastAllNonAlloc:  
@@ -140,7 +140,7 @@ void OnTriggerEnter(Collider other)
 }
 ``` 
 
-Door gebruik te maken van 'CompareTag' kan zonder nieuwe garbage tags vergleken worden van game objecten.  
+Door gebruik te maken van 'CompareTag' kan zonder nieuwe garbage tags vergeleken  worden van game objecten.  
 ```c#
 private string playerTag = "Player";
 
@@ -152,13 +152,13 @@ void OnTriggerEnter(Collider other)
 ##### Andere API calls  
 
 Hierboven gebruikte API calls zijn in eerste instantie voorbeelden, Unity heeft een hele lijst met functies en objecten die gebruikt kunnen worden en om hier een 
-complete lijst van te maken van welke wel en niet garbage maken is wat overdreven. probeer daarom altijd eerst goed te kijken naar de mogelijkheden als je iets 
+complete lijst van te maken van welke wel en niet garbage maken is wat overdreven. Probeer daarom altijd eerst goed te kijken naar de mogelijkheden als je iets 
 wilt gaan maken. Zoek altijd eerst naar alternatieven en test je code en Unity calls op het aanmaken van garbage voor je ze gaat gebruiken. Vooral als je van plan 
 bent om een bepaalde Unity call in een 'update loop' neer te zetten.  
 
 ### Caching Unity Objects  
 
-Niet alle Objecten of value's die je via Unity opvraagd worden gecached binnen het Unity systeem, aan te raden is dan ook om dit zelf te doen.  
+Niet alle Objecten of value's die je via Unity opvraagt worden gecached binnen het Unity systeem, aan te raden is dan ook om dit zelf te doen.  
 
 Een van de meest gebruikte voorbeelden van zo'n niet gecachede waarde is het gebruik van Camera.main, dit lijkt in eerste instantie een simpele 
 aanroep naar de main camera van Unity maar achter de schermen maakt deze API call gebruik van "FindGameObjectWithTag" die door alle GameObjecten 
