@@ -18,8 +18,7 @@
 * [Low detail camera](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 
 ###	GPU:
-* [Shaders](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
-* [Post processing](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
+* [Shaders & Post Processing](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 * [Overdraw](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 
 ###	Both:
@@ -28,8 +27,7 @@
 ## Unity Settings
 
 ###	CPU:
-* [Draw calls](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
-* [Batching](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
+* [Draw calls & Batching](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 * [Textures](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 * [Occlusion](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
 * [Audio](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)  
