@@ -134,6 +134,8 @@ Het is niet aan te raden om in een update loop een allocerende functie te hebben
 moet de garbage collector veel werk verrichten om deze leeg te houden. Een techniek die toegepast kan worden is om de functie in update alleen uit te voeren 
 als de waardes ook echt veranderd zijn.
 
+#### Code draaien op veranderingen
+
 Onderstaand voorbeeld laat zien dat een funcie elke frame aangeroepen word met als argument de x positie van dit object.
 
 ```C#
@@ -159,7 +161,7 @@ void Update()
 }
 ```
 
-### Code draaien op een timer
+#### Code draaien op een timer
 
 Een andere techniek die gebruikt kan worden is om in plaats van te kijken naar veranderingen je stuk code niet elke frame aan te roepen. misschien is 60 aanroepen 
 per seconde voor je object veel ste veel en kan er genoegen worden genomen met bijvoorbeeld een aanroep per seconde. Door op een slimme manier na te denken over 
