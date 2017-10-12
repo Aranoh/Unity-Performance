@@ -27,10 +27,18 @@ Hieronder ter verduidelijking een tabel:
   
 #### Snelheid per operatie
 
-Een Data structure heeft niet direct een snelheid, afhankelijk van de operatie is een data structure sneller of minder snel dan andere. Toegevoegd aan dit document 
+Een Data structure heeft niet direct één snelheid, afhankelijk van de operatie is een data structure sneller of minder snel dan andere. Toegevoegd aan dit document 
 is een 'Cheat Sheet' met hierin alle veel gebruikte operaties van data structures en de snelheid hiervan.
 
 [Cheat Sheet: Speed of Common Operations](/Scripting/CheatSheet.md)  
+
+### Aanbevolen Data structures
+
+Het is bijna niet mogelijk om een complete lijst te geven van welk data structure het best te gebruiken is bij verschillend gebruik. Hieronder volgen een 
+aantal voorbeelden van goede keuzes. Gebruik deze als richtlijnen.
+
+doe je dit gebruik dan dit
+doe je zus gebruik dan zo
 
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/UnityApiCalls.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/UnityUI.md)
