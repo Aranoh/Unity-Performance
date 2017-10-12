@@ -1,4 +1,4 @@
-# Datastructures
+# Data Structures
 [terug naar index](/Index.md)  
 
 Een kort inleidend stukje over het onderwerp
