@@ -1,8 +1,11 @@
 # Pooling Tests
 
+[terug naar index](/Index.md)   
+[terug naar Pooling](/Scripting/Pooling.md)  
+
 |Component|TimeOnEnable (ms)|TimeOnDisable (ms)|
 |:--:|:--:|:--:|
-|Standard Cube No Colliders|12,2|7,5|
+|Cube No Colliders|12,2|7,5|
 |RigidBody|30,7|18,7|
 |RigidBody Kinematic|34,2|18,9|
 |AudioSource|16,2|6,5|
