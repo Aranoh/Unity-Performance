@@ -91,17 +91,7 @@
   </tr>
 </table>
 
-
-<html>
-<head>
-<style>
-table, th, td {
-    border: 1px solid black;
-}
-</style>
-</head>
-<body>
-
+```HTML
 <table>
   <tr>
     <th> </th>
@@ -192,8 +182,4 @@ table, th, td {
 	<td>info</td>
   </tr>
 </table>
-
-<p>The bgcolor attribute is not supported in HTML5. Use CSS instead.</p>
-
-</body>
-</html>
+```
