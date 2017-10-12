@@ -13,7 +13,7 @@
 	<th>Notes</th>	
   </tr>
   <tr>
-    <td><pre>Array</pre></td>
+    <td>Array</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -24,7 +24,7 @@
 	<td>info</td>
   </tr>
   <tr>
-    <td><pre>List&ltT&gt</pre></td>
+    <td>List&ltT&gt</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -35,7 +35,7 @@
 	<td>info</td>
   </tr>
   <tr>
-    <td><pre>Collection&ltT&gt</pre></td>
+    <td>Collection&ltT&gt</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -46,7 +46,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td><pre>LinkedList&ltT&gt</pre></td>
+    <td>LinkedList&ltT&gt</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -57,7 +57,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td><pre>Stack&ltT&gt</pre></td>
+    <td>Stack&ltT&gt</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -68,7 +68,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td><pre>Queue&ltT&gt</pre></td>
+    <td>Queue&ltT&gt</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -79,7 +79,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td><pre>Dictionary&ltT,K&gt</pre></td>
+    <td>Dictionary&ltT,K&gt</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
