@@ -69,7 +69,7 @@
   </tr>
     <tr>
     <td>Queue&ltT&gt</td>
-    <td bgcolor="#F7D358">best case O(1), worst case O(n)</td>
+    <td bgcolor="#F 7D358">best case O(1), worst case O(n)</td>
     <td bgcolor="#BCF5A9">O(1)</td>
     <td>N/A</td>
     <td>N/A</td>
