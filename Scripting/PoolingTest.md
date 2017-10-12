@@ -15,7 +15,7 @@
 |All 3DColliders|1450|32|
 |All 2DColliders|140|1070|
 
-|Diffrent Colliders|
+|Diffrent Colliders|||
 |:--:|:--:|:--:|
 |BoxCollider|31|15|
 |MeshCollider|36|16|
