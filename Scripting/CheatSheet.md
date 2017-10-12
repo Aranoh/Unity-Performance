@@ -14,52 +14,52 @@
   </tr>
   <tr>
     <td>Array</td>
-    <td>O(n)</td>
-    <td>O(n)</td>
-    <td>O(n)</td>
-    <td>O(n)</td>
-    <td>O(1)</td>
-    <td>O(1)</td>
-    <td>O(n)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#F78181">O(n)</td>
 	<td>info</td>
   </tr>
   <tr>
     <td>List&ltT&gt</td>
-    <td>best case O(1), worst case O(n)</td>
-    <td>O(1)</td>
-    <td>O(n)</td>
-    <td>O(n)</td>
-    <td>O(1)</td>
-    <td>O(1)</td>
-    <td>O(n)</td>
+    <td bgcolor="#F7D358">best case O(1), worst case O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#F78181">O(n)</td>
 	<td>info</td>
   </tr>
   <tr>
     <td>Collection&ltT&gt</td>
-    <td>best case O(1), worst case O(n)</td>
-    <td>O(1)</td>
-    <td>O(n)</td>
-    <td>O(n)</td>
-    <td>O(1)</td>
-    <td>O(1)</td>
-    <td>O(n)</td>
+    <td bgcolor="#F7D358">best case O(1), worst case O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#F78181">O(n)</td>
 	<td>info</td>
   </tr>
     <tr>
     <td>LinkedList&ltT&gt</td>
-    <td>O(1)</td>
-    <td>O(1)</td>
-    <td>O(1)</td>
-    <td>O(1)</td>
-    <td>O(n)</td>
-    <td>O(1)</td>
-    <td>O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#F78181">O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#F78181">O(n)</td>
 	<td>info</td>
   </tr>
     <tr>
     <td>Stack&ltT&gt</td>
-    <td>best case O(1), worst case O(n)</td>
-    <td>O(1)</td>
+    <td bgcolor="#F7D358">best case O(1), worst case O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
@@ -69,8 +69,8 @@
   </tr>
     <tr>
     <td>Queue&ltT&gt</td>
-    <td>best case O(1), worst case O(n)</td>
-    <td>O(1)</td>
+    <td bgcolor="#F7D358">best case O(1), worst case O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
@@ -80,13 +80,13 @@
   </tr>
     <tr>
     <td>Dictionary&ltT,K&gt</td>
-    <td>best case O(1), worst case O(n)</td>
-    <td>O(1)</td>
-    <td>best case O(1), worst case O(n)</td>
-    <td>O(1)</td>
+    <td bgcolor="#F7D358">best case O(1), worst case O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
+    <td bgcolor="#F7D358">best case O(1), worst case O(n)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
     <td>O(1)*</td>
     <td>O(1)*</td>
-    <td>O(1)</td>
+    <td bgcolor="#BCF5A9">O(1)</td>
 	<td>info</td>
   </tr>
 </table>
