@@ -79,7 +79,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td>Dictionary<K,T></td>
+    <td>'Dictionary<K,T>'</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
