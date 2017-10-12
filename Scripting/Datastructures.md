@@ -17,7 +17,7 @@ het aantal 'dingen' dat in de functie gestopt wordt.
 
 Hieronder ter verduidelijking een tabel:
  
-|Big-O|operaties for 10 things|operaties for 100 things|Uitleg|
+|Big-O|operaties for 10 things|operaties for 100 things|Uitleg / voorbeeld|
 |:--:|:--:|:--:|:--:|
 |O(1)|1|1|onafhankelijk van het aantal 'things' kost deze operatie altijd even veel|
 |O(log(n))|3|7|een lijst constant te halveren tot bij het juiste object gekomen is|
