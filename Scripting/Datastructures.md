@@ -16,6 +16,7 @@ Eerste onderwerp en alle tekst die daarbij hoort
 
 tekst van het sub onderdeel
 
-[Cheat Sheet: Speed of Common Operations](/Scripting/CheatSheet.md) 
+[Cheat Sheet: Speed of Common Operations](/Scripting/CheatSheet.md)  
+
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/UnityApiCalls.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/UnityUI.md)
