@@ -13,7 +13,7 @@
 	<th>Notes</th>	
   </tr>
   <tr>
-    <td>Array</td>
+    <td>'Array'</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -24,7 +24,7 @@
 	<td>info</td>
   </tr>
   <tr>
-    <td>List<T></td>
+    <td>'List<T>'</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -35,7 +35,7 @@
 	<td>info</td>
   </tr>
   <tr>
-    <td>Collection<T></td>
+    <td>'Collection<T>'</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -46,7 +46,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td>LinkedList<T>></td>
+    <td>'LinkedList<T>'</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -57,7 +57,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td>Stack<T></td>
+    <td>'Stack<T>'</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -68,7 +68,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td>Queue<T></td>
+    <td>'Queue<T>'</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
@@ -79,7 +79,7 @@
 	<td>info</td>
   </tr>
     <tr>
-    <td>'Dictionary<K,T>'</td>
+    <td>"Dictionary<K,T>"</td>
     <td>info</td>
     <td>info</td>
     <td>info</td>
