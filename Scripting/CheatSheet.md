@@ -1,5 +1,5 @@
 ## Cheat Sheet: Speed of Common Operations
-<code>
+<pre&gt&lt/td&gt>
 &lttable&gt
   &lttr&gt
     &ltth&gt &lt/th&gt
@@ -90,4 +90,4 @@
 	&lttd&gtinfo&lt/td&gt
   &lt/tr&gt
 &lt/table&gt
-</code>
+</pre&gt&lt/td&gt>
