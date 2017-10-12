@@ -14,79 +14,79 @@
   </tr>
   <tr>
     <td>Array</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
+    <td>O(n)</td>
+    <td>O(n)</td>
+    <td>O(n)</td>
+    <td>O(n)</td>
+    <td>O(1)</td>
+    <td>O(1)</td>
+    <td>O(n)</td>
 	<td>info</td>
   </tr>
   <tr>
     <td>List&ltT&gt</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
+    <td>best case O(1), worst case O(n)</td>
+    <td>O(1)</td>
+    <td>O(n)</td>
+    <td>O(n)</td>
+    <td>O(1)</td>
+    <td>O(1)</td>
+    <td>O(n)</td>
 	<td>info</td>
   </tr>
   <tr>
     <td>Collection&ltT&gt</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
+    <td>best case O(1), worst case O(n)</td>
+    <td>O(1)</td>
+    <td>O(n)</td>
+    <td>O(n)</td>
+    <td>O(1)</td>
+    <td>O(1)</td>
+    <td>O(n)</td>
 	<td>info</td>
   </tr>
     <tr>
     <td>LinkedList&ltT&gt</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
+    <td>O(1)</td>
+    <td>O(1)</td>
+    <td>O(1)</td>
+    <td>O(1)</td>
+    <td>O(n)</td>
+    <td>O(1)</td>
+    <td>O(n)</td>
 	<td>info</td>
   </tr>
     <tr>
     <td>Stack&ltT&gt</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
+    <td>best case O(1), worst case O(n)</td>
+    <td>O(1)</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
 	<td>info</td>
   </tr>
     <tr>
     <td>Queue&ltT&gt</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
+    <td>best case O(1), worst case O(n)</td>
+    <td>O(1)</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
 	<td>info</td>
   </tr>
     <tr>
     <td>Dictionary&ltT,K&gt</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
-    <td>info</td>
+    <td>best case O(1), worst case O(n)</td>
+    <td>O(1)</td>
+    <td>best case O(1), worst case O(n)</td>
+    <td>O(1)</td>
+    <td>O(1)*</td>
+    <td>O(1)*</td>
+    <td>O(1)</td>
 	<td>info</td>
   </tr>
 </table>
