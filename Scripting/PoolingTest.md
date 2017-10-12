@@ -1,6 +1,6 @@
 # Pooling Tests
 
-||TimeOnEnable (ms)|TimeOnDisable (ms)|
+|Component|TimeOnEnable (ms)|TimeOnDisable (ms)|
 |:--:|:--:|:--:|
 |Standard Cube|12,2|7,5|
 |RigidBody|30,7|18,7|
