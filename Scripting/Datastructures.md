@@ -7,7 +7,7 @@ kunnen we een paar richtlijnen volgen.
 
 ## Actie Punten
 * Weet de snelheid van de verschillende te gebruiken data structures
-* punt_twee_staat_hier
+* Maak gebruik van verder genoemde richtlijnen
 ##  
 
 ### Snelheid 
@@ -34,7 +34,7 @@ is een 'Cheat Sheet' met hierin alle veel gebruikte operaties van data structure
 
 ### Aanbevolen Data structures
 
-Het is bijna niet mogelijk om een complete lijst te geven van welk data structure het best te gebruiken is bij verschillend gebruik. Hieronder volgen een 
+Het is bijna niet mogelijk om een complete lijst te geven van welk data structure het best te gebruiken is bij verschillend implementaties. Hieronder volgen een 
 aantal voorbeelden van goede keuzes. Gebruik deze als richtlijnen.
 
 doe je dit gebruik dan dit
