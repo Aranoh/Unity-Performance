@@ -9,7 +9,7 @@
 |RigidBody|30,7|18,7|
 |RigidBody Kinematic|34,2|18,9|
 |RigidBody2D|17,5|6|
-|RigidBody2D|18|5,5|
+|RigidBody2D Kinematic|18|5,5|
 |AudioSource|16,2|6,5|
 |AudioSource + clip|16,5|6,6|
 |AudioSource + clip + playOnAwalke|1400|28|
