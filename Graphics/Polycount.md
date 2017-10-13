@@ -18,4 +18,4 @@ tekst van het sub onderdeel
 
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/GarbageCollector.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Graphics/LowDetailCamera.md)
+[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Graphics/Overdraw.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Graphics/ParticleSystems.md)
