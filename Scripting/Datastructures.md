@@ -40,5 +40,9 @@ aantal voorbeelden van goede keuzes. Gebruik deze als richtlijnen.
 doe je dit gebruik dan dit
 doe je zus gebruik dan zo
 
+List = Array onder de schermen: gebruik voor itteraten en bijhouden
+Dictionary constant adding or removing
+indexing by key? dictionary
+itterating over dictionary is niet heel snel: gebruik een List<Struct> om de key value relatie vast te leggen in een Struct
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/UnityApiCalls.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/UnityUI.md)
