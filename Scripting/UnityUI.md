@@ -58,7 +58,7 @@ Om ervoor te zorgen dat je zo min mogelijk objecten "dirty" maakt is het aan te 
 Dit zorgt ervoor dat alleen het oude parent object "dirty" wordt en het nieuwe object wordt pas "dirty" als je het verplaatste object enabled.
 Ook is het verstandig om eerst alle waardes te veranderen van het object voordat je het enabled. Ook dit zorgt voor minder "dirty" maken van het nieuwe canvas.
 
-Voor meer info over object pooling bekijk de wiki pagina over [Pooling](https://github.com/Aranoh/Unity-Performance/blob/master/Scripting/UnityApiCalls.md#garbage-creating-api-calls). 
+Voor meer info over object pooling bekijk de wiki pagina over [Pooling](/UnityApiCalls.md#garbage-creating-api-calls). 
 
 ### Uitzetten Canvas Renderer  
 
