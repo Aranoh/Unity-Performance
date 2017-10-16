@@ -1,25 +1,7 @@
 ## Cheat Sheet: Speed of Common Operations
-<head>
-<style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-</style>
-</head>
 <body>
-<table style="overflow-y:scroll">
+<table>
   <tr>
     <th> </th>
     <th>Add to end</th>
@@ -119,23 +101,6 @@ algorithmic ones.</td>
 is constant time, it is usually slower than other structures due to the over-head of looking up the key.</td>
   </tr>
 </table>
-
-</body>
-</html>
-
-
-	
-   <table id="products-table"  style="overflow-y:scroll">
-         <tr>
-            <td>Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1</td>
-            <td>Row 1, Column 2</td>
-         </tr>
-         
-         <tr>
-            <td>Row 2, Column 1</td>
-            <td>Row 2, Column 2</td>
-         </tr>
-      </table>
 	
 ```HTML
 <table>
