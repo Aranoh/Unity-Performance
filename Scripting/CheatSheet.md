@@ -103,7 +103,7 @@ is constant time, it is usually slower than other structures due to the over-hea
 </table>
 
 
-
+```
 |                 | Add to end                      | Remove from end | Insert at middle                | Remove from middle | Random access | In-order access | Search for specific element | Notes |
 |-----------------|---------------------------------|-----------------|---------------------------------|--------------------|---------------|-----------------|-----------------------------|-------|
 | Array           | O(n)                            | O(n)            | O(n)                            | O(n)               | O(1)          | O(1)            | O(n)                        | Most efficient use of memory; use in cases where data size is fixed.  |
@@ -113,7 +113,7 @@ is constant time, it is usually slower than other structures due to the over-hea
 | Stack<T>        | best case O(1), worst case O(n) | O(1)            | N/A                             | N/A                | N/A           | N/A             | N/A                         | Shouldn't be selected for performance reasons, but algorithmic ones.  |
 | Queue<T>        | best case O(1), worst case O(n) | O(1)            | N/A                             | N/A                | N/A           | N/A             | N/A                         | Shouldn't be selected for performance reasons, but algorithmic ones.  |
 | Dictionary<T,K> | best case O(1), worst case O(n) | O(1)            | best case O(1), worst case O(n) | O(1)               | O(1)*         | O(1)*           | O(1)                        | Although in-order access time is constant time, it is usually slower than other structures due to the over-head of looking up the key.  |
-
+```
 	
 ```HTML
 <table>
