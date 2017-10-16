@@ -49,10 +49,12 @@ met een Key value. Let op met ittereren over een Dictionary dit is vanwege de on
 Alternatief voor een Dictionary is het gebruik van een List met hierin Struct's van verschillend objecten, hiermee kan een relatie aangegeven worden tussen 
 de objecten in dit Struct en kan er snel over geittereerd worden.
 
+###### Gebruik meerdere datastructure
+Soms kan het voorkomen dat je niet één datastructure kan vinden die het best past bij wat je wilt bereiken, in sommige gevallen kan het voordelig zijn om 
+meer dan een datastructure te gebruiken, denk bijvoorbeeld aan het gebruiken van een List om snel over te ittereren en gebruik deze List i.c.m. een dictionary 
+om te kunnen checken of het object al in de lijst bestaat of niet. Aangezien je in een game vast zit aan je 'update time' kan je met vergelijkbare trucjes 
+extra framerate verkrijgen door het slim gebruiken van meerdere datastructures. Bedenk wel dat het gebruik van meerdere datastructures ook meer memory kost dus 
+als je deze limiet tegen komt op je target device is het niet verstandig meer om dit te gebruiken.
 
-List = Array onder de schermen: gebruik voor itteraten en bijhouden
-Dictionary constant adding or removing
-indexing by key? dictionary
-itterating over dictionary is niet heel snel: gebruik een List<Struct> om de key value relatie vast te leggen in een Struct
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/UnityApiCalls.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/UnityUI.md)
