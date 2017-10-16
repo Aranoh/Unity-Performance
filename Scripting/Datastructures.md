@@ -37,8 +37,18 @@ is een 'Cheat Sheet' met hierin alle veel gebruikte operaties van data structure
 Het is bijna niet mogelijk om een complete lijst te geven van welk data structure het best te gebruiken is bij verschillend implementaties. Hieronder volgen een 
 aantal voorbeelden van goede keuzes. Gebruik deze als richtlijnen.
 
-doe je dit gebruik dan dit
-doe je zus gebruik dan zo
+###### List
+Onder de schermen niet veel meer dan een Array. Vaak een van de snellere data structures, gebruik list vooral voor snel ittereren en bijhouden van een niet 
+te vaak veranderende collectie.
+
+###### Dictionary
+Gebruikt de Hashtable class. Snel in gebruik als het gaat om constant toevoegen en verwijderen van objecten. Kan ook gebruikt worden om object te indexeren 
+met een Key value. Let op met ittereren over een Dictionary dit is vanwege de onderliggende Hashtable niet een hele snelle operatie. 
+
+###### Struct + List
+Alternatief voor een Dictionary is het gebruik van een List met hierin Struct's van verschillend objecten, hiermee kan een relatie aangegeven worden tussen 
+de objecten in dit Struct en kan er snel over geittereerd worden.
+
 
 List = Array onder de schermen: gebruik voor itteraten en bijhouden
 Dictionary constant adding or removing
