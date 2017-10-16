@@ -131,7 +131,6 @@ is constant time, it is usually slower than other structures due to the over-hea
    </head>
 	
    <body>
-      <table border = "1" width = "400" height = "50" overflow = scroll>
          <tr>
             <td>Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1</td>
             <td>Row 1, Column 2</td>
