@@ -123,6 +123,34 @@ is constant time, it is usually slower than other structures due to the over-hea
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Table Width/Height</title>
+   </head>
+	
+   <body>
+      <table border = "1" width = "400" height = "50" overflow = scroll>
+         <tr>
+            <td>Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+         </tr>
+         
+         <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+         </tr>
+      </table>
+   </body>
+	
+</html>
+
+{
+     width: 200px;
+    height: 400px;
+    overflow:scroll;
+}
 ```HTML
 <table>
   <tr>
