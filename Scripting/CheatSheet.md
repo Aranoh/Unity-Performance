@@ -19,7 +19,7 @@ tr:nth-child(even) {
 </style>
 </head>
 <body>
-<table>
+<table style="overflow-y:scroll">
   <tr>
     <th> </th>
     <th>Add to end</th>
