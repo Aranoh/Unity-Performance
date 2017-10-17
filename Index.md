@@ -5,7 +5,9 @@
 * [Data Structures](/Scripting/Datastructures.md)  
 * [Unity UI](/Scripting/UnityUI.md)  
 * [Pooling](/Scripting/Pooling.md)  
-* [Garbage Collector](/Scripting/GarbageCollector.md)  
+* [Garbage Collector](/Scripting/GarbageCollector.md)
+
+*[Overige](/Scripting/Overige.md)  
 
 ## Graphics
 
@@ -19,7 +21,7 @@
 
 ###	Both:
 * [Polycount](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)
-* [Particle Systems](http://www.hilltopoutdoorcentre.co.uk/bwa-assets/imgLibrary/images/Blog/coming-soon_0.jpg)   
+* [Particle Systems](/Graphics/ParticleSystems.md)   
 
 ## Unity Settings
 
