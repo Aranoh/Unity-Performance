@@ -16,10 +16,10 @@ hebben ook allen hun eigen performance kenmerken. niet elk systeem is even snel 
 
 Om een beeld te krijgen van hoe de verschillende systemen invloed hebben op de performance van je game staan hier onder wat grafieken.
 
-![Module Performance](https://i.imgur.com/xw1EvI7.png)  
-![MinMaxCurve](https://i.imgur.com/JKz5J38.png)  
-![MinMaxGradient](https://i.imgur.com/A76XHqL.png)  
-![Shape Module](https://i.imgur.com/FHnn7yR.png)  
+![Module Performance](https://i.imgur.com/R0SKpM6.png)  
+![MinMaxCurve](https://i.imgur.com/4eNB6EW.png)  
+![MinMaxGradient](https://i.imgur.com/bKTMnJt.png)  
+![Shape Module](https://i.imgur.com/nQvJa6K.png)  
 
 
 #### extra informatie
