@@ -14,7 +14,8 @@ Een kort inleidend stukje over het onderwerp
 Binnen particle systems heb je een hele set verschillende modules die ieder iets anders doen met hoe het particle systeem eruit ziet. Deze verschillende systemen 
 hebben ook allen hun eigen performance kenmerken. niet elk systeem is even snel als een ander systeem.
 
-Om een beeld te krijgen van hoe de verschillende systemen invloed hebben op de performance van je game staan hier onder wat grafieken.
+Om een beeld te krijgen van hoe de verschillende systemen invloed hebben op de performance van je game staan hier onder wat grafieken, hierin worden instellingen 
+en features getest op performance.
 
 ![Module Performance](https://i.imgur.com/R0SKpM6.png)  
 ![MinMaxCurve](https://i.imgur.com/4eNB6EW.png)  
