@@ -1,7 +1,7 @@
-# Onderwerp
+# Particle Systems
 [terug naar index](/Index.md)  
 
-Een kort inleidend stukje over het onderwerp
+Deze pagina gaat het hebben over Particle Systems en hoe hier optimaal gebruik gemaakt van kan worden.  
 
 ## Actie Punten
 * Ben bewust van performance impact van verschillende modules
