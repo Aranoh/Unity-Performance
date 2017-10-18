@@ -23,7 +23,9 @@ Om een beeld te krijgen van hoe de verschillende systemen invloed hebben op de p
 Bovenstaande grafieken komen uit een demonstratie van de nieuwe particle systemen van Unity 2017, om een beter beeld te krijgen van wat de verschillende systemen
 voor mogelijkheden hebben raad ik aan een keer te kijken naar dit demo project of presentatie.
 
-[![Video](https://i.imgur.com/9r1oczW.png)](https://www.youtube.com/watch?v=_N4iL0SQ9q8)
+[![Video](https://i.imgur.com/9r1oczW.png)](https://www.youtube.com/watch?v=_N4iL0SQ9q8)  
+
+[Download project](http://bit.ly/2ueFDWF)  
 
 start + stop itterate door alle children in particle system hierarchie. Om hierin alle particle Systems uit te zetten. als dit niet nodig is gebruik de 'with children' parameter
 mocht het toch nodig zijn cache dan alle children die particle systems hebben en gebruik alsnog 'withChildren: false' 
