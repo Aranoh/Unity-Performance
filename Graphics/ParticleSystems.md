@@ -20,6 +20,8 @@ Om een beeld te krijgen van hoe de verschillende systemen invloed hebben op de p
 ![GRAFIEK](https://www.allaboutphones.nl/wp-content/uploads/legacy/photos/126/16/068658962/grafiek-omhoog.png)  
 ![GRAFIEK](https://www.allaboutphones.nl/wp-content/uploads/legacy/photos/126/16/068658962/grafiek-omhoog.png)  
 
+
+#### extra informatie
 Bovenstaande grafieken komen uit een demonstratie van de nieuwe particle systemen van Unity 2017, om een beter beeld te krijgen van wat de verschillende systemen
 voor mogelijkheden hebben raad ik aan een keer te kijken naar dit demo project of presentatie.
 
