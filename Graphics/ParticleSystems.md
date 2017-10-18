@@ -34,7 +34,7 @@ voor mogelijkheden hebben raad ik aan een keer te kijken naar dit demo project o
 
 ### Particle system culling
 
-Particle system kan met de nieuwe versie van Unity door gebruik te maken van de culling groups. Hierover kan je meer vinden op de pagina over _[Culling](/Scripting/Culling.md)_ 
+Particle system kan met de nieuwe versie van Unity door gebruik te maken van de culling groups. Hierover kan je meer vinden op de pagina over _[Culling](/UnitySettings/Culling.md)_ 
 , hieronder een klein voorbeeld specifiek voor het activeren en deactiveren van alle particle systems van een object.
 
 
