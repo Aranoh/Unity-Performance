@@ -53,9 +53,16 @@ void OnStateChanged(CullingGroupEvent sphere)
 }
 ```
 
-start + stop itterate door alle children in particle system hierarchie. Om hierin alle particle Systems uit te zetten. als dit niet nodig is gebruik de 'with children' parameter
-mocht het toch nodig zijn cache dan alle children die particle systems hebben en gebruik alsnog 'withChildren: false' 
+### Scripting  
 
-Pas op met constant aanroepen van "Stop" en "Start" zal memory allocaten, ookal is het particle system al gestopt
+Start en Stop calls op een particle systeem loopt standaard door alle children heen om hierin ook particle systems aan en uit te zetten. Wanneer dit niet nodig is gebruik dan 'false' 
+voor de 'withChildren' parameter. Dit scheelt je wat performance voor het aan en uitzetten.
+
+Mocht je toch graag alle children uit of aan willen zetten cache dan zelf de lijst van parent en child particle systems en roep deze allemaal aan met Start of Stop. Door cachen is 
+deze methode sneller dan Unity's implementatie.
+
+[Unity Docs: ParticleSystem.Play](https://docs.unity3d.com/ScriptReference/ParticleSystem.Play.html)  
+[Unity Docs: ParticleSystem.Stop](https://docs.unity3d.com/ScriptReference/ParticleSystem.Stop.html)  
+
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Graphics/Polycount.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/DrawCallsBatching)
