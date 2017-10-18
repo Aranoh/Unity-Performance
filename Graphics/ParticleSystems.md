@@ -65,8 +65,8 @@ deze methode sneller dan Unity's implementatie.
 [Unity Docs: ParticleSystem.Stop](https://docs.unity3d.com/ScriptReference/ParticleSystem.Stop.html)  
 
 Note voor Unity 5.4 tot 2017.2:  
-Stop en Start alloceren memory zelfs als het particle systeem al draait of gestopt is, dit is een 'bug'. Mogelijk kan een extention geschreven worden 
-om de internal functies aan te roepen, of d.m.v. reflection aanroepen van deze functies. Alleen aan te raden wanneer upgrade naar 2017.2 te ver weg is. 
+_Stop en Start alloceren memory zelfs als het particle systeem al draait of gestopt is, dit is een 'bug'. Mogelijk kan een extention geschreven worden 
+om de internal functies aan te roepen, of d.m.v. reflection aanroepen van deze functies. Alleen aan te raden wanneer upgrade naar 2017.2 te ver weg is._ 
 
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Graphics/Polycount.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/DrawCallsBatching)
