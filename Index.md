@@ -5,8 +5,8 @@
 * [Data Structures](/Scripting/Datastructures.md)  
 * [Unity UI](/Scripting/UnityUI.md)  
 * [Pooling](/Scripting/Pooling.md)  
-* [Garbage Collector](/Scripting/GarbageCollector.md)
-
+* [Garbage Collector](/Scripting/GarbageCollector.md)  
+  
 * [Overige](/Scripting/Overige.md)  
 
 ## Graphics

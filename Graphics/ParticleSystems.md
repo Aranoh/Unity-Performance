@@ -4,8 +4,9 @@
 Een kort inleidend stukje over het onderwerp
 
 ## Actie Punten
-* eerste_actie_puntje
-* punt_twee_staat_hier
+* Ben bewust van performance impact van verschillende modules
+* betrek je particle systemen in de culling van je game
+* Gebruik op een goede manier de particle system functies
 ##  
 
 
