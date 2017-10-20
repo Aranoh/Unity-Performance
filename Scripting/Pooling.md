@@ -1,5 +1,5 @@
 # Pooling
-[terug naar index](/Index.md)  
+[terug naar index](/Index.md#scripting)  
 
 In games binnen Unit wordt veel gebruik gemaakt van prefabs. Het is eenvoudig om via script een prefab te spawnen in je game. Dit spawnen van prefabs gaat uiteraard niet helemaal kosteloos. 
 Dit is de reden dat Pooling vaak gebruikt wordt in Unity. Object pooling kan ervoor zorgen dat je de druk van het objecten spawnen verlegd naar wanneer de game aan het opstarten is. 

@@ -1,5 +1,5 @@
 # Data Structures
-[terug naar index](/Index.md)  
+[terug naar index](/Index.md#scripting)  
 
 Binnen C# heb je veel verschillende data structures om te gebruiken. Niet elke data structure is even zuinig als andere. Probeer van te voren goed te bepalen 
 welk van de verschillende data structures het bet past bij de implementatie die jij wenst. Om erachter te komen welk data structure het best gebruikt kan worden 

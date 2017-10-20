@@ -1,5 +1,5 @@
 # Onderwerp
-[terug naar index](/Index.md)  
+[terug naar index](/Index.md#graphics)  
 
 Een kort inleidend stukje over het onderwerp
 

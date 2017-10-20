@@ -1,5 +1,5 @@
 # Culling
-[terug naar index](/Index.md)  
+[terug naar index](/Index.md#unity-settings)  
 
 Culling is de naam die gegeven word aan het 'verbergen' van objecten die buiten de camera grenzen vallen. Aangezien je deze objecten toch niet kan zien 
 is het ook niet nuttig om ze te renderen of scripts te laten draaien op deze objecten. Door culling toe te passen op verschillende manier kan je ervoor 

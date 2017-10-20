@@ -1,5 +1,5 @@
 # Garbage Collecor
-[terug naar index](/Index.md)  
+[terug naar index](/Index.md#scripting)  
 
 Door het draaien van je spel zal steeds meer data in je memory opgeslagen worden. De garbage collector speelt hier op in door om de zoveel tijd een keer heel 
 je memory door te lezen en alle niet gebruikte data weer vrij te maken voor gebruik. Dit gaat uiteraard niet zonder kosten en daarom is het verstandig om 

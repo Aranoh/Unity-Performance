@@ -1,6 +1,6 @@
 # Pooling Tests
 
-[terug naar index](/Index.md)   
+[terug naar index](/Index.md#scripting)   
 [terug naar Pooling](/Scripting/Pooling.md)  
 
 |Component|TimeOnEnable (ms)|TimeOnDisable (ms)|

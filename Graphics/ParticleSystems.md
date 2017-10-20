@@ -1,5 +1,5 @@
 # Particle Systems
-[terug naar index](/Index.md)  
+[terug naar index](/Index.md#graphics)  
 
 Deze pagina gaat het hebben over Particle Systems en hoe hier optimaal gebruik gemaakt van kan worden.  
 

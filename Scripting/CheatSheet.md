@@ -1,5 +1,8 @@
 ## Cheat Sheet: Speed of Common Operations
 
+[terug naar index](/Index.md#scripting)   
+[terug naar Data Structures](/Scripting/Datastructures.md)  
+
 <body>
 <table>
   <tr>

@@ -1,5 +1,5 @@
 # Unity UI
-[terug naar index](/Index.md)  
+[terug naar index](/Index.md#scripting)  
 
 Unity UI is niet het zuinigste systeem wat draait binnen Unity, al snel kan veel framerate verloren gaan door verkeerd gebruik van Unity UI.Hieronder heb ik een aantal guidelines 
 staan voor het gebruik van Unity UI. Aangeraden word deze guidelines zo goed mogelijk te volgen bij het maken van een UI zodat er geen framedrops hoeven komen vanwege Unity UI.  

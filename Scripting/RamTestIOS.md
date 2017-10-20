@@ -1,6 +1,6 @@
 # IOS max RAM usage test
 
-[terug naar index](/Index.md)   
+[terug naar index](/Index.md#scripting)   
 [terug naar Pooling](/Scripting/Pooling.md)  
 
 * iPad1: 127MB/256MB/49%
