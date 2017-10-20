@@ -21,32 +21,32 @@ van deze functionaliteit kan met grote omgevingen in je Unity game toch een goed
 ##### Static objecten aangeven voor culling
 
 Niet alle objecten worden automatish meegenomen in occlusion culling. Om in object te omvatten in de culling moet deze gemarkeerd worden als 'static', dit 
-wordt gedaan rechts boven in de inspector door het aanvingken van deze optie.
-![Static](https://i.imgur.com/QApiwLq.png)
+wordt gedaan rechts boven in de inspector door het aanvingken van deze optie.  
+![Static](https://i.imgur.com/QApiwLq.png)  
 
 ##### Openen culling scherm
 
-Navigeer naar het culling scherm, dit scherm is te vinden onder 'Window' en dan 'Occlusion Culling'.
-![Navigeer](https://i.imgur.com/2cBKgVS.png)
+Navigeer naar het culling scherm, dit scherm is te vinden onder 'Window' en dan 'Occlusion Culling'.  
+![Navigeer](https://i.imgur.com/2cBKgVS.png)  
 
 ##### Instellingen Culling
 In het Occlusion culling scherm onder het tabblad 'bake' zitten wat opties. De standaard opties zijn over het algemeen goed voor elke scene. Eerste tween opties 
 gaan over de hoe groot gaten en blokken die visie doorlaten en blokkeren kunnen zijn. de derde en laatste optie is een optie om ook 'backfaces' mee te nemen in 
-de occlusion culling zodat ook deze niet zichtbaar zijn als tegen de voorkant van een object aangekeken wordt.
-![Options](https://i.imgur.com/2yCFVch.png)
+de occlusion culling zodat ook deze niet zichtbaar zijn als tegen de voorkant van een object aangekeken wordt.  
+![Options](https://i.imgur.com/2yCFVch.png)  
 
 ##### Baking
 
 Laatste stap is het bakken van je occlusion data met deze scene. Dit kan afhankelijk van de groote van je scene en de gekozen opties lang of kort duren. 
 Probeer tijdens development altijd voor opties te kiezen die snel zijn, met elke verandering in je scene moet namelijk opnieuw de occlusion gebakken worden. 
-Later richting een release build kan wanneer nodig altijd nog met meer precisie gescand worden.
-![Baking](https://i.imgur.com/olPigIT.png)
+Later richting een release build kan wanneer nodig altijd nog met meer precisie gescand worden.  
+![Baking](https://i.imgur.com/olPigIT.png)  
 
 ##### Opmerkingen
 
 Let op dat je scene is opgeslagen, zonder opgeslagen scene kan er geen occlusion gebakken worden.
 Zorg voor trees op Unity Terrain dat de prefabs op static staan anders worden ze niet meegenomen tijdens bakken.
-Er wordt altijd in een cube gescand. Een enkele losse vogel hoog in je scene of vis heel laag kan de baktijd flink beinvloeden.
+Er wordt altijd in een cube gescand. Een enkele losse vogel hoog in je scene of vis heel laag kan de baktijd flink beinvloeden.  
 
 ### Culling Groups
 
