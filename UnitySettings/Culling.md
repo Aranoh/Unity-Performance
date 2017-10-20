@@ -54,7 +54,7 @@ Een tweede vorm van culling is het gebruik maken van Unity's 'CullingGroup' met 
 culling vallen toch meedoen met dit systeem. CullingGroup is standaard alleen vanuit script te gebruiken er zijn hier standaard geen components voor. 
 Hieronder een aantal code stukjes met een voorbeeld van hoe CullingGroup gebruikt kan worden.  
 
---Aanmaken CullingGroup--
+**Aanmaken CullingGroup**  
 ```C#
 public float cullingRadius = 1;
 CullingGroup cullingGroup;
@@ -68,10 +68,21 @@ void Start ()
 	cullingGroup.SetBoundingSphereCount(1);
 	cullingGroup.onStateChanged += OnStateChanged;
 }
-```
+```  
+**OnStateChanged**  
 ```C#
-
-```
+void OnStateChanged(CullingGroupEvent sphere)
+{
+	if (sphere.hasBecomeVisible)
+	{
+		//Reactivate components on this object
+	}
+	else
+	{
+		//Deactivate components on this object
+	}
+}
+```  
 ```C#
 
 ```
