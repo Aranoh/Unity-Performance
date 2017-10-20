@@ -52,7 +52,9 @@ Later richting een release build kan wanneer nodig altijd nog met meer precisie 
 
 Een tweede vorm van culling is het gebruik maken van Unity's 'CullingGroup' met deze CullingGroup kunnen objecten die normaal niet binnen de occlusion 
 culling vallen toch meedoen met dit systeem. CullingGroup is standaard alleen vanuit script te gebruiken er zijn hier standaard geen components voor. 
-Hieronder een aantal code stukjes met een voorbeeld van hoe CullingGroup gebruikt kan worden.  
+Hieronder een aantal code stukjes met een voorbeeld van hoe CullingGroup gebruikt kan worden. Meer info kan gevonden worden in de UnityDocs.  
+
+[UnityDocs: CullingGroupAPI](https://docs.unity3d.com/Manual/CullingGroupAPI.html)  
 
 **Aanmaken CullingGroup**  
 ```C#
