@@ -7,8 +7,6 @@
 * [Pooling](/Scripting/Pooling.md)  
 * [Garbage Collector](/Scripting/GarbageCollector.md)  
   
-* [Overige](/Scripting/Overige.md)  
-
 ## Graphics
 
 ###	CPU:
