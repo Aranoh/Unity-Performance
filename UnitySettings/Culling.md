@@ -83,19 +83,34 @@ void OnStateChanged(CullingGroupEvent sphere)
 	}
 }
 ```  
+**OnDestroy**    
 ```C#
-
-```
+void OnDestroy()
+{
+	// To clean up the CullingGroup and free all memory it uses,
+	// dispose of the CullingGroup via the standard .NET IDisposable mechanism.
+	if (cullingGroup != null)
+	cullingGroup.Dispose();
+}
+```  
+**OnDrawGizmos**  
 ```C#
+void OnDrawGizmos()
+{
+	if (enabled)
+	{
+		if (cullingGroup != null)
+		{
+			Gizmos.color = cullingGroup.IsVisible(0) ? Color.green : Color.gray;
+		}
+		else
+		{
+			Gizmos.color = Color.blue;
+		}
+		Gizmos.DrawWireSphere(transform.position, cullingRadius);
+	}
+}
+```  
 
-```
-```C#
-
-```
-```C#
-
-```
-
-* https://www.youtube.com/watch?v=_N4iL0SQ9q8&t=2222s gebruiken, CullingGroup uitleggen (gebruik voorbeeld scipt)
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/UnitySettings/Textures.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Audio.md)
