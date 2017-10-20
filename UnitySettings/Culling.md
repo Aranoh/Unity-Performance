@@ -21,7 +21,7 @@ van deze functionaliteit kan met grote omgevingen in je Unity game toch een goed
 ##### Static objecten aangeven voor culling
 
 Niet alle objecten worden automatish meegenomen in occlusion culling. Om in object te omvatten in de culling moet deze gemarkeerd worden als 'static', dit 
-wordt gedaan rechts boven in de inspector door het aanvingken van deze optie.  
+wordt gedaan rechts boven in de inspector door het aanvinken van deze optie.  
 ![Static](https://i.imgur.com/QApiwLq.png)  
 
 ##### Openen culling scherm
@@ -44,14 +44,13 @@ Later richting een release build kan wanneer nodig altijd nog met meer precisie 
 
 ##### Opmerkingen
 
-Let op dat je scene is opgeslagen, zonder opgeslagen scene kan er geen occlusion gebakken worden.
-Zorg voor trees op Unity Terrain dat de prefabs op static staan anders worden ze niet meegenomen tijdens bakken.
-Er wordt altijd in een cube gescand. Een enkele losse vogel hoog in je scene of vis heel laag kan de baktijd flink beinvloeden.  
+* Let op dat je scene is opgeslagen, zonder opgeslagen scene kan er geen occlusion gebakken worden.
+* Zorg voor trees op Unity Terrain dat de prefabs op static staan anders worden ze niet meegenomen tijdens bakken.
+* Er wordt altijd in een cube gescand. Een enkele losse vogel hoog in je scene of vis heel laag kan de baktijd flink beinvloeden.  
 
 ### Culling Groups
 
-tekst van het sub onderdeel
-
+Een tweede vorm van culling is het gebruik maken van Unity's 'CullingGroup'
 * https://www.youtube.com/watch?v=_N4iL0SQ9q8&t=2222s gebruiken, CullingGroup uitleggen (gebruik voorbeeld scipt)
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/Index.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Index.md)
