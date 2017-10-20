@@ -50,7 +50,41 @@ Later richting een release build kan wanneer nodig altijd nog met meer precisie 
 
 ### Culling Groups
 
-Een tweede vorm van culling is het gebruik maken van Unity's 'CullingGroup'
+Een tweede vorm van culling is het gebruik maken van Unity's 'CullingGroup' met deze CullingGroup kunnen objecten die normaal niet binnen de occlusion 
+culling vallen toch meedoen met dit systeem. CullingGroup is standaard alleen vanuit script te gebruiken er zijn hier standaard geen components voor. 
+Hieronder een aantal code stukjes met een voorbeeld van hoe CullingGroup gebruikt kan worden.  
+
+--Aanmaken CullingGroup--
+```C#
+public float cullingRadius = 1;
+CullingGroup cullingGroup;
+	
+void Start ()
+{
+	// CullingGroup offers a way to integrate your own systems into Unity’s culling and LOD pipeline.
+	cullingGroup = new CullingGroup();
+	cullingGroup.targetCamera = Camera.main;
+	cullingGroup.SetBoundingSpheres(new[] { new BoundingSphere(transform.position, cullingRadius) });
+	cullingGroup.SetBoundingSphereCount(1);
+	cullingGroup.onStateChanged += OnStateChanged;
+}
+```
+```C#
+
+```
+```C#
+
+```
+```C#
+
+```
+```C#
+
+```
+```C#
+
+```
+
 * https://www.youtube.com/watch?v=_N4iL0SQ9q8&t=2222s gebruiken, CullingGroup uitleggen (gebruik voorbeeld scipt)
 ---
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/UnitySettings/Textures.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Audio.md)
