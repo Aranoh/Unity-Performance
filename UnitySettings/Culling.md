@@ -58,7 +58,7 @@ _[UnityDocs: CullingGroupAPI](https://docs.unity3d.com/Manual/CullingGroupAPI.ht
 _[UnityDocs: CullingGroup](https://docs.unity3d.com/ScriptReference/CullingGroup.html)_  
 
 **Aanmaken CullingGroup**  
-om een CullingGroup goed te gebruiken moet het op een juiste manier geïnitialiseerd worden.
+Om een CullingGroup goed te gebruiken moet het op een juiste manier geïnitialiseerd worden.  
 ```C#
 public float cullingRadius = 1;
 CullingGroup cullingGroup;
@@ -75,6 +75,7 @@ void Start ()
 }
 ```  
 **OnStateChanged**  
+Een eigen gedefineerde functie kan gemaakt worden die aangeroepen wordt wanneer de BoundingSphere van het object binnen of buiten het camera beeld valt.  
 ```C#
 void OnStateChanged(CullingGroupEvent sphere)
 {
@@ -89,6 +90,7 @@ void OnStateChanged(CullingGroupEvent sphere)
 }
 ```  
 **OnDestroy**    
+Om garbage opstapeling te voorkomen zorg voor een goede OnDestroy functie die de cullingGroup's op een goede manier weggooit.  
 ```C#
 void OnDestroy()
 {
@@ -99,6 +101,7 @@ void OnDestroy()
 }
 ```  
 **OnDrawGizmos**  
+Als hulp kan in de editor een 'Gizmo' getekend worden om de BoundingSphere van het object aan te geven.  
 ```C#
 void OnDrawGizmos()
 {
