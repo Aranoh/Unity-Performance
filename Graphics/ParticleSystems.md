@@ -70,4 +70,4 @@ _Stop en Start alloceren memory zelfs als het particle systeem al draait of gest
 om de internal functies aan te roepen, of d.m.v. reflection aanroepen van deze functies. Alleen aan te raden wanneer upgrade naar 2017.2 te ver weg is._ 
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Graphics/Polycount.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/DrawCallsBatching)
+[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Graphics/Polycount.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/DrawCallsBatching.md)

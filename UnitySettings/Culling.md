@@ -53,4 +53,4 @@ Later richting een release build kan wanneer nodig altijd nog met meer precisie 
 Een tweede vorm van culling is het gebruik maken van Unity's 'CullingGroup'
 * https://www.youtube.com/watch?v=_N4iL0SQ9q8&t=2222s gebruiken, CullingGroup uitleggen (gebruik voorbeeld scipt)
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Index.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Index.md)
+[![Last Page](https://i.imgur.com/Wr11iwl.png)](/UnitySettings/Textures.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Audio.md)
