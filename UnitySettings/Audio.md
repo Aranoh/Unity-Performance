@@ -1,8 +1,8 @@
 # Onderwerp
 [terug naar index](/Index.md#unity-settings)  
 
-Een game zonder geluid is natuurlijk niet af. Geluid kan binnen Unity goed gebruikt worden zonder veel performance te hoeven verliezen. Toch kan door het goed 
-gebruik van import en load settings een betere performance gehaald worden, niet alleen doormiddel een betere framerate maar ook zeker met een betere laadt tijd.  
+Een game zonder geluid is natuurlijk niet af. Geluid kan binnen Unity voor best wel wat performance verlies zorgen. Door het goed 
+gebruik van import en load settings kan een betere performance gehaald worden, niet alleen doormiddel een betere framerate maar ook zeker met een betere laadt tijd.  
 
 ## Actie Punten
 * Weet verschillen Load Type opties
