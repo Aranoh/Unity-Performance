@@ -22,7 +22,7 @@ Slaat de audiofile volledig op in memory. Dit is lichter op de CPU maar kost wel
 
 ### Muziek guidelines
 
-Voor muziek op mobile willen we zeker niet de muziek volledig opslaan in memory, een uitzondering kan gemaakt worden voor een game gebazeerd op muziek. Het is voor  
+Voor muziek op mobile willen we zeker niet de muziek volledig opslaan in memory, een uitzondering kan gemaakt worden voor een game gebazeerd op muziek. Het is voor 
 muziek vaak verstandiger om "Streaming" te gebruiken. Hiermee zal het memory verbruik van de muziek drastish minder zijn en dit is beter geschikt voor mobile apparaten. 
 Aangeraden is om "Vorbis" compression te gebruiken met deze setting.
 
@@ -32,7 +32,6 @@ je audio nog goed klinkt.
 
 ### Sound Effects guidelines
 
-tekst van het sub onderdeel
 
 * Voor **vaak gespeelde** en **korte** geluids effecten gebruik 'Decompress On Load' samen met PCM of ADPCM compressie formaat. Bij gebruik van PCM is decompressie 
 niet nodig en je sound effect zal snel geladen zijn. ADPCM gebruikt wel decompressie maar is een stuk sneller dan Vorbis compressie.  
