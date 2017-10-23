@@ -36,10 +36,11 @@ tekst van het sub onderdeel
 
 * Voor **vaak gespeelde** en **korte** geluids effecten gebruik 'Decompress On Load' samen met PCM of ADPCM compressie formaat. Bij gebruik van PCM is decompressie 
 niet nodig en je sound effect zal snel geladen zijn. ADPCM gebruikt wel decompressie maar is een stuk sneller dan Vorbis compressie.  
-* Voor **vaak gespeelde** en **langere** geluids effecten gebruik Compressed In Memory met ADPCM compressie formaat. ADPCM is zo'n 3.5 keer sneller dan PCM en 
+* Voor **vaak gespeelde** en **langere** geluids effecten gebruik 'Compressed In Memory' met ADPCM compressie formaat. ADPCM is zo'n 3.5 keer sneller dan PCM en 
 decompressie kost een stuk minder CPU ten opzichte van Vorbis.  
-* voor **zelden gespeelde** en **korte** geluids effecten gebruik ook Compressed in Memory met ADPCM.  
-* voor **zelden gespeelde** en **langere** geluids effecten gebruik Compressed in Memory met Vorbis formaat. Langere clips zijn niet zo geschikt voor het ADPCM formaat 
-en door het zelden afspelen van deze audio clips is een grotere CPU load vaak niet een heel groot probleem.  
+* voor **zelden gespeelde** en **korte** geluids effecten gebruik ook 'Compressed in Memory' met ADPCM.  
+* voor **zelden gespeelde** en **langere** geluids effecten gebruik 'Compressed in Memory' met Vorbis formaat. of 'Compressed in Memory' met ADPCM. 
+Langere clips zijn niet altijd zo geschikt voor het ADPCM formaat en door het zelden afspelen van deze audio clips is een grotere CPU load vaak niet een heel 
+groot probleem. Gebruik Vorbis indien mogelijk.
 
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/UnitySettings/Culling.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Physics.md)
