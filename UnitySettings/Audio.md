@@ -34,13 +34,13 @@ je audio nog goed klinkt.
 
 tekst van het sub onderdeel
 
-* Voor --vaak gespeelde-- en --korte-- geluids effecten
-* Voor --vaak gespeelde-- en --langere-- geluids effecten
-* voor --zelden gespeelde-- en --korte-- geluids effecten
-* voor --zelden gespeelde-- en --langere-- geluids effecten  
+* Voor **vaak gespeelde** en **korte** geluids effecten
+* Voor **vaak gespeelde** en **langere** geluids effecten
+* voor **zelden gespeelde** en **korte** geluids effecten
+* voor **zelden gespeelde** en **langere** geluids effecten  
 For frequently played and short Audio Clips use Decompress On Load and PCM or ADPCM Compression Format. When PCM is chosen, no decompression is needed and if audio clip is short it will load very quickly. You can also use ADPCM. It requires decompression, but it is much lighter to decompress than Vorbis.
 For frequently played but medium Audio Clips use Compressed In Memory and ADPCM Compression Format. ADPCM is around 3.5 times smaller than raw PCM and decompression algorithm will not consume as much CPU as Vorbis.
 For rarely played and short Audio Clips use Compressed In Memory and ADPCM. For the same reason as described in point 2.
 For rarely played and medium Audio Clips use Compressed In Memory  and Vorbis Compression Format. This SFX might be too long to be stored using ADPCM and played too rarely, therefore additional CPU power required to decompress wouldn’t be a such pain.
----
+**-
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/UnitySettings/Culling.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Physics.md)
