@@ -72,7 +72,7 @@ type heb je ook de 'Reference types' deze types komen op de heap terecht.
 
 Code voorbeeld:
 ```C#
-	//Value type variable (changing pos does not change transofrm.position)
+	//Value type variable (changing pos does not change transform.position)
 	Vector3 pos = transform.position;
 	pos = new Vector3(0, 2, 0);
 	

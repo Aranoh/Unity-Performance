@@ -5,7 +5,7 @@ Een game zonder geluid is natuurlijk niet af. Geluid kan binnen Unity voor best 
 gebruik van import en load settings kan een betere performance gehaald worden, niet alleen doormiddel een betere framerate maar ook zeker met een betere laadt tijd.  
 
 ## Actie Punten
-* Weet verschillen Load Type opties
+* Ken de verschillende Load Type opties en compressie opties
 * Gebruik guidelines van muziek en sound effects over importeren en gebruiken audio
 ##  
 
@@ -18,7 +18,19 @@ Slaat de files op in je RAM maar niet volledig, tijdens spelen word deze gedecom
 Wat je wil gebruiken als je heel weinig RAM wil gebruiken. Het is iets zwaarder op de CPU maar je krijgt er heel veel memory voor terug.  
 
 * Decompressed On Load  
-Slaat de audiofile volledig op in memory. Dit is lichter op de CPU maar kost wel veel memory.  
+Slaat de audiofile volledig op in memory. Dit is lichter op de CPU maar kost wel veel memory.
+
+### Compression Types  
+
+Binnen Unity hebben we keuze uit drie verschillende compressie types. In eerste instantie
+
+Vorbis: https://en.wikipedia.org/wiki/Vorbis (free open source compressie gebreuren)
+PCM: https://docs.unity3d.com/ScriptReference/AudioCompressionFormat.PCM.html (Geen compressie)
+ADPCM: https://docs.unity3d.com/ScriptReference/AudioCompressionFormat.ADPCM.html
+https://nl.wikipedia.org/wiki/Adaptieve_DPCM
+https://en.wikipedia.org/wiki/Pulse-code_modulation
+https://en.wikipedia.org/wiki/Adaptive_differential_pulse-code_modulation
+
 
 ### Muziek guidelines
 
@@ -28,7 +40,7 @@ Aangeraden is om "Vorbis" compression te gebruiken met deze setting.
 
 Tweede setting die aangeraden word is om de "Compression in memory" te gebruiken. Dit is een beetje de midden weg voor als kwaliteit van de muziek belangerijker wordt. 
 Ook hier gebruiken we "Vorbis". Het is mogelijk om de compression quality aan te passen dit gaat dan wel ten kosten van de audio quality, test bij gebruik altijd of 
-je audio nog goed klinkt.
+je audio nog goed klinkt. Richtlijn is 70% compressie.
 
 ### Sound Effects guidelines
 
