@@ -34,13 +34,12 @@ je audio nog goed klinkt.
 
 tekst van het sub onderdeel
 
-* Voor **vaak gespeelde** en **korte** geluids effecten
-* Voor **vaak gespeelde** en **langere** geluids effecten
-* voor **zelden gespeelde** en **korte** geluids effecten
-* voor **zelden gespeelde** en **langere** geluids effecten  
-* For frequently played and short Audio Clips use Decompress On Load and PCM or ADPCM Compression Format. When PCM is chosen, no decompression is needed and if audio clip is short it will load very quickly. You can also use ADPCM. It requires decompression, but it is much lighter to decompress than Vorbis.
-* For frequently played but medium Audio Clips use Compressed In Memory and ADPCM Compression Format. ADPCM is around 3.5 times smaller than raw PCM and decompression algorithm will not consume as much CPU as Vorbis.
-* For rarely played and short Audio Clips use Compressed In Memory and ADPCM. For the same reason as described in point 2.
-* For rarely played and medium Audio Clips use Compressed In Memory  and Vorbis Compression Format. This SFX might be too long to be stored using ADPCM and played too rarely, therefore additional CPU power required to decompress wouldn’t be a such pain.  
+* Voor **vaak gespeelde** en **korte** geluids effecten gebruik 'Decompress On Load' samen met PCM of ADPCM compressie formaat. Bij gebruik van PCM is decompressie 
+niet nodig en je sound effect zal snel geladen zijn. ADPCM gebruikt wel decompressie maar is een stuk sneller dan Vorbis compressie.  
+* Voor **vaak gespeelde** en **langere** geluids effecten gebruik Compressed In Memory met ADPCM compressie formaat. ADPCM is zo'n 3.5 keer sneller dan PCM en 
+decompressie kost een stuk minder CPU ten opzichte van Vorbis.  
+* voor **zelden gespeelde** en **korte** geluids effecten gebruik ook Compressed in Memory met ADPCM.  
+* voor **zelden gespeelde** en **langere** geluids effecten gebruik Compressed in Memory met Vorbis formaat. Langere clips zijn niet zo geschikt voor het ADPCM formaat 
+en door het zelden afspelen van deze audio clips is een grotere CPU load vaak niet een heel groot probleem.  
 
 [![Last Page](https://i.imgur.com/Wr11iwl.png)](/UnitySettings/Culling.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Physics.md)
