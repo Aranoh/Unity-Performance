@@ -23,12 +23,12 @@ knuppels met een steeds lager polygon aantal.
 
 Deze drie objecten zet je in je object hiërarchie onder een leeg object en je noemt deze hoe je het object wil noemen.  
 
-![LOD_Hierarchie](/Afbeeeldingen/LOD_Hierarchie.png)  
+![LOD_Hierarchie](/Afbeeldingen/LOD_Hierarchie.png)  
 
 We voegen aan het parent object een 'LODGroup' toe en voegen onze verschillende objecten toe aan de Renders van de verschillende LOD's.  
 
-![LOD_lod0_inst](/Afbeeldingen/LOD-lod0_instellingen.png)  
-![LOD_lod2_inst](/Afbeeldingen/LOD-lod2_instellingen.png)  
+![LOD_lod0_inst](/Afbeeldingen/LOD_lod0_instellingen.png)  
+![LOD_lod2_inst](/Afbeeldingen/LOD_lod2_instellingen.png)  
 
 Als alles goeg gegaan is kan je nu de camera boven het LOD balkje verschuiven om de verschillende levels van LOD te kunnen zien op je scherm. Duidelijk is dan 
 te zien wanneer je object naar een volgende LOD zou gaan en of dit te vroeg of te laat is.
