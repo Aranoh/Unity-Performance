@@ -20,7 +20,7 @@ en features getest op performance.
 
 ![Module Performance](/Afbeeldingen/PS_Module_Performance_small.png)  
 ![MinMaxCurve](/Afbeeldingen/PS_MinMaxCurve_small.png)  
-![MinMaxGradient](/Afbeeldingen/PS_MinMaxGradient_small)  
+![MinMaxGradient](/Afbeeldingen/PS_MinMaxGradient_small.png)  
 ![Shape Module](/Afbeeldingen/PS_Shape_Module_small.png)  
 
 
