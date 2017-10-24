@@ -19,28 +19,29 @@ van deze functionaliteit kan met grote omgevingen in je Unity game toch een goed
 #### Stappen plan
 
 ##### Static objecten aangeven voor culling
+/Afbeeldingen/
 
 Niet alle objecten worden automatish meegenomen in occlusion culling. Om in object te omvatten in de culling moet deze gemarkeerd worden als 'static', dit 
 wordt gedaan rechts boven in de inspector door het aanvinken van deze optie.  
-![Static](https://i.imgur.com/QApiwLq.png)  
+![Static](/Afbeeldingen/Culling_Static.png)  
 
 ##### Openen culling scherm
 
 Navigeer naar het culling scherm, dit scherm is te vinden onder 'Window' en dan 'Occlusion Culling'.  
-![Navigeer](https://i.imgur.com/2cBKgVS.png)  
+![Navigeer](/Afbeeldingen/Culling_Navigatie.png)  
 
 ##### Instellingen Culling
 In het Occlusion culling scherm onder het tabblad 'bake' zitten wat opties. De standaard opties zijn over het algemeen goed voor elke scene. Eerste tween opties 
 gaan over de hoe groot gaten en blokken die visie doorlaten en blokkeren kunnen zijn. de derde en laatste optie is een optie om ook 'backfaces' mee te nemen in 
 de occlusion culling zodat ook deze niet zichtbaar zijn als tegen de voorkant van een object aangekeken wordt.  
-![Options](https://i.imgur.com/2yCFVch.png)  
+![Options](/Afbeeldingen/Culling_Opties.png)  
 
 ##### Baking
 
 Laatste stap is het bakken van je occlusion data met deze scene. Dit kan afhankelijk van de groote van je scene en de gekozen opties lang of kort duren. 
 Probeer tijdens development altijd voor opties te kiezen die snel zijn, met elke verandering in je scene moet namelijk opnieuw de occlusion gebakken worden. 
 Later richting een release build kan wanneer nodig altijd nog met meer precisie gescand worden.  
-![Baking](https://i.imgur.com/olPigIT.png)  
+![Baking](/Afbeeldingen/Culling_Baking.png)  
 
 ##### Opmerkingen
 
@@ -121,4 +122,4 @@ void OnDrawGizmos()
 ```  
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/UnitySettings/Textures.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Audio.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png) [![Next Page](/Afbeeldingen/Arrow_next_small.png)

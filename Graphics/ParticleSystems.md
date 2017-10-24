@@ -28,7 +28,7 @@ en features getest op performance.
 Bovenstaande grafieken komen uit een demonstratie van de nieuwe particle systemen van Unity 2017, om een beter beeld te krijgen van wat de verschillende systemen
 voor mogelijkheden hebben raad ik aan een keer te kijken naar dit demo project of presentatie.
 
-[![Video](https://i.imgur.com/QRlA28e.png)](https://www.youtube.com/watch?v=_N4iL0SQ9q8)  
+[![Video](/Afbeeldingen/PS_Youtube_Video.png)](https://www.youtube.com/watch?v=_N4iL0SQ9q8)  
 
 [Download project](http://bit.ly/2ueFDWF)  
 
