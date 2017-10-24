@@ -21,6 +21,7 @@ tekst van het sub onderdeel
 
 ![IMAGE](/Afbeeldingen/LOD-cull-scherm.png)  
 ![IMAGE2](/Afbeeldingen/test.png)  
+![Image](PS-MinMaxCurve(cut).png)  
 
 
 
