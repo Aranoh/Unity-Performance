@@ -18,10 +18,10 @@ hebben ook allen hun eigen performance kenmerken. niet elk systeem is even snel 
 Om een beeld te krijgen van hoe de verschillende systemen invloed hebben op de performance van je game staan hier onder wat grafieken, hierin worden instellingen 
 en features getest op performance.
 
-![Module Performance](https://i.imgur.com/o2hdIEH.png)  
-![MinMaxCurve](https://i.imgur.com/D5QwHMo.png)  
-![MinMaxGradient](https://i.imgur.com/9BFNc4Q.png)  
-![Shape Module](https://i.imgur.com/iU64Caz.png)  
+![Module Performance](/Afbeeldingen/PS_Module_Performance_small.png)  
+![MinMaxCurve](/Afbeeldingen/PS_MinMaxCurve_small.png)  
+![MinMaxGradient](/Afbeeldingen/PS_MinMaxGradient_small)  
+![Shape Module](/Afbeeldingen/PS_Shape_Module_small.png)  
 
 
 #### extra informatie
