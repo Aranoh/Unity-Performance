@@ -19,7 +19,6 @@ van deze functionaliteit kan met grote omgevingen in je Unity game toch een goed
 #### Stappen plan
 
 ##### Static objecten aangeven voor culling
-/Afbeeldingen/
 
 Niet alle objecten worden automatish meegenomen in occlusion culling. Om in object te omvatten in de culling moet deze gemarkeerd worden als 'static', dit 
 wordt gedaan rechts boven in de inspector door het aanvinken van deze optie.  
