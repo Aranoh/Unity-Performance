@@ -19,7 +19,7 @@ dit word veranderd afhankelijk van de vulling van je object ten opzichte van je 
 
 tekst van het sub onderdeel
 
-![IMAGE](/Afbeeldingen/LOD-cull scherm.png)  
+![IMAGE](/Afbeeldingen/LOD-cull-scherm.png)  
 ![IMAGE2](/Afbeeldingen/test.png)  
 
 
