@@ -33,8 +33,8 @@ We voegen aan het parent object een 'LODGroup' toe en voegen onze verschillende 
 Als alles goeg gegaan is kan je nu de camera boven het LOD balkje verschuiven om de verschillende levels van LOD te kunnen zien op je scherm. Duidelijk is dan 
 te zien wanneer je object naar een volgende LOD zou gaan en of dit te vroeg of te laat is.
 
-![LOD_lod0_scherm](/Afbeeldingen/LOD_lod0_scherm.png)![LOD_lod1_scherm](/Afbeeldingen/LOD_lod1_scherm.png)  
-![LOD_lod2_scherm](/Afbeeldingen/LOD_lod2_scherm.png)![LOD_cull_scherm](/Afbeeldingen/LOD_cull_scherm.png)  
+![LOD_lod0_scherm](/Afbeeldingen/LOD_lod0_scherm.png) ![LOD_lod1_scherm](/Afbeeldingen/LOD_lod1_scherm.png)  
+![LOD_lod2_scherm](/Afbeeldingen/LOD_lod2_scherm.png) ![LOD_cull_scherm](/Afbeeldingen/LOD_cull_scherm.png)  
 
 Let erop dat de procenten aangeven hoeveel schermvulling het kleinste vierkant om het object heeft en is dus niet afhankelijk van min en max camera distance. 
 Zo kan je hierboven zien dat LOD 0 een schermvulling heeft van bijna 100% en dat LOD 2 een schermvulling heeft van minder dan 30%.
