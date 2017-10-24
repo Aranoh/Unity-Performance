@@ -296,4 +296,4 @@ public IEnumerator gameLogic()
 
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Pooling.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Graphics/LevelOfDetail.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/Pooling.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/LevelOfDetail.md)

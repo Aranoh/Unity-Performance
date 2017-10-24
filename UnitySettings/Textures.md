@@ -18,4 +18,4 @@ tekst van het sub onderdeel
 
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/UnitySettings/DrawCallsBatching.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Culling.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/UnitySettings/DrawCallsBatching.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Culling.md)

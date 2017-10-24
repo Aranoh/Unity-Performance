@@ -18,4 +18,4 @@ tekst van het sub onderdeel
 
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](Graphics/ParticleSystems.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/UnitySettings/Textures.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](Graphics/ParticleSystems.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Textures.md)

@@ -49,6 +49,6 @@ Componenten waar op gelet moet worden zijn:
 Test resultaten pooling test: [Pooling test](/Scripting/PoolingTest.md)  
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/UnityUI.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/GarbageCollector.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/UnityUI.md)[![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Scripting/GarbageCollector.md)
   
   

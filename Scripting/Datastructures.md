@@ -57,4 +57,4 @@ extra framerate verkrijgen door het slim gebruiken van meerdere datastructures. 
 als je deze limiet tegen komt op je target device is het niet verstandig meer om dit te gebruiken.
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/UnityApiCalls.md) [![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/UnityUI.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/UnityApiCalls.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Scripting/UnityUI.md)

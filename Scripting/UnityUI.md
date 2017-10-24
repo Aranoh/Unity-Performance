@@ -139,4 +139,4 @@ niet de beste om te kiezen kwa performance. Aangeraden word om een speciaal pool
 binnen het scrollview. Je kan dit doen door een custom implementatie te maken van het scrollview of layout systeem. 
 
 ---
-[![Last Page](https://i.imgur.com/Wr11iwl.png)](/Scripting/Datastructures.md)[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Pooling.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/Datastructures.md)[![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Scripting/Pooling.md)

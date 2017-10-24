@@ -190,4 +190,4 @@ void Update()
 [Unity Docs: Camera.main](https://docs.unity3d.com/ScriptReference/Camera-main.html)  
 
 ---
-[![Next Page](https://i.imgur.com/nHLTAf1.png)](/Scripting/Datastructures.md)
+[![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Scripting/Datastructures.md)
