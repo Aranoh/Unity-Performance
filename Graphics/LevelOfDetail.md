@@ -43,9 +43,7 @@ Zo kan je hierboven zien dat LOD 0 een schermvulling heeft van bijna 100% en dat
 
 tekst van het sub onderdeel
 
-![IMAGE](/Afbeeldingen/LOD-cull-scherm.png)  
-![IMAGE2](/Afbeeldingen/test.png)  
-![Image](PS-MinMaxCurve(cut).png)  
+https://developer.valvesoftware.com/wiki/LOD_Models
 
 
 
