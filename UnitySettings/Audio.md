@@ -54,4 +54,5 @@ decompressie kost een stuk minder CPU ten opzichte van Vorbis.
 Langere clips zijn niet altijd zo geschikt voor het ADPCM formaat en door het zelden afspelen van deze audio clips is een grotere CPU load vaak niet een heel 
 groot probleem. Gebruik Vorbis indien mogelijk.
 
+---
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/UnitySettings/Culling.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Physics.md)

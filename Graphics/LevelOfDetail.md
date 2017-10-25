@@ -55,6 +55,5 @@ Wat voorbeelden:
 [Blender tutorial](https://www.youtube.com/watch?v=ttU6Gz1W0Xw)  
 [3ds Max tutorial](https://www.youtube.com/watch?v=tpeGsGCLw3E)  
 
-
-[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/GarbageCollector.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/LowDetailCamera.md)
 ---
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/GarbageCollector.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/LowDetailCamera.md)
