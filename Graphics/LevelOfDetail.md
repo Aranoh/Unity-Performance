@@ -42,13 +42,18 @@ Zo kan je hierboven zien dat LOD 0 een schermvulling heeft van bijna 100% en dat
 ### Maken LOD Models
 
 Het maken van een low poly model kan vaak automatish gedaan worden. Meeste 3D programma's hebben hier functionaliteit voor. Het nadeel van automatish genereren 
-van low poly models is dat je hier weinig controle over hebt. Models kunnen soms raar eruit komen bij gebruik van zo'n functionaliteit. Handmatig zijn er wat opties 
-die gedaan kunnen worden om op een makkelijke manier een low poly model te kunnen maken.
+van low poly models is dat je hier weinig controle over hebt. Models kunnen soms raar eruit komen bij gebruik van zo'n functionaliteit. Let altijd op dat de 
+modellen waarbij je automatishe verkleining van poly count gebruikt er aan het einde ook nog goed en bruikbaar uitzien.
 
-#### Technieken  
+Voor je begint met het verminderen van de polygonen denk erover na wat je vanaf een afstand niet meer zou kunnen zien. Vaak kunnen heel veel polygonen gewoon 
+weg gehaald worden. Denk bijvoorbeeld aan een knoop van een jas of een los hangend kabeltje van een apparaat.
 
-* Weghalen kleine details  
-Vaak hebben models te kleine de
+Op bijvoorbeeld youtube zijn veel video's te vinden over hoe poly count verminderd kan worden.
+
+Wat voorbeelden:  
+[Maya tutorial](https://www.youtube.com/watch?v=-Ztme74jJzE)  
+[Blender tutorial](https://www.youtube.com/watch?v=ttU6Gz1W0Xw)  
+[3ds Max tutorial](https://www.youtube.com/watch?v=tpeGsGCLw3E)  
 
 
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/GarbageCollector.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/LowDetailCamera.md)
