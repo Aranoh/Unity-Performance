@@ -39,12 +39,16 @@ te zien wanneer je object naar een volgende LOD zou gaan en of dit te vroeg of t
 Let erop dat de procenten aangeven hoeveel schermvulling het kleinste vierkant om het object heeft en is dus niet afhankelijk van min en max camera distance. 
 Zo kan je hierboven zien dat LOD 0 een schermvulling heeft van bijna 100% en dat LOD 2 een schermvulling heeft van minder dan 30%.
 
-#### Sub onderdeel
+### Maken LOD Models
 
-tekst van het sub onderdeel
+Het maken van een low poly model kan vaak automatish gedaan worden. Meeste 3D programma's hebben hier functionaliteit voor. Het nadeel van automatish genereren 
+van low poly models is dat je hier weinig controle over hebt. Models kunnen soms raar eruit komen bij gebruik van zo'n functionaliteit. Handmatig zijn er wat opties 
+die gedaan kunnen worden om op een makkelijke manier een low poly model te kunnen maken.
 
-https://developer.valvesoftware.com/wiki/LOD_Models
+#### Technieken  
 
+* Weghalen kleine details  
+Vaak hebben models te kleine de
 
 
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/GarbageCollector.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/LowDetailCamera.md)
