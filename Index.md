@@ -15,7 +15,7 @@
 * [Low detail camera](/Graphics/LowDetailCamera.md)  
 
 ###	GPU:
-* [Shaders & Post Processing](/Graphics/ShadersPostProcessing.md)  
+* [Shaders](/Graphics/ShadersPostProcessing.md)  
 * [Overdraw](/Graphics/Overdraw.md)  
 
 ###	Both:
