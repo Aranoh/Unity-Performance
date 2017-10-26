@@ -65,14 +65,16 @@ Meer informatie over het lezen en schrijven van shaders in het hoofdstuk onder s
 
 ### Post Processing  
 
-Post processing is de naam gegeven aan full-screen shader effecten die over de image buffer van de camera heen getekend worden voordat deze op 
+Post processing is de naam gegeven aan full-screen shader effecten die over de image buffer van de camera heen getekend worden voordat ze op 
 het scherm weergegeven wordt. Post Processing kan je scene's er heel snel heel mooi uit laten zien. Helaas kunnen deze effecten je wel wat performance 
-kosten. Gebruik van Post processing zal niet altijd zorgen voor een lagere framerate, dit omdat de GPU los van de CPU kan draaien. Zodra je teveel 
+kosten.  
+
+Gebruik van Post processing zal niet altijd zorgen voor een lagere framerate, dit omdat de GPU los van de CPU kan draaien. Zodra je teveel 
 Shaders en Post processing effecten zal gebruiken zal je gaan merken in b.v. je profiler dat je op je video kaart moet wachten elke frame. We noemen dit 
 'GPU Bound'. Om te voorkomen dat Post processing mee gaat tellen met performance is het goed om te weten hoeveel effect verschillende effecten 
 hebben op de performance van je spel.
 
-Hier een link naar getest frameloss van verschillende post processing effecten:  
+Hier een link naar geteste framerate verlies van verschillende post processing effecten:  
 [Post processing effects table](/Graphics/PostProcessingTable.md)  
 
 ---
