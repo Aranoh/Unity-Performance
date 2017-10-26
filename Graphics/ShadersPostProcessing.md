@@ -12,6 +12,7 @@ Een kort inleidend stukje over het onderwerp
 
 Unity supoort een aantal rendering paths, elk render path heeft zijn eigen kenmerken. Sommige render paths zijn gemaakt voor performance andere 
 juist weer om het er extra mooi uit te laten zien.  
+
 In Unity maken wij het meest gebruik van 'Forward Rendering' dit is de meest traditionele 
 implementatie voor een render path. Forward rendering kan met een of meerder passes werken en daardoor ook makkelijk aanpasbaar in performance.  
 
