@@ -65,6 +65,7 @@ Duurste van allen met parallax normal mapping en specular highlights functionali
 
 [Unity Docs: Specular](https://docs.unity3d.com/Manual/shader-NormalSpecular.html)  
 [Unity Docs: Parralax Diffuse](https://docs.unity3d.com/Manual/shader-NormalParallaxDiffuse.html)  
+[Unity Docs: Shader-NormalFamily](https://docs.unity3d.com/Manual/shader-NormalFamily.html)  
 
 #### Mobile shaders
 
