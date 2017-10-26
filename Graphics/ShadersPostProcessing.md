@@ -46,14 +46,25 @@ op een Pixel-Lit shader zal gewoon per vertex of per object berekend worden.
 Hieronder een lijst van 'Built-in Shaders' beginnend met de meest simpele tot de meest complexe shader. Een complexe shader heeft over het algemeen 
 ook een hogere performance cost.
 
-* Unlit. This is just a texture, not affected by any lighting.
-* VertexLit.
-* Diffuse.
-* Normal mapped. This is a bit more expensive than Diffuse: it adds one more texture (normal map), and a couple of shader instructions.
-* Specular. This adds specular highlight calculation.
-* Normal Mapped Specular. Again, this is a bit more expensive than Specular.
-* Parallax Normal mapped. This adds parallax normal-mapping calculation.
-* Parallax Normal Mapped Specular. This adds both parallax normal-mapping and specular highlight calculation
+* Unlit
+Gewoon een Texture verder niks eraan toegevoegd.
+* VertexLit
+Simpele shader die lichtinval alleen berekend op een per vertex basis.
+* Diffuse
+Iets geavanceerder dan VertexLit, kan wel op pixel basis licht inval bepalen.
+* Normal mapped
+Iets duurder dan Diffuse, maakt gebruik van normal map en wat andere shader instructies.
+* Specular
+Voegt specular highlights toe aan de shader.
+* Normal Mapped Specular
+Zelfde als Specular met normal maps, iets duurder dus.
+* Parallax Normal mapped
+Voegt parallax normal mapping berekening toe aan de shader.
+* Parallax Normal Mapped Specular
+Duurste van allen met parallax normal mapping en specular highlights functionaliteit.
+
+[Unity Docs: Specular](https://docs.unity3d.com/Manual/shader-NormalSpecular.html)  
+[Unity Docs: Parralax Diffuse](https://docs.unity3d.com/Manual/shader-NormalParallaxDiffuse.html)  
 
 #### Mobile shaders
 
