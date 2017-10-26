@@ -1,7 +1,7 @@
 # Render paths table  
 
 [terug naar index](/Index.md#scripting)   
-[terug naar Pooling](/Graphics/ShadersPostProcessing.md) 
+[terug naar Shaders](/Graphics/ShadersPostProcessing.md) 
 
 ||Deferred|Forward|Legacy Deferred|Vertex Lit|
 |:--:|:--:|:--:|:--:|:--:|
