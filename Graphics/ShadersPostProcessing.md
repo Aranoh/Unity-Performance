@@ -21,7 +21,8 @@ Deffered Shading is een render path gemaakt om goed met licht en shaduw om te ku
 Vertex lit is het laatste render path wat gebruikt kan worden, Vertex lit werkt niet met schaduws en kan ook maar een pass doen voor licht. Vertex 
 lit is het simpelste render path dat Unity ondersteunt en daardoor vaak ook de snelste maar door het ontbreken van schaduw zeker niet de mooiste.  
 
-
+Voor meer informatie over de verschillende features performance kenmerken en supported platforms:  
+[Rendering Paths Table](/Graphics/RenderPathsTable.md)  
 
 #### Sub onderdeel
 
