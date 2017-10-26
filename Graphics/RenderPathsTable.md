@@ -25,3 +25,5 @@
 |PC (Windows/Mac)|Shader Model 3.0+ & MRT|All|Shader Model 3.0+|All|
 |Mobile (iOS/Android)|OpenGL ES 3.0 & MRT, Metal (on devices with A8 or later SoC)|All|OpenGL ES 2.0|All|
 |Consoles|XB1, PS4|All|XB1, PS4, 360|-|
+
+[Unity Docs: Rendering Paths](https://docs.unity3d.com/Manual/RenderingPaths.html)  
