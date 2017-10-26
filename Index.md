@@ -6,6 +6,7 @@
 * [Unity UI](/Scripting/UnityUI.md)  
 * [Pooling](/Scripting/Pooling.md)  
 * [Garbage Collector](/Scripting/GarbageCollector.md)  
+* [Writing Shaders](/Scripting/WritingShaders.md)  
   
 ## Graphics
 

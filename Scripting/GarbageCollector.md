@@ -296,4 +296,4 @@ public IEnumerator gameLogic()
 
 
 ---
-[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/Pooling.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/LevelOfDetail.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/Pooling.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Scripting/WritingShaders.md)
