@@ -4,7 +4,7 @@
 [terug naar Shaders](/Graphics/ShadersPostProcessing.md) 
 
 |Effect|Frame rate loss|
-|:--:|:--:|                     ||
+|:--:|:--:|                     
 |Anti-aliasing (FXAA & TAA)     ||
 |Ambient Occlusion              ||
 |Screen Space Reflection        ||
