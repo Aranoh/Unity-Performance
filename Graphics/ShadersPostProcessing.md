@@ -1,8 +1,8 @@
-# Onderwerp
+# Shaders
 [terug naar index](/Index.md#graphics)  
 
-Een kort inleidend stukje over het onderwerp
-
+Shaders in je game bepalen hoe je 3D objecten eruit komen te zien. Shaders draaien op de video kaart en zullen daardoor los staan van de framerate 
+van de rest van je code. Vanuit performance oogpunt is het interessant om te weten welke shaders sneller zijn dan andere en ook waarom.  
 ## Actie Punten
 * Gebruik de goede Rendering Paths
 * Gebruik simpele shaders
