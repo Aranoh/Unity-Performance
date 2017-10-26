@@ -24,10 +24,44 @@ lit is het simpelste render path dat Unity ondersteunt en daardoor vaak ook de s
 Voor meer informatie over de verschillende features performance kenmerken en supported platforms:  
 [Rendering Paths Table](/Graphics/RenderPathsTable.md)  
 
-#### Sub onderdeel
+### Shader performance
 
-tekst van het sub onderdeel
+Bij forward rendering is de performance afhankelijk van welke shader gebruikt wordt maar ook van het aantal lichtpunten in de scene. Gekeken vanuit 
+een performance perspectief zijn er bij forward rendering twee verschillende categorieën shaders, de 'Vertex-Lit' en 'Pixel-Lit' shaders.  
 
+Vertex-Lit shaders in forward rendering zijn altijd goedkoper dan Pixel-Lit shaders. deze shaders werken kijken per vertex welke licht erop valt. 
+hierdoor hoeft elke vertex maar een keer getekend te worden.  
+
+Pixel-Lit shaders berekenen op een per pixel basis het licht wat op de pixel valt. Pixel-Lit shaders zullen per licht opnieuw berekend moeten worden. 
+Per licht wat gebruikt word zal dus een nieuw render pad doorgelopen worden waardoor je CPU meer tijd kwijt is met commando's sturen naar de video kaart. 
+Ook de video kaart zal hierdoor meer werk moeten verichten. 
+
+Pixel-Lit shaders zijn dus meer performance gevoelig maar met Pixel-Lit shaders kunnen wel veel mooie effecten worden gemaakt. (shaduw, normal maps, specular highlights, etc)  
+
+Onthoud dat in Unity per licht aangegeven worden of hij 'important'(pixel lit) of 'niet important'(vertex lit) moet zijn. Een vertex licht wat schijnt 
+op een Pixel-Lit shader zal gewoon per vertex of per object berekend worden.
+
+#### Shader complexiteit
+
+Hieronder een lijst van 'Built-in Shaders' beginnend met de meest simpele tot de meest complexe shader. Een complexe shader heeft over het algemeen 
+ook een hogere performance cost.
+
+* Unlit. This is just a texture, not affected by any lighting.
+* VertexLit.
+* Diffuse.
+* Normal mapped. This is a bit more expensive than Diffuse: it adds one more texture (normal map), and a couple of shader instructions.
+* Specular. This adds specular highlight calculation.
+* Normal Mapped Specular. Again, this is a bit more expensive than Specular.
+* Parallax Normal mapped. This adds parallax normal-mapping calculation.
+* Parallax Normal Mapped Specular. This adds both parallax normal-mapping and specular highlight calculation
+
+#### Mobile shaders
+
+Speciaal voor mobiele platformen heeft Unity een aantal versimpelde shaders gemaakt. Deze shaders hebben niet alle functionaliteit van een niet mobiele shader. 
+Zo missen ze bijvoorbeeld specular reflection en per-material kleur support. Om een beter beeld te krijgen van de verschillen tussen standaard en mobiele 
+shaders kan gekeken worden in de .shader files zelf. Hier kan bekeken worden waar de shader versimpeld is en hierin is ook gedocumenteerd wat de shader doet.
+
+Meer informatie over het lezen en schrijven van shaders in het hoofdstuk onder scripting [Writing Shaders](/Scripting/WritingShaders.md)  
 
 ---
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/LowDetailCamera.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/Overdraw.md)
