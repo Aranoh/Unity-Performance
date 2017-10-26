@@ -4,7 +4,6 @@
 [terug naar Pooling](/Graphics/ShadersPostProcessing.md) 
 
 ||Deferred|Forward|Legacy Deferred|Vertex Lit|
-|Features|
 |:--:|:--:|:--:|:--:|:--:|
 |Per-pixel lighting (normal maps, light cookies)|Yes|Yes|Yes|-|
 |Realtime shadows|Yes|With caveats|Yes|-|
