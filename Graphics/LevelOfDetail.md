@@ -58,8 +58,8 @@ Wat voorbeelden:
 ### Low Detail Camera
 
 Een interessant alternatief van LOD is het gebruiken van een 2e 'Low Detail Camera'. Door het combineren van twee camera's een high detail voor objecten 
-dichtbij de camera en een voor objecten ver weg. Door in te stellen welke objecten wel en niet gezien worden door de 2e camera en door de resolutie van 
-deze camera te verkleinen kan een grotere vieuw distance bereikt worden zonder hierdoor teveel fps te hoeven verliezen.  
+dichtbij de camera en een low detail voor objecten ver weg. Door in te stellen welke objecten wel en niet gezien worden door de 2e camera en door de resolutie van 
+deze 2e camera te verkleinen kan een grotere vieuw distance bereikt worden zonder hierdoor teveel fps te hoeven verliezen.  
 
 De twee camera's in Unity zullen gebruik maken van layers om te bepalen welke objecten niet in het 2e camera beeld tevoorschijn komen. zo kan je 
 instellen dat bijvoorbeeld plantjes en kleine stukjes gras niet te zien zijn op de 2e camera aangezien je ze toch bijna niet ziet. Hierdoor hoef 
@@ -70,7 +70,8 @@ je deze objecten niet te renderen wat weer zorgd voor meer framerate.
 Door gebruik van dit systeem hoeven geen LOD modellen gemaakt te worden. Dit is voor games op mobiel extra interessant aangezien je op mobiel 
 vaak voor je originele modellen ook al weinig polygonen gebruikt en een LOD model weinig toevoegd. 
 
-Voor meer informatie over deze low detail camera, inclusief een 'Pseudo-coded breakdown' van hoe 'Little Chicken Game Company' dit systeem geïmplementeerd heeft:
+Voor meer informatie over deze low detail camera, inclusief een 'Pseudo-coded breakdown' van hoe 'Little Chicken Game Company' dit systeem geïmplementeerd heeft:  
+
 [Source: KLM Jets Low Detail Camera](https://www.gamasutra.com/blogs/TomasSala/20150929/254839/KLM_Jets_Doubling_viewingdistance_without_LODing_or_performancedrop.php)  
 
 ---
