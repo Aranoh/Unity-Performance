@@ -90,4 +90,4 @@ Hier een link naar geteste framerate verlies van verschillende post processing e
 [Post processing effects table](/Graphics/PostProcessingTable.md)  
 
 ---
-[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/LowDetailCamera.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/Overdraw.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/LevelOfDetail.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/Overdraw.md)

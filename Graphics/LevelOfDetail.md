@@ -74,4 +74,4 @@ Voor meer informatie over deze low detail camera, inclusief een 'Pseudo-coded br
 [Source: KLM Jets Low Detail Camera](https://www.gamasutra.com/blogs/TomasSala/20150929/254839/KLM_Jets_Doubling_viewingdistance_without_LODing_or_performancedrop.php)  
 
 ---
-[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/GarbageCollector.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/LowDetailCamera.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/GarbageCollector.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/ShadersPostProcessing.md)

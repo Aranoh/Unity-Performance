@@ -12,7 +12,6 @@
 
 ###	CPU:
 * [Level of detail](/Graphics/LevelOfDetail.md)  
-* [Low detail camera](/Graphics/LowDetailCamera.md)  
 
 ###	GPU:
 * [Shaders](/Graphics/ShadersPostProcessing.md)  
