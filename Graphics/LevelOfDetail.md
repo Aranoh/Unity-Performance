@@ -71,7 +71,6 @@ Door gebruik van dit systeem hoeven geen LOD modellen gemaakt te worden. Dit is 
 vaak voor je originele modellen ook al weinig polygonen gebruikt en een LOD model weinig toevoegd. 
 
 Voor meer informatie over deze low detail camera, inclusief een 'Pseudo-coded breakdown' van hoe 'Little Chicken Game Company' dit systeem geïmplementeerd heeft:  
-
 [Source: KLM Jets Low Detail Camera](https://www.gamasutra.com/blogs/TomasSala/20150929/254839/KLM_Jets_Doubling_viewingdistance_without_LODing_or_performancedrop.php)  
 
 ---
