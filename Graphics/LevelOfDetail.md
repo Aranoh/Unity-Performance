@@ -65,7 +65,7 @@ De twee camera's in Unity zullen gebruik maken van layers om te bepalen welke ob
 instellen dat bijvoorbeeld plantjes en kleine stukjes gras niet te zien zijn op de 2e camera aangezien je ze toch bijna niet ziet. Hierdoor hoef 
 je deze objecten niet te renderen wat weer zorgd voor meer framerate.
 
-![Visualisatie Low Detail Camera](/Afbeeldingen/LOD_LowDetailCamera.png)  
+![Visualisatie Low Detail Camera](/Afbeeldingen/LOD_LowDetailCadmera.png)  
 
 Door gebruik van dit systeem hoeven geen LOD modellen gemaakt te worden. Dit is voor games op mobiel extra interessant aangezien je op mobiel 
 vaak voor je originele modellen ook al weinig polygonen gebruikt en een LOD model weinig toevoegd. 
