@@ -31,7 +31,7 @@ CGPROGRAM en ENDCG
 
 tekst van het sub onderdeel
 
-```shader
+```c#
 fixed4 fragFunct(v2f IN) : SV_Target
 {
 	fixed4 col = tex2D(_MainTex, IN.uv);
