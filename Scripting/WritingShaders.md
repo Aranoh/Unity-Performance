@@ -31,7 +31,7 @@ CGPROGRAM en ENDCG
 
 tekst van het sub onderdeel
 
-```cucumber
+```shader
 fixed4 fragFunct(v2f IN) : SV_Target
 {
 	fixed4 col = tex2D(_MainTex, IN.uv);
@@ -39,116 +39,5 @@ fixed4 fragFunct(v2f IN) : SV_Target
 }
 ```
 
-```cucumber
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```cucumber
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```cucumber
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```cucumber
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```cucumber
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```perl 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```php 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```objdump 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```js 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```java 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```html 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```glsl 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```csharp 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
-
-```bash 
-fixed4 fragFunct(v2f IN) : SV_Target
-{
-	fixed4 col = tex2D(_MainTex, IN.uv);
-	return col * _Color;
-}
-```
 ---
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Scripting/GarbageCollector.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/LevelOfDetail.md)
