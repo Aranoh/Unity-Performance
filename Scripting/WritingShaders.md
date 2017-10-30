@@ -114,7 +114,7 @@ renderen of om een kleur filter over dit texture te berekenen.
 
 Door het combineren van outputs van deze twee functies kunnen geavanceerde en hele mooie dingen gemaakt worden. (b.v. reflection, bumpmapping en shadows)
 
-#### Basic Shader example
+### Basic Shader example
 
 Om een beter beeld te krijgen van hoe de basic shader functionaliteit eruit ziet heb ik hieronder een .shader file gemaakt met alleen alle essentiele 
 functies die een shader hoort te bevatten. De enige twee dingen die deze shader doet is de vertices op de goede plek zetten en een texture gebruiken 
