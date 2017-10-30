@@ -19,8 +19,7 @@ is een plugin voor VS 2015, 2017 word op het moment nog niet ondersteund maar da
 
 Unity's shader files zijn zelf te downloaden en te bekijen. Ga hievoor naar de Unity archive site en gebruik de dropdown menu's van de gewenste versie 
 om de 'Built in shaders' te downloaden van deze versie.  
-[Unity: archive](https://unity3d.com/get-unity/download/archive)  
-
+*[Unity: archive](https://unity3d.com/get-unity/download/archive)*  
 Unity standard 'mega shader' 
 Properties
 SubShaders
