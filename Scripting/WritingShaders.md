@@ -21,15 +21,16 @@ Unity's shader files zijn zelf te downloaden en te bekijen. Ga hievoor naar de U
 om de 'Built in shaders' te downloaden van deze versie.  
 *[Unity: archive](https://unity3d.com/get-unity/download/archive)*  
 
-Unity's nieuwe
-Unity standard 'mega shader' 
-Properties
-SubShaders
-Passes
+Unity's nieuwe  
 
-vert en frag functions
+* Unity standard 'mega shader'   
+* Properties  
+* SubShaders  
+* Passes  
 
-CGPROGRAM en ENDCG
+* vert en frag functions  
+
+* CGPROGRAM en ENDCG  
 
 #### Sub onderdeel
 
