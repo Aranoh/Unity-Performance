@@ -21,7 +21,35 @@ Unity's shader files zijn zelf te downloaden en te bekijen. Ga hievoor naar de U
 om de 'Built in shaders' te downloaden van deze versie.  
 *[Unity: archive](https://unity3d.com/get-unity/download/archive)*  
 
-Unity's nieuwe  
+Unity maakt gebruik van een globale shader. In deze shader worden heel veel verschillende effecten gebruikt. Deze Unity shader heeft zelf geen code 
+in zijn shader file staan maar alleen verwijzingen naar andere shaders. Het nadeel van deze grote Unity shader is dat er ook altijd wat berekend 
+zal worden waar je geen gebruik van maakt. Hierom is het belangrijk om de mobiele shaders te gebruiken. Deze shaders maken niet gebruik van een 
+globale overkoepelende shader en is vaak zuiniger in gebruik.
+
+#### Properties
+
+Dit stuk is bedoeld voor Unity zelf. in het properties gedeelte kan je verschillende dingen in de inspector terug laten komen. Denk hierbij aan dingen 
+zoals een texture, een color filter, een Normal map of Parallax map. 
+
+Variabelen die gebruikt worden in een .shader file zijn:
+* 2D 	- gebruikt voor een afbeelding of texture.
+* Range	- Net als in Unity een getal tussen twee getallen selecteren.
+* Float	- Zoals C#'s float, een simpel getal.
+* Color	- Kleur selecteren, 4 waardes tussen 0 en 1 voor RGBA.  
+
+
+
+```
+Properties
+{
+	_MainTex("Albedo", 2D) = "white" {}
+	_Color("Color", Color) = (1,1,1,1)
+	
+	
+	
+
+#### SubShaders
+ 
 
 * Unity standard 'mega shader'   
 * Properties  
