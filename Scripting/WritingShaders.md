@@ -9,9 +9,23 @@ in op het schrijven en lezen van shader files zodat hier aanpassingen op gedaan 
 * Weet een 'basis' shader te schrijven
 ##  
 
-### Onderdelen 
+### Shader Componenten 
 
-Eerste onderwerp en alle tekst die daarbij hoort
+Shaders binnen Unity worden geschreven in een .shader file. Visual studio heeft standaard geen intelliSense support voor .shader files, deze zullen 
+we moeten downloaden. Gelukkig zijn hier wat plugins voor te vinden op het internet.  
+
+Ik maak zelf gebruik van [ShaderLabVS](https://forum.unity.com/threads/free-shaderlabvs-visual-studio-extension-for-unity-shaderlab-programming.425922/) dit 
+is een plugin voor VS 2015, 2017 word op het moment nog niet ondersteund maar daar wordt wel aan gewerkt.  
+
+
+Unity standard 'mega shader' 
+Properties
+SubShaders
+Passes
+
+vert en frag functions
+
+CGPROGRAM en ENDCG
 
 #### Sub onderdeel
 
