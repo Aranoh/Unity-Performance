@@ -39,15 +39,20 @@ aantal voorbeelden van goede keuzes. Gebruik deze als richtlijnen.
 
 ###### List
 Onder de schermen niet veel meer dan een Array. Vaak een van de snellere data structures, gebruik list vooral voor snel ittereren en bijhouden van een niet 
-te vaak veranderende collectie.
+te vaak veranderende collectie.  
+
+Gebruik bij ittereren bij voorkeur een for loop, deze zijn net wat sneller dan een foreach loop. Zorg wel dat je binnen de for loop het object 
+uit je lijst even cached en dit cached object dan ook blijft gebruiken anders raak je de gewonnen snelheid van je for loop kwijt.  
 
 ###### Dictionary
 Gebruikt de Hashtable class. Snel in gebruik als het gaat om constant toevoegen en verwijderen van objecten. Kan ook gebruikt worden om object te indexeren 
 met een Key value. Let op met ittereren over een Dictionary dit is vanwege de onderliggende Hashtable niet een hele snelle operatie. 
 
-###### Struct + List
-Alternatief voor een Dictionary is het gebruik van een List met hierin Struct's van verschillend objecten, hiermee kan een relatie aangegeven worden tussen 
-de objecten in dit Struct en kan er snel over geittereerd worden.
+###### Struct of Class + List
+Alternatief voor een Dictionary is het gebruik van een List met hierin Struct's van verschillend objecten of gewoon een Class object, hiermee kan een relatie 
+aangegeven worden tussen de objecten in dit Struct of Class en kan er snel over geittereerd worden. Structs hebben een lichtere memory footprint dan classes 
+maar classes zijn reference typed in tegenstelling to een struct wat een value typed variabele is. Bedenk goed welke constructie het beste past bij 
+wat er geimplementeerd moet worden.  
 
 ###### Gebruik meerdere datastructure
 Soms kan het voorkomen dat je niet één datastructure kan vinden die het best past bij wat je wilt bereiken, in sommige gevallen kan het voordelig zijn om 
