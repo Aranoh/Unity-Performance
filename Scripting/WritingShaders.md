@@ -127,21 +127,20 @@ Shader "Performing/Base" //Name and location of the shader in Unity Editor
 	Properties
 	{
 		_MainTex("Texture", 2D) = "white" {}
-		_Color("Mix Color", Color) = (1, 1, 1, 1)
-		_ExtrudeAmount("Extrude Amount", Range(0 , .1)) = .1
 	}
-		// First and only SubShader in this .shader file
-		SubShader
+	
+	// First and only SubShader in this .shader file
+	SubShader
+	{
+		// First and only Pass in this SubShader
+		Pass
 		{
-			// First and only Pass in this SubShader
-			Pass
-			{
 			// Start of code running on graphics card
 			CGPROGRAM
 			// Letting the program know what functions we are using
 			#pragma vertex vertFunct
 			#pragma fragment fragFunct
-
+			
 			#include "UnityCG.cginc"
 
 			// Struct to pass to vert function having all info needed in this function
@@ -149,7 +148,6 @@ Shader "Performing/Base" //Name and location of the shader in Unity Editor
 			{
 				float4 vertex : POSITION;
 				float2 uv : TEXCOORD0;
-				float3 normal : NORMAL;
 			};
 
 			// Struct to pass to frag function having all info needed in this function
@@ -161,8 +159,6 @@ Shader "Performing/Base" //Name and location of the shader in Unity Editor
 			
 			// Loading above properties in the CG code
 			sampler2D _MainTex;
-			float4 _Color;
-			float _ExtrudeAmount;
 
 			// Vert function using the appdata struct fields to correctly set its vertices
 			v2f vertFunct(appdata IN)
@@ -176,8 +172,7 @@ Shader "Performing/Base" //Name and location of the shader in Unity Editor
 			// Frag function using the v2f struct fields to set the color of each pixel
 			fixed4 fragFunct(v2f IN) : SV_Target
 			{
-				fixed4 col = tex2D(_MainTex, IN.uv);
-				return col * _Color;
+				return tex2D(_MainTex, IN.uv);
 			}
 			// End of code running on graphics card
 			ENDCG
