@@ -22,14 +22,19 @@ Slaat de audiofile volledig op in memory. Dit is lichter op de CPU maar kost wel
 
 ### Compression Types  
 
-Binnen Unity hebben we keuze uit drie verschillende compressie types. In eerste instantie
+Binnen Unity hebben we keuze uit drie verschillende compressie types. In eerste instantie is er PCM, dit is raw audio data. PCM compressed de 
+audio niet. PCM is de manier waarop de analoge audio gedigitaliseerd wordt. 
 
-Vorbis: https://en.wikipedia.org/wiki/Vorbis (free open source compressie gebreuren)
-PCM: https://docs.unity3d.com/ScriptReference/AudioCompressionFormat.PCM.html (Geen compressie)
-ADPCM: https://docs.unity3d.com/ScriptReference/AudioCompressionFormat.ADPCM.html
-https://nl.wikipedia.org/wiki/Adaptieve_DPCM
-https://en.wikipedia.org/wiki/Pulse-code_modulation
-https://en.wikipedia.org/wiki/Adaptive_differential_pulse-code_modulation
+ADPCM is een goedkope manier om audio de encoden en decoden. Vaak gebruiken bij performance gevoelige stukken audio waarbij kwaliteit niet perse 
+het belangerijkste is. ADPCM's compressie zal minder bits gebruiken voor dezelfde data waardoor een kleine 'noise' kan onstaan.
+
+Vorbis is het derde gebruikte compressie formaat binnen Unity. Vorbis is een open source compressie systeem met meer audio kwaliteit dan andere 
+compressie formaten. Vorbis word veel gebruikt binnen game industrie omdat het niet alleen gratis en open source is maar ook snel werkt en goede 
+kwaliteit audio geeft. Vorbis is wat langzamer dan de agressieve ADPCM compressie.
+
+*[Vorbis](https://en.wikipedia.org/wiki/Vorbis)*  
+*[PCM](https://en.wikipedia.org/wiki/Pulse-code_modulation)*  
+*[ADPCM](https://en.wikipedia.org/wiki/Adaptive_differential_pulse-code_modulation)*  
 
 
 ### Muziek guidelines
