@@ -24,12 +24,16 @@ Hieronder een overzicht van de verschillende tags en de waardes die hieraan gege
 
 * Background (1000)  
 Gebruikt voor de achtergrond en voor objecten die ver in de achtergrond bijven staan. Vanwege lage queue nummer vaak als laatste getekend.  
+
 * Geometry (2000)  
-Wordt gebruikt voor de normale niet transparante objecten in je spel. 
+Wordt gebruikt voor de normale niet transparante objecten in je spel.  
+
 * AlphaTest (2450)  
-Gebruikt voor alpha test geometry objecten
+Gebruikt voor alpha test geometry objecten.  
+
 * Transparent (3000)  
-Gebruikt in transparante objecten. Objecten in deze queue worden van achter naar voor getekend ipv van voor naar achter.
+Gebruikt in transparante objecten. Objecten in deze queue worden van achter naar voor getekend ipv van voor naar achter.  
+
 * Overlay (4000)  
 Gebruikt voor overlay objecten. 
 
