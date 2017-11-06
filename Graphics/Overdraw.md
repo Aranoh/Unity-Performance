@@ -82,10 +82,33 @@ Overdraw in een Unity scene:
 
 ![Overdraw_Unity_Screen](/Afbeeldingen/Overdraw_Unity_Screen.png)  
 
-##### Intell Graphics performance Analyzer  
+##### Intel Graphics performance Analyzer  
 
 Om een betere visualisatie van overdraw te krijgen is aan te raden om hier een tool voor te installeren. De tool die ik gebruikt heb hiervoor en 
-de tool die ook zal willen aanraden om zelf te gebruiken in de GPA van intell. 
+de tool die ook zal willen aanraden om zelf te gebruiken in de GPA van intel.  
+
+De GPA is hier te downloaden:  
+[Intel Graphics Performance Analyzers](https://software.intel.com/en-us/gpa/free-download)  
+
+Via de 'Graphics Frame Analyzer' kan de te meten applicatie worden opgestart, GPA kan niet direct met Unity mee kijken dus zorg voor een build 
+om overdraw op te testen. Met System Analyzer kan verbinding gemaakt worden met dit programma om de overdraw overlay in je game aan te zetten.  
+
+Verbinding maken met je game met de System Analyzer:  
+
+![Overdraw_GPA_Connecting](/Afbeeldingen/Overdraw_GPA_Connecting.png)  
+
+Instellingen aanvingen voor visualisatie overdraw:  
+
+![Overdraw_GPA_Setting](/Afbeeldingen/Overdraw_GPA_Setting.png)  
+
+Unity build met overdraw visualisatie:  
+
+![Overdraw_GPA_GameView](/Afbeeldingen/Overdraw_GPA_GameView.png)  
+
+Met gebruik van bovenstaande overdraw analyzer kan een beter beeld gegeven worden van wat de problemen zijn van je Unity scene. Zoals te zien is 
+als je de twee methode's vergelijkt, in de Unity view is niet te zien dat het linker deel van de weg op een verkeerde render queue zit waardoor het 
+(zoals te zien in intel's GPA) voor extra overdraw problemen zorgd.
+
 
 ---
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/ShadersPostProcessing.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/Polycount.md)
