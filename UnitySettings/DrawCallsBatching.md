@@ -18,4 +18,4 @@ tekst van het sub onderdeel
 
 
 ---
-[![Last Page](/Afbeeldingen/Arrow_back_small.png)](Graphics/ParticleSystems.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Culling.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/ParticleSystems.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Culling.md)
