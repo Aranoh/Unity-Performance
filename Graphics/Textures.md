@@ -17,7 +17,7 @@ te maken voor een scherm wat maar 1920 bij 1080 is. Op mobile is dit uiteraard n
 
 Denk er bij het maken van een texture over na hoe groot dit texture op het scherm zal komen. als het gaat over een schermvullend object kan hiervoor 
 een hoge resolutie texture gemaakt worden. wanneer een object maar 10% de schermhoogte zal gebruiken is het niet nodig om hier 2048 pixels te gebruiken. 
-Probeer een texture groote te pakken die op het scherm dicht tegen een 'texel per pixel' zal zitten. Dit wil zeggen dat een 10x10 texture op 10x10 pixels 
+Probeer een texture groote te pakken die op het scherm dicht tegen een 'texels per pixel' zal zitten. Dit wil zeggen dat een 10x10 texture op 10x10 pixels 
 op het scherm weergegeven wordt. 
 
 ### Mipmaps visualisatie
@@ -35,6 +35,12 @@ Gebruik van LOD om meer blau te krijgen in de mipmap visualisatie:
 
 ![Textures_mipmap_LOD](/Afbeeldingen/Textures_mipmap_LOD.png)  
 
+Verschil van textures ver weg is bijna niet te zien in het rechter scherm, wel een duidelijke grote verbetering van je 'texels per pixel' waarde.  
+
+### Texture compressie  
+
+nog een keer naar kijken
+
 
 ---
-[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/UnitySettings/DrawCallsBatching.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Culling.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/Overdraw.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/ParticleSystems.md)

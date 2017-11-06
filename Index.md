@@ -16,16 +16,15 @@
 ###	GPU:
 * [Shaders](/Graphics/ShadersPostProcessing.md)  
 * [Overdraw](/Graphics/Overdraw.md)  
+* [Textures](/Graphics/Textures.md)  
 
 ###	Both:
-* [Polycount](/Graphics/Polycount.md)
 * [Particle Systems](/Graphics/ParticleSystems.md)   
 
 ## Unity Settings
 
 ###	CPU:
 * [Draw calls & Batching](/UnitySettings/DrawCallsBatching.md)  
-* [Textures](/UnitySettings/Textures.md)  
 * [Culling](/UnitySettings/Culling.md)  
 * [Audio](/UnitySettings/Audio.md)  
 

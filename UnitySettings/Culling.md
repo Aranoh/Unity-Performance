@@ -121,4 +121,4 @@ void OnDrawGizmos()
 ```  
 
 ---
-[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/UnitySettings/Textures.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Audio.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/UnitySettings/DrawCallsBatching.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Audio.md)

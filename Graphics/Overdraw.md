@@ -111,4 +111,4 @@ als je de twee methode's vergelijkt, in de Unity view is niet te zien dat het li
 
 
 ---
-[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/ShadersPostProcessing.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/Polycount.md)
+[![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/ShadersPostProcessing.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/Graphics/Textures.md)
