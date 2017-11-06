@@ -49,11 +49,7 @@ In je shader kan de RenderType tag worden aangepast:
 SubShader
 {
 	Tags { "RenderType"="Transparent" }
-	Pass
-	{
-		//Shader code
-	}
-}
+	// Rest of shader code
 ```
 
 Ook in C# kan het render queue nummer worden aangepast:
