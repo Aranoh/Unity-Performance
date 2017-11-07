@@ -18,20 +18,20 @@ Batching zal automatish gebeuren zolang Unity objecten tegen komt die met dezelf
 Dynamic batching zal automatish gebeuren zonder dat je hier iets voor hoeft te doen. Wel moeten objecten aan bepaalde criterea voldoen om gebatched 
 te mogen worden.
 
-* Een object mag niet meer dan 900 vertices anders zal het niet mee genomen worden in batching.
+* Een object mag niet meer dan 900 vertices anders zal het niet mee genomen worden in batching.  
 Dynamic batching is niet gratis. Om ervoor te zorgend dat het geen framerate gaat kosten is er een limiet op het aantal vertices. Deze limit zal 
 veranderen met het gebruik van complexe shaders. Bij gebruik van Vertex positie, Normal en UV map bijvoorbeeld zit de limiet op 300.
 
-* Game objecten worden niet gebatched als ze spiegelen over te transform.
+* Game objecten worden niet gebatched als ze spiegelen over te transform.  
 Dit wil zeggen dat objecten met een scale van -1 niet gebatched kunnen worden met objecten met een scale van +1.
  
-* Batching kan niet gebeuren wanneer verschillende materials gebruikt worden. 
+* Batching kan niet gebeuren wanneer verschillende materials gebruikt worden.  
 Elke nieuwe material zal op zijn minst een extra draw call maken. Objecten met dezelfde material kunnen wel gebatched worden.
 
-* Alleen objecten met dezelfde gebakken light map kunnen gebatched worden.
+* Alleen objecten met dezelfde gebakken light map kunnen gebatched worden.  
 Wanneer verschillende objecten niet presies dezelfde lightmap locatie gebruiken kunnen deze niet gebatched worden.
 
-* Multi pass shaders worden niet gebatched.
+* Multi pass shaders worden niet gebatched.  
 Shaders die gebruik maken van meerdere passes om bijvoorbeeld licht inval te renderen worden niet mee genomen in dynamic batching.
 
  
