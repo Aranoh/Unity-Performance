@@ -34,7 +34,23 @@ Wanneer verschillende objecten niet presies dezelfde lightmap locatie gebruiken 
 * Multi pass shaders worden niet gebatched.  
 Shaders die gebruik maken van meerdere passes om bijvoorbeeld licht inval te renderen worden niet mee genomen in dynamic batching.
 
- 
+Buiten 'Dynamic batching' kan Unity nog een tweede automatishe techniek toepassen. Deze techniek word gebruikt op objecten die gemarkeerd 
+zijn als 'static'. Deze techniek heet dan ook 'Static batching'. Static batching is efficiënter dan dynamic batching maar gebruikt wel iets 
+meer memory. Static batching gebeurd zolang verschillende objecten dezelfde material gebruiken.
+
+### Manual batching
+
+Buiten Unity's eigen technieken om draw calls te batchen kunnen wij zelf ook wat doen om objecten te batchen. Wat veel gedaan word is gebruik maken 
+van een zogenoemde 'mesh and texture combiner'. Deze kan zelf geschreven worden, maar aan te raden is om een van de vele gratis implementaties 
+van dit systeem te gebruiken. Met dergelijke scripts kunnen verschillende objecten met dezelfde shaders aan elkaar geknipt worden tot een object. 
+Unity hoeft dan zelf niet meer na te denken over batching waardoor weer wat extra framerate behaald kan worden.  
+
+Let op dat deze techniek niet altijd even handig kan zij. Zo kan bijvoorbeeld culling niet meer toegepast worden wanneer alle meshes aan elkaar 
+geplakt zijn en ook kunnen aan elkaar geplakte objecten niet afzonderlijk bewegen of verwijderd worden.
+
+Handige tool voor combineren mesh en textures:  
+[MaTC door Tatsuya Sato](https://bitbucket.org/ciitt/mesh-and-texture-combiner)  
+
 ### Frame debugger
 
 tekst van het sub onderdeel
