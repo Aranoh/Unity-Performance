@@ -40,16 +40,28 @@ meer memory. Static batching gebeurd zolang verschillende objecten dezelfde mate
 
 ### Manual batching
 
-Buiten Unity's eigen technieken om draw calls te batchen kunnen wij zelf ook wat doen om objecten te batchen. Wat veel gedaan word is gebruik maken 
-van een zogenoemde 'mesh and texture combiner'. Deze kan zelf geschreven worden, maar aan te raden is om een van de vele gratis implementaties 
-van dit systeem te gebruiken. Met dergelijke scripts kunnen verschillende objecten met dezelfde shaders aan elkaar geknipt worden tot een object. 
-Unity hoeft dan zelf niet meer na te denken over batching waardoor weer wat extra framerate behaald kan worden.  
+Buiten Unity's eigen technieken om draw calls te batchen kunnen wij zelf ook wat doen om objecten te batchen. Dit kan met scripts gedaan 
+worden maar ook kunnen artists hier op inspelen met het maken van textures en modellen.  
+
+#### Scripting batching
+
+Wat veel gedaan word is gebruik maken van een zogenoemde 'mesh and texture combiner'. Deze kan zelf geschreven worden, maar aan te raden is 
+om een van de vele gratis implementaties van dit systeem te gebruiken. Met dergelijke scripts kunnen verschillende objecten met dezelfde shaders 
+aan elkaar geknipt worden tot een object. Unity hoeft dan zelf niet meer na te denken over batching waardoor weer wat extra framerate behaald 
+kan worden.  
 
 Let op dat deze techniek niet altijd even handig kan zij. Zo kan bijvoorbeeld culling niet meer toegepast worden wanneer alle meshes aan elkaar 
 geplakt zijn en ook kunnen aan elkaar geplakte objecten niet afzonderlijk bewegen of verwijderd worden.
 
 Handige tool voor combineren mesh en textures:  
 [MaTC door Tatsuya Sato](https://bitbucket.org/ciitt/mesh-and-texture-combiner)  
+
+#### batching in 3D modelleren
+
+De techniek die hierboven beschreven staat kan ook door de artist gemaakt worden. Over het algemeen maak je losse objecten om ze dan in Unity weer 
+te kunnen combineren tot een stad of andere omgeving. Wat bij het 3D modelleren gedaan kan worden is verschillende modellen van dezelfde texture 
+atlas gebruik te laten maken. Door dezelfde texture te gebruiken voor verschillende modellen kan Unity sneller en efficiënter batching toepassen 
+op deze objecten. Ook zal het memory verbruik van verschillende objecten met dezelfde texture atlas een stuk lager liggen.  
 
 ### Frame debugger
 

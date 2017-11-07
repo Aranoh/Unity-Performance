@@ -46,7 +46,7 @@ Later richting een release build kan wanneer nodig altijd nog met meer precisie 
 
 * Let op dat je scene is opgeslagen, zonder opgeslagen scene kan er geen occlusion gebakken worden.
 * Zorg voor trees op Unity Terrain dat de prefabs op static staan anders worden ze niet meegenomen tijdens bakken.
-* Er wordt altijd in een cube gescand. Een enkele losse vogel hoog in je scene of vis heel laag kan de baktijd flink beinvloeden.  
+* Er wordt altijd in een cube gescand. Een enkele losse vogels heel hoog in je scene kan de baktijd flink beinvloeden.  
 
 ### Culling Groups
 
