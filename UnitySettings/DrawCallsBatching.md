@@ -70,11 +70,14 @@ op deze objecten. Ook zal het memory verbruik van verschillende objecten met dez
 
 Het kan af en toe niet meteen duidelijk zijn waarom bepaalde objecten niet gebatched kunnen worden. In deze gevallen kunnen we gebruik maken van 
 Unity's frame debugger. Frame debugger kan per frame alle draw calls los laten zien. Unity bij veel draw calls ook aangeven waarom deze draw call 
-niet samengevoegd kon worden aan de vorrige. Door de lijst van draw calls langzaam af te werken kan je draw calls verminderen. 
+niet samengevoegd kon worden aan de vorrige.  
 
 ![Draw_Calls_FrameDebuggerA](/Afbeeldingen/Draw_Calls_FrameDebuggerA.png)  
 ![Draw_Calls_FrameDebuggerB](/Afbeeldingen/Draw_Calls_FrameDebuggerB.png)  
 ![Draw_Calls_FrameDebuggerC](/Afbeeldingen/Draw_Calls_FrameDebuggerC.png)  
+
+Door de lijst van draw calls langzaam af te werken kan je draw calls vaak al genoeg verminderen tot je op een gewenst aantal zit. Ga hierna pas 
+kijken naar niet automatishe batching methode's.   
 
 ---
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/ParticleSystems.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Culling.md)
