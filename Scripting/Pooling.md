@@ -18,6 +18,10 @@ schelen in performance van je game.
 gepoolde objecten zullen niet via de 'Start' methode lopen. gebruik voor objecten die je wilt poolen de 'OnEnable' functie om het object te initialiseren, zorg 
 dat je in deze OnEnable alle waardes terug op zijn standaard waardes zet zodat het game object 'als nieuw' is en gebruikt kan worden waar het voor bedoeld is.  
 
+Het is verstandig om een losse spawn of reset functie te schrijven zodat deze in eerste instantie via 'Start' aangeroepen kan worden en bij latere 
+builds van je game omgezet kan worden naar pooling via 'OnEnable'. Let ook op dat je Objecten niet om een andere reden aan en uit hoeft te zetten 
+(culling bijvoorbeeld) mocht je dit wel willen doen roep dan de reset functie aan via een andere klas wanneer het object gespawned wordt.  
+
 ### Memory Gebruik  
 
 Het nadeel van objecten poolen is dat deze objecten constant in het memory zullen staan. Op pc is dit vaak niet zo'n probleem omdat deze vaak over veel RAM 

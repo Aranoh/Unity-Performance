@@ -3,7 +3,10 @@
 
 Het tekenen van een object op het scherm gaat via 'Draw Calls'. Draw calls zijn te verglijken met een schilder die nieuwe (en andere) verf op zijn 
 kwast doet om daarna weer iets moois te schilderen. Zo is in Unity elk object met een nieuwe material weer een nieuwe draw call om zo min mogelijk 
-draw calls te krijgen in je scene moeten we weten waar extra draw calls vandaan komen.
+draw calls te krijgen in je scene moeten we weten waar extra draw calls vandaan komen.  
+
+Voor next gen PC games is het vaak niet erg om duizenden draw calls te hebben maar op mobile is het wel vrij belangerijk om zo min mogelijk draw 
+calls te hebben. Er word veel aangeraden om niet boven de 50 draw calls te komen met je game om zeker te weten dat je ook low en devices kan ondersteunen.  
 
 ## Actie Punten
 * Weet waar draw calls vandaan komen
@@ -56,7 +59,7 @@ geplakt zijn en ook kunnen aan elkaar geplakte objecten niet afzonderlijk bewege
 Handige tool voor combineren mesh en textures:  
 [MaTC door Tatsuya Sato](https://bitbucket.org/ciitt/mesh-and-texture-combiner)  
 
-#### batching in 3D modelleren
+#### Batching in 3D modelleren
 
 De techniek die hierboven beschreven staat kan ook door de artist gemaakt worden. Over het algemeen maak je losse objecten om ze dan in Unity weer 
 te kunnen combineren tot een stad of andere omgeving. Wat bij het 3D modelleren gedaan kan worden is verschillende modellen van dezelfde texture 
@@ -65,8 +68,13 @@ op deze objecten. Ook zal het memory verbruik van verschillende objecten met dez
 
 ### Frame debugger
 
-tekst van het sub onderdeel
+Het kan af en toe niet meteen duidelijk zijn waarom bepaalde objecten niet gebatched kunnen worden. In deze gevallen kunnen we gebruik maken van 
+Unity's frame debugger. Frame debugger kan per frame alle draw calls los laten zien. Unity bij veel draw calls ook aangeven waarom deze draw call 
+niet samengevoegd kon worden aan de vorrige. Door de lijst van draw calls langzaam af te werken kan je draw calls verminderen. 
 
+![Draw_Calls_FrameDebuggerA](/Afbeeldingen/Draw_Calls_FrameDebuggerA.png)  
+![Draw_Calls_FrameDebuggerB](/Afbeeldingen/Draw_Calls_FrameDebuggerB.png)  
+![Draw_Calls_FrameDebuggerC](/Afbeeldingen/Draw_Calls_FrameDebuggerC.png)  
 
 ---
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/Graphics/ParticleSystems.md) [![Next Page](/Afbeeldingen/Arrow_next_small.png)](/UnitySettings/Culling.md)
