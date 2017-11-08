@@ -159,7 +159,7 @@ aangeeft wat geraakt wordt. Voor sommige objecten die bijvoorbeeld moeten ontplo
 ```c#
 void OnTriggerEnter()
 {
-	Debug.log(Triggered);
+	Debug.log("Triggered");
 }
 ```  
 
