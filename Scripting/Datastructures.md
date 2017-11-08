@@ -37,9 +37,9 @@ is een 'Cheat Sheet' met hierin alle veel gebruikte operaties van data structure
 Het is bijna niet mogelijk om een complete lijst te geven van welk data structure het best te gebruiken is bij verschillend implementaties. Hieronder volgen een 
 aantal voorbeelden van goede keuzes. Gebruik deze als richtlijnen.
 
-###### List
+###### List & Array
 Onder de schermen niet veel meer dan een Array. Vaak een van de snellere data structures, gebruik list vooral voor snel ittereren en bijhouden van een niet 
-te vaak veranderende collectie.  
+te vaak veranderende collectie.  Wanneer de collectie helemaal of bijna niet veranderd kan ook goed gebruik gemaakt worden van een Array.
 
 Gebruik bij ittereren bij voorkeur een for loop, deze zijn net wat sneller dan een foreach loop. Zorg wel dat je binnen de for loop het object 
 uit je lijst even cached en dit cached object dan ook blijft gebruiken anders raak je de gewonnen snelheid van je for loop kwijt.  

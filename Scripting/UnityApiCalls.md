@@ -149,6 +149,20 @@ void OnTriggerEnter(Collider other)
 	bool isPlayer = other.gameObject.CompareTag(playerTag);
 }
 ``` 
+
+##### Parameter loze functies
+
+Voor sommige functies is het mogelijk om met een parameter loze vervanging te werken. Een goed voorbeeld hiervan zijn de parameter loze collision 
+functies. Zowel voor OnCollision en OnTrigger is het mogelijk om een parameterloze functie te hebben, dat wil dus zeggen zonder 'hit' value die 
+aangeeft wat geraakt wordt. Voor sommige objecten die bijvoorbeeld moeten ontploffen zodra ze iets raken is dit voldoende.  
+
+```c#
+void OnTriggerEnter()
+{
+	Debug.log(Triggered);
+}
+```  
+
 ##### Andere API calls  
 
 Hierboven gebruikte API calls zijn in eerste instantie voorbeelden, Unity heeft een hele lijst met functies en objecten die gebruikt kunnen worden en om hier een 

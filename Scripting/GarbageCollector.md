@@ -7,7 +7,7 @@ zo min mogelijk "data te alloceren" tijdens het draaien van je spel. Hoe minder 
 
 ## Actie Punten
 * Weten verschil 'Stack' en 'Heap' memory en welke waardes waarin komen
-* Cashing data om niet elke frame memory te hoeven alloceren
+* Caching data om niet elke frame memory te hoeven alloceren
 * Zuinig omgaan met gebruik garbage makende methode's
 * Draai 'dure' code niet elke frame maar op een timer
 * Hergebruiken van collecties
@@ -99,7 +99,7 @@ Dit brengt ons meteen op drie strategien om het te verbeteren:
 
 De kopjes hieronder gaan dieper in hoe je de garbage allocatie kan verkleinen door het toepassen van 'best practices' tijdens coderen.
 
-### Cashing
+### Caching
 
 Door het slim cashen van waardes kan memory direct hergebruikt worden en hoeft het niet eerst gedealloceerd te worden om het vervolgens weer te alloceren.
 
