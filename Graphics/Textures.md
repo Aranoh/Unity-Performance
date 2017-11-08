@@ -37,9 +37,16 @@ Gebruik van LOD om meer blau te krijgen in de mipmap visualisatie:
 
 Verschil van textures ver weg is bijna niet te zien in het rechter scherm, wel een duidelijke grote verbetering van je 'texels per pixel' waarde.  
 
-### Texture compressie  
+### Texture compressie en quality 
 
-nog een keer naar kijken
+In Unity kunnen heel wat verschillende formaten geimporteerd worden (zoals JPG, PNG of PSD) deze formaten zijn echter niet dezelfde formaten als die 
+gemaakt worden tijdens een build. Per platform is in te stellen watvoor formaat textures krijgen en of ze nog gecompressed worden.  
+
+![Textures_QualitySettings](/Afbeeldingen/Textures_QualitySettings.png)  
+
+Gebruik onderstaande tabel voor instellingen, ga pas op zoek naar andere format instellingen als deze niet goed werken.  
+
+[Default instellingen per platform](/Graphics/Default_Texture_Settings.md)  
 
 
 ---
