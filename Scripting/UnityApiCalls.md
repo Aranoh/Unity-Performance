@@ -154,7 +154,8 @@ void OnTriggerEnter(Collider other)
 
 Voor sommige functies is het mogelijk om met een parameter loze vervanging te werken. Een goed voorbeeld hiervan zijn de parameter loze collision 
 functies. Zowel voor OnCollision en OnTrigger is het mogelijk om een parameterloze functie te hebben, dat wil dus zeggen zonder 'hit' value die 
-aangeeft wat geraakt wordt. Voor sommige objecten die bijvoorbeeld moeten ontploffen zodra ze iets raken is dit voldoende.  
+aangeeft wat geraakt wordt. Voor sommige objecten die bijvoorbeeld moeten ontploffen zodra ze iets raken is dit voldoende. Mocht je raket bepaalde 
+colliders niet willen raken dan kan gebruik gemaakt worden van de collision layers om dit te voorkomen. 
 
 ```c#
 void OnTriggerEnter()
@@ -162,6 +163,11 @@ void OnTriggerEnter()
 	Debug.log("Triggered");
 }
 ```  
+##### Vector3.sqrMagnitude
+
+De twee functies Magnitude en sqrMagnitude lijken op elkaar, toch is gebruik van de sqrMagnitude functie sneller dan de normale functie. Dit omdat 
+de normale funcie een wortel getal moet gaan berekenen wat behoorlijk wat kost. Het is verstandiger om de sqrMagnitude functie te gebruiken en dan 
+de te verglijken waarden kwadrateren.  
 
 ##### Andere API calls  
 
