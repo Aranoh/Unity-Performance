@@ -44,7 +44,7 @@ gemaakt worden tijdens een build. Per platform is in te stellen watvoor formaat 
 
 ![Textures_QualitySettings](/Afbeeldingen/Textures_QualitySettings.png)  
 
-Gebruik onderstaande tabel voor instellingen, ga pas op zoek naar andere format instellingen als deze niet goed werken.  
+Gebruik onderstaande tabel voor deze instellingen, ga pas op zoek naar andere format instellingen als deze niet goed werken.  
 
 [Default instellingen per platform](/Graphics/Default_Texture_Settings.md)  
 
