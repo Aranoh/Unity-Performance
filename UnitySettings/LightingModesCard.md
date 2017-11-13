@@ -7,7 +7,7 @@
 |-------------------------------------|---------------------|-----------------------|-----------------------|---------------------|
 |                                     |                     |                       |                       |                     |
 | Light                               |                     |                       |                       |                     |
-|                                     | Receiver            | Receiver              |                       |                     |
+|                                     | Receiver                                   | Receiver                                  |
 | Submode                             | Direct lighting     | Indirect lighting     | Direct lighting       | Indirect lighting   |
 | Realtime                            |                     |                       |                       |                     |
 |                                     | Dynamic receiver    | Static receiver       |                       |                     |
