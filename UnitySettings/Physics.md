@@ -6,7 +6,7 @@ Mocht dit het geval zijn kunnen wat slimme dingen gedaan worden om de performanc
 niet afhankelijk is van je physics objecten. 
 
 Denk eraan altijd 2D te gebruiken als dit mogelijk is. Gebruik van 3D voor een 2D game voegt een 
-extra dementie toe wwaar je niks aan hebt.  
+extra demensie toe waar je niks mee kan.  
 
 ## Actie Punten
 * Time manager gebruiken om de tijd gespendeerd aan physics te verkleinen
