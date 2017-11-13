@@ -29,10 +29,16 @@ Light baking in Unity gaat voor het grootste gedeelte via het 'Lighting' window.
 In dit window zijn een aantal opties terug te vinden. In eerste instantie zijn er opties voor de normale licht instellingen. Er zijn instellingen 
 voor gebruik van skybox of sky color en reflecties.  
 
-Belangerijke instellingen in het eerste gedeelte zijn:
+Belangerijke instelling uit het eerste gedeelte:  
 * Ambient Mode
-keuze uit twee opties, 'Realtime' en 'baked' kies als je gebakken data wil gebruiken voor ambient licht voor de 'baked' optie.
-* 
+keuze uit twee opties, 'Realtime' en 'baked' kies als je gebakken data wil gebruiken voor ambient licht kies dan voor de 'baked' optie.
+
+Realtime Lighting:  
+* Realtime Global Illumination
+Wanneer deze checkbox aangevinkt is zal 'Global Illumination' realtime berekend worden.
+
+Mixed Lighting:  
+*
 ### Light probes
 
 ---

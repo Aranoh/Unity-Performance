@@ -22,12 +22,12 @@ De time manager heeft instellingen voor FixedUpdate en physics, Binnen de time m
 zijn er twee opties die de performance van je game kunnen verbeteren door niet zoveel tijd bezig te zijn met physics.
 
 Time manager opties:  
-* Fixed Timestep
+* Fixed Timestep  
 Fixed timestep is de interval van FixedUpdate en Physics berekeningen. Door dit te verhogen word het interval waarop deze functionaliteit aangeroepen 
 wordt vergroot. Probeer een setting te vinden die geen effect heeft op je spel (genoeg precisie behouden voor physics berekeningen) maar wel voor
 een betere performance kan zorgen.  
 
-* Maximum Allowed Timestep
+* Maximum Allowed Timestep  
 Deze inselling kan gebruikt worden om spikes in je game te verminderen door de maximale tijd die physics berekeningen kunnen duren te limiteren 
 door deze inselling goed te gebruiken kan ervoor gezorgd worden dat je nooit tegen onverwachte framerate problemen aan zal lopen door physics.  
 
@@ -54,15 +54,15 @@ Door gebruik van deze collision matrix kan het aantal onnodige collisions verkle
 Raycasting is een vrij zware physics operatie. Gebruik raycasts dus op een goede en zuinige manier zodat dit niet ten kosten hoeft te gaan van de performance 
 van je game. Om te zorgen dat racasting niet een probleem gaat worden zijn hier wat pointers waarop gelet kan worden.
 
-* Gebruik zo min mogelijk raycasts
+* Gebruik zo min mogelijk raycasts  
 Dit klinkt misschien een beetje voordehand liggend maar probeer zo min mogelijk raycasts te gebruiken om het gewenste resultaat te krijgen.  
-* Gebruik niet te lange raycasts
+* Gebruik niet te lange raycasts  
 De performance van een raycast is direct afhankelijk van de lenge van de ray. Gebruik dus niet te lange raycasts waardoor de performance omlaag zal gaan.  
-* Gebruik bij voorkeur geen mesh colliders voor racasting
+* Gebruik bij voorkeur geen mesh colliders voor racasting  
 Mesh colliders zoals hierboven ook beschreven hebben een hogere impact op de performance dit geld niet alleen voor collisions maar ook van raycasts naar een mesh collider.  
-* Gebruik raycasts niet in Update functies
+* Gebruik raycasts niet in Update functies  
 Vaak is het overkill om een raycast in een Update of FixedUpdate te plaatsen. Probeer dit niet te doen als het niet nodig is.  
-* Gebruik maken van layer masks 
+* Gebruik maken van layer masks  
 Gebruik de layer masks binnen raycasts om onnodige berekeningen van de raycast te veminderen en zo betere performance te krijgen.  
 
 ### Rigidbody en static colliders  
