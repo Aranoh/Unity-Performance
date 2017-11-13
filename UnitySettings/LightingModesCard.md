@@ -3,15 +3,8 @@
 [terug naar index](/Index.md#unity-settings)   
 [terug naar Light and Shadows](/UnitySettings/LightAndShadows.md)  
 
+### Lights
 <table>
-  <tr>
-    <th colspan="5" rowspan="2">Unity Lighting Modes Reference Card</th>
-  </tr>
-  <tr>
-  </tr>
-  <tr>
-    <td colspan="5"><b>Light</b></td>
-  </tr>
   <tr>
     <td></td>
     <td colspan="2">Receiver</td>
@@ -23,6 +16,9 @@
     <td>Indirect lighting</td>
     <td>Direct lighting</td>
     <td>Indirect lighting</td>
+  </tr>
+  <tr>
+  <td colspan="5"> </td>
   </tr>
   <tr>
     <td colspan="5"><b>Realtime</b></td>
@@ -101,10 +97,8 @@
   </tr>
   </table>
   
+  ### Shadows 
   <table>
-  <tr>
-    <td colspan="5"><b>Shadows</b></td>
-  </tr>
   <tr>
     <td>Submode</td>
     <td colspan="2">Receiver</td>
@@ -117,12 +111,8 @@
     <td>Within shadow dist.</td>
     <td>Beyond shadow dist.</td>
   </tr>
-  <tr>
-    <td>Caster</td>
-    <td>Within shadow dist.</td>
-    <td>Beyond shadow dist.</td>
-    <td>Within shadow dist.</td>
-    <td>Beyond shadow dist.</td>
+<tr>
+  <td colspan="5"> </td>
   </tr>
   <tr>
     <td colspan="5"><b>Realtime</b></td>
