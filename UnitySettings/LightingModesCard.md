@@ -140,7 +140,7 @@
     <td colspan="5"><b>Mixed</b></td>
   </tr>
   <tr>
-    <td>Baked Indirect</td>
+    <td><b>Baked Indirect</b></td>
     <td colspan="2">Dynamic receiver</td>
     <td colspan="2">Static receiver</td>
   </tr>
@@ -161,7 +161,7 @@
   <tr>
   </tr>
   <tr>
-    <td>Shadowmask</td>
+    <td><b>Shadowmask</b></td>
     <td colspan="2">Dynamic receiver</td>
     <td colspan="2">Static receiver</td>
   </tr>
@@ -182,7 +182,7 @@
   <tr>
   </tr>
   <tr>
-    <td>Distance Shadowmask</td>
+    <td><b>Distance Shadowmask</b></td>
     <td colspan="2">Dynamic receiver</td>
     <td colspan="2">Static receiver</td>
   </tr>
