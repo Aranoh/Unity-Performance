@@ -6,8 +6,8 @@
 | Unity Lighting Modes Reference Card |                     |                       |                       |                     |
 |-------------------------------------|---------------------|-----------------------|-----------------------|---------------------|
 |                                     |                     |                       |                       |                     |
-| Light                               |                     |                       |                       |                     |
-|                                     | Receiver                                   | Receiver                                  |
+| *Light*                               |                     |                       |                       |                     |
+|                                     | Receiver                                    | Receiver                                    |
 | Submode                             | Direct lighting     | Indirect lighting     | Direct lighting       | Indirect lighting   |
 | Realtime                            |                     |                       |                       |                     |
 |                                     | Dynamic receiver    | Static receiver       |                       |                     |
