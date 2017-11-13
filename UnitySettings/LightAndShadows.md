@@ -30,15 +30,22 @@ In dit window zijn een aantal opties terug te vinden. In eerste instantie zijn e
 voor gebruik van skybox of sky color en reflecties.  
 
 Belangerijke instelling uit het eerste gedeelte:  
-* Ambient Mode
+* Ambient Mode  
 keuze uit twee opties, 'Realtime' en 'baked' kies als je gebakken data wil gebruiken voor ambient licht kies dan voor de 'baked' optie.
 
-Realtime Lighting:  
-* Realtime Global Illumination
+Realtime Lighting:   
+* Realtime Global Illumination  
 Wanneer deze checkbox aangevinkt is zal 'Global Illumination' realtime berekend worden.
 
-Mixed Lighting:  
-*
+Mixed Lighting:   
+* Baked Global Illumination  
+Geeft aan of mixed en baked lichten gebruik maken van de gebakken data.  
+
+* Lighting Mode  
+Beslist hoe mixed lights en shaduwen werken in je scene. Om een beter beeld te krijgen van welke opties er allemaal zijn en of ze wel of niet gebruik 
+maken van gebakken data kan je de [Lighting Modes Reference Card](/UnitySettings/LightingModesCard.md) bekijken.  
+
+* 
 ### Light probes
 
 ---
