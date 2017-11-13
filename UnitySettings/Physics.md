@@ -56,12 +56,16 @@ van je game. Om te zorgen dat racasting niet een probleem gaat worden zijn hier 
 
 * Gebruik zo min mogelijk raycasts  
 Dit klinkt misschien een beetje voordehand liggend maar probeer zo min mogelijk raycasts te gebruiken om het gewenste resultaat te krijgen.  
+
 * Gebruik niet te lange raycasts  
 De performance van een raycast is direct afhankelijk van de lenge van de ray. Gebruik dus niet te lange raycasts waardoor de performance omlaag zal gaan.  
+
 * Gebruik bij voorkeur geen mesh colliders voor racasting  
 Mesh colliders zoals hierboven ook beschreven hebben een hogere impact op de performance dit geld niet alleen voor collisions maar ook van raycasts naar een mesh collider.  
+
 * Gebruik raycasts niet in Update functies  
 Vaak is het overkill om een raycast in een Update of FixedUpdate te plaatsen. Probeer dit niet te doen als het niet nodig is.  
+
 * Gebruik maken van layer masks  
 Gebruik de layer masks binnen raycasts om onnodige berekeningen van de raycast te veminderen en zo betere performance te krijgen.  
 
