@@ -45,6 +45,9 @@ Geeft aan of mixed en baked lichten gebruik maken van de gebakken data.
 Beslist hoe mixed lights en shaduwen werken in je scene. Om een beter beeld te krijgen van welke opties er allemaal zijn en of ze wel of niet gebruik 
 maken van gebakken data kan je de [Lighting Modes Reference Card](/UnitySettings/LightingModesCard.md) bekijken.  
 
+#### Stappen plan Light baking  
+
+
 
 ### Light probes
 
