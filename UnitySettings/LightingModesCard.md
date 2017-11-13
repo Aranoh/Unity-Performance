@@ -10,7 +10,7 @@
   <tr>
   </tr>
   <tr>
-    <td colspan="5"><font size="30"><b>Light</b></font></td>
+    <td colspan="5"><b>Light</b></td>
   </tr>
   <tr>
     <td></td>
@@ -25,7 +25,7 @@
     <td>Indirect lighting</td>
   </tr>
   <tr>
-    <td colspan="5">Realtime</td>
+    <td colspan="5"><b>Realtime</b></td>
   </tr>
   <tr>
     <td></td>
@@ -47,7 +47,7 @@
     <td>Realtime lightmap</td>
   </tr>
   <tr>
-    <td colspan="5">Mixed</td>
+    <td colspan="5"><b>Mixed</b></td>
   </tr>
   <tr>
     <td></td>
@@ -83,7 +83,7 @@
     <td>Lightmap</td>
   </tr>
   <tr>
-    <td colspan="5">Baked</td>
+    <td colspan="5"><b>Baked</b></td>
   </tr>
   <tr>
     <td></td>
@@ -100,7 +100,7 @@
   <tr>
   </tr>
   <tr>
-    <td colspan="5">Shadows</td>
+    <td colspan="5"><b>Shadows</b></td>
   </tr>
   <tr>
     <td>Submode</td>
@@ -122,7 +122,7 @@
     <td>Beyond shadow dist.</td>
   </tr>
   <tr>
-    <td colspan="5">Realtime</td>
+    <td colspan="5"><b>Realtime</b></td>
   </tr>
   <tr>
     <td></td>
@@ -144,7 +144,7 @@
     <td>-</td>
   </tr>
   <tr>
-    <td colspan="5">Mixed</td>
+    <td colspan="5"><b>Mixed</b></td>
   </tr>
   <tr>
     <td>Baked Indirect</td>
@@ -229,7 +229,7 @@
     <td>Lightmap</td>
   </tr>
   <tr>
-    <td colspan="5">Baked</td>
+    <td colspan="5"><b>Baked</b></td>
   </tr>
   <tr>
     <td></td>
