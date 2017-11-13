@@ -10,7 +10,7 @@
   <tr>
   </tr>
   <tr>
-    <td colspan="5">Light</td>
+    <td colspan="5"><b>Light</b></td>
   </tr>
   <tr>
     <td></td>
