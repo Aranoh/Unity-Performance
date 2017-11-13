@@ -30,4 +30,4 @@
 
 ###	Both:
 * [Physics](/UnitySettings/Physics.md)  
-* [Light and Shadows](/UnitySettings/LightAndShadows.md)  
+* [Licht en Shaduws](/UnitySettings/LightAndShadows.md)  

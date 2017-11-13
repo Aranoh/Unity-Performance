@@ -1,4 +1,4 @@
-# Onderwerp
+# Licht en Shaduws
 [terug naar index](/Index.md#unity-settings)  
 
 Realtime licht in een game kan behoorlijk veel power eisen van je device. Toch ziet een game er met licht en schaduw er een stuk mooier uit 
@@ -45,7 +45,7 @@ Geeft aan of mixed en baked lichten gebruik maken van de gebakken data.
 Beslist hoe mixed lights en shaduwen werken in je scene. Om een beter beeld te krijgen van welke opties er allemaal zijn en of ze wel of niet gebruik 
 maken van gebakken data kan je de [Lighting Modes Reference Card](/UnitySettings/LightingModesCard.md) bekijken.  
 
-* 
+
 ### Light probes
 
 ---
