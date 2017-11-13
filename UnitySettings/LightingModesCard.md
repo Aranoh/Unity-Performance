@@ -244,3 +244,7 @@
     <td>Lightmap</td>
   </tr>
 </table>
+
+[Unity Docs: Baked Indirect](https://docs.unity3d.com/Manual/LightMode-Mixed-BakedIndirect.html)  
+[Unity Docs: Shadowmask](https://docs.unity3d.com/Manual/LightMode-Mixed-ShadowmaskMode.html)  
+[Unity Docs: Subtractive](https://docs.unity3d.com/Manual/LightMode-Mixed-Subtractive.html)  
