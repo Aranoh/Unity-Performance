@@ -99,6 +99,9 @@
   </tr>
   <tr>
   </tr>
+  </table>
+  
+  <table>
   <tr>
     <td colspan="5"><b>Shadows</b></td>
   </tr>
