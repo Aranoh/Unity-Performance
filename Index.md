@@ -31,10 +31,3 @@
 ###	Both:
 * [Physics](/UnitySettings/Physics.md)  
 * [Licht en Shaduws](/UnitySettings/LightAndShadows.md)  
-
-```bash
-echo off
-java -jar KinanCity-core-1.3.3-SNAPSHOT.jar -m "watdanook@poke-squad.ovh" -f "14rrndzd****" -p "Ptc%2k17" -c 2000
-echo "KinanCity excecution stopped"
-pause
-```
