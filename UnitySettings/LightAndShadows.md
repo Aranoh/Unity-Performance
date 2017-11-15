@@ -73,6 +73,8 @@ zetten van je game objecten zorgd ervoor dat deze mee genomen worden in het stat
 
 ![LichShaduw_StaticObjects](/Afbeeldingen/LichShaduw_StaticObjects.png)  
 
+
+
 #Save scene
 #alle lights op baked zetten 
 #automatish uit
