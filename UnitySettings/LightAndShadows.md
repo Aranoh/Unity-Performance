@@ -70,7 +70,7 @@ zetten van je game objecten zorgd ervoor dat deze mee genomen worden in het stat
 
 
 #Save scene
-alle lights op baked zetten
+#alle lights op baked zetten 
 #automatish uit
 resolutie instellen (texels per unity-settings)
 baked ambient GI
