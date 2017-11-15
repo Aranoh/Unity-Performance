@@ -67,7 +67,7 @@ niet voor veranderingen maar zal bij bakken deze lichten mee nemen en na het ber
 Hierna gaan we al onze objecten af waar licht op kan vallen. We gaan checken of alle statishe objecten ook echt op 'static' staan. Het op static 
 zetten van je game objecten zorgd ervoor dat deze mee genomen worden in het static lightmapping process. 
 
- 
+
 
 #Save scene
 #alle lights op baked zetten 
