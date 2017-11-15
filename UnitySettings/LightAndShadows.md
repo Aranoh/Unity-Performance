@@ -51,12 +51,27 @@ Stap een begint heel simpel. Sla je scene op. zonder opgeslagen scene kan Unity 
 voordat je kan bakken maar er moet op zijn minst een opgeslagen file zijn van de huidige scene.  
 
 Voordat we beginnen met instellingen goed zetten gaan we eerst het automatish licht bakken uitzetten. Dit kunnen we doen via het 'lightning window' 
-dit window is te vinden via 'Window' > 'Lighting' > 'Settings', helemaal onderaan in het eerste of tweede tabje zorg dat 'Auto Generate' uit staat.  
+dit window is te vinden via 'Window' > 'Lighting' > 'Settings', helemaal onderaan in het eerste of tweede tabje zorg dat 'Auto Generate' uit staat. 
+Je mag deze optie aanzetten maar het geeft een betere workflow om te kunnen builden wanneer we helemaal klaar zijn. Zo kunnen we spelen met de 
+settings en op 'Generate Lighting' drukken wanneer we klaar zijn.  
+
+![LichtShaduw_AutoGenerate](/Afbeeldingen/LichtShaduw_AutoGenerate.png)  
+
+Bedenk eerst wat je wilt doen met het light baking systeem. Deze guide gaat ervanuit dat het systeem gebruikt wordt voor het bakken van een statishe 
+omgeving. We gebruiken hierbij Light probes voor dynamishe objecten, dynamishe objecten zullen geen schaduw geven. gebruik 'Mixed' licht om schaduw 
+te krijgen van dynamishe objecten. Hierdoor verlies je wel veel van je lightbaking performance winst.
+
+Eerste stap voor het lightbaking systeem is om voor alle licht objecten uit de scene de 'Mode' op 'baked' te zetten. Dit zorgd in eerste instantie 
+niet voor veranderingen maar zal bij bakken deze lichten mee nemen en na het berekenen van de lightmap zal hij dit licht uitzetten. 
+
+Hierna gaan we al onze objecten af waar licht op kan vallen. We gaan checken of alle statishe objecten ook echt op 'static' staan. Het op static 
+zetten van je game objecten zorgd ervoor dat deze mee genomen worden in het static lightmapping process. 
 
 
-Save scene
+
+#Save scene
 alle lights op baked zetten
-automatish uit
+#automatish uit
 resolutie instellen (texels per unity-settings)
 baked ambient GI
 BAKKEN
