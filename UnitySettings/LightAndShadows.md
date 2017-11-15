@@ -82,7 +82,7 @@ een beter uitziende lightbake.
 
 * Lightmapper  
 Welk systeem gebruikt moet worden. Enlighten is Unity's oude systeem progressive het nieuwe. Progressive zal enlighten overnemen in de toekomst voor nu zijn ze allebij nog 
-te gebruiken.  
+te gebruiken. Wel is progressive aan te raden, dit is Unity's nieuwe systeem en over het algemeen zal deze er beter uitzien en sneller zijn.  
 
 * Indirect/Lightmap Resolution  
 Geven aan hoe presies de lightmap moet worden. hoe hoger de resolutie hoe betere textures er gemaakt worden voor de lightmap. Aan te raden is dit pas omhoog te zetten 
@@ -97,8 +97,29 @@ Mocht het bakken niet goed gaan probeer dan een keer de oude lightmap data weg t
 
 #### Light probes
 
-Light probes toevoegen in scene
-altijd boven terrain (anders zwarte objecten)
-BAKKEN
+Om ervoor te zorgen dat er ook licht op dynamishe objecten valt kunnen we gebruik maken van zogenoemde 'light probes'. Light probes zijn onzichtbare statishe objecten met 
+lightmapping data die ervoor kan zorgen dat dynamishe objecten in de buurt een goede lichtinval zullen krijgen. Light probes zijn geen oplossing voor schaduws op dynamishe 
+objecten hiervoor zal 'Mixed Light' gebruikt moeten worden. 
+
+Light probes zijn te vinden als nieuw game object onder light, ze worden 'Light Probe Group' genoemd. De eerste stap in het bakken van light probes voor dynamishe 
+objecten is dan ook om je scene te vullen met deze light probes groep. dit kan handmatig gedaan worden of er kan gebruik gemaakt worden van een script om je scene 
+te vullen met light probes. Het maakt niet direct heel veel uit waar de probes zich bevinden maar probes in een object of onder de grond kunnen voor een raar 
+effect zorgen op deze plekken geen licht zal komen. Er kan met light probes gespeeld worden totdat het gewenste resultaat behaald is.  
+
+Dingen waar op gelet kan worden bij het plaatsen van probes:  
+
+* Muren  
+Zorg dat er links en rechts (of voor en achter) een muur een probe geplaatst is zodat an beide kanten van de muur licht inval gemapt kan worden.  
+* Terrain  
+Probes onder terrain zullen altijd in de schaduw zitten. Mocht je probes onder het terrain willen hebben zorg dan ook voor probes net boven het terrain zodat 
+dynamishe objecten van deze gebruik kunnen maken.  
+* Open ruimte  
+Aangezien in een open ruimte geen of weinig verandering zal zijn tussen licht inval kan het verstandig zijn om voor grote open ruimtes wat minder probes te gebruiken 
+zodat de baktijd versneld kan worden.  
+
+Nadat je scene gevuld is met probes kan opnieuw gebakken worden. Het bak process zal automatish probes mee bakken als deze in de scene geplaatst worden. Dynamishe 
+objecten in je scene zullen nu gebruik maken van deze light probes. Ze zullen welke probes het dichtst bij zichzelf zitten en deze gebakken probe data gebruiken 
+om lichtinval van gebakken licht te kunnen simuleren.  
+
 ---
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/UnitySettings/Physics.md)
