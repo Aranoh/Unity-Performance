@@ -1,6 +1,8 @@
 # Licht en Shaduws
 [terug naar index](/Index.md#unity-settings)  
 
+/Afbeeldingen/
+
 Realtime licht in een game kan behoorlijk veel power eisen van je device. Toch ziet een game er met licht en schaduw er een stuk mooier uit 
 dan een game zonder licht. Om licht te kunnen krijgen in je game en toch goede performance te hebben kan gebruik gemaakt worden van Unity's 
 'light baking' systeem.  
@@ -47,7 +49,7 @@ maken van gebakken data kan je de [Lighting Modes Reference Card](/UnitySettings
 
 #### Stappen plan Light baking  
 
-Stap een begint heel simpel. Sla je scene op. zonder opgeslagen scene kan Unity namelijk niet zijn light baking doen. Je hoeft niet perse elke verandering op te slaan 
+Stap één begint heel simpel. Sla je scene op! Zonder opgeslagen scene kan Unity namelijk niet zijn light baking doen. Je hoeft niet perse elke verandering op te slaan 
 voordat je kan bakken maar er moet op zijn minst een opgeslagen file zijn van de huidige scene.  
 
 Voordat we beginnen met instellingen goed zetten gaan we eerst het automatish licht bakken uitzetten. Dit kunnen we doen via het 'lightning window' 
@@ -62,12 +64,14 @@ omgeving. We gebruiken hierbij Light probes voor dynamishe objecten, dynamishe o
 te krijgen van dynamishe objecten. Hierdoor verlies je wel veel van je lightbaking performance winst.
 
 Eerste stap voor het lightbaking systeem is om voor alle licht objecten uit de scene de 'Mode' op 'baked' te zetten. Dit zorgd in eerste instantie 
-niet voor veranderingen maar zal bij bakken deze lichten mee nemen en na het berekenen van de lightmap zal hij dit licht uitzetten. 
+niet voor veranderingen maar zal bij bakken deze lichten mee nemen en na het berekenen van de lightmap zal hij dit licht uitzetten.  
+
+![LichtShaduw_BakedMode](/Afbeeldingen/LichtShaduw_BakedMode.png)  
 
 Hierna gaan we al onze objecten af waar licht op kan vallen. We gaan checken of alle statishe objecten ook echt op 'static' staan. Het op static 
 zetten van je game objecten zorgd ervoor dat deze mee genomen worden in het static lightmapping process. 
 
-
+![LichShaduw_StaticObjects](/Afbeeldingen/LichShaduw_StaticObjects.png)  
 
 #Save scene
 #alle lights op baked zetten 
