@@ -121,7 +121,7 @@ Aangezien in een open ruimte geen of weinig verandering zal zijn tussen licht in
 zodat de baktijd versneld kan worden.  
 
 Nadat je scene gevuld is met probes kan opnieuw gebakken worden. Het bak process zal automatish probes mee bakken als deze in de scene geplaatst worden. Dynamishe 
-objecten in je scene zullen nu gebruik maken van deze light probes. Ze zullen welke probes het dichtst bij zichzelf zitten en deze gebakken probe data gebruiken 
+objecten in je scene zullen nu gebruik maken van deze light probes. Ze zullen kijken welke probes het dichtst bij zichzelf zitten en deze gebakken probe data gebruiken 
 om lichtinval van gebakken licht te kunnen simuleren.  
 
 ---
