@@ -63,8 +63,9 @@ Bedenk eerst wat je wilt doen met het light baking systeem. Deze guide gaat erva
 omgeving. We gebruiken hierbij Light probes voor dynamishe objecten, dynamishe objecten zullen geen schaduw geven. gebruik 'Mixed' licht om schaduw 
 te krijgen van dynamishe objecten. Hierdoor verlies je wel veel van je lightbaking performance winst.
 
-Eerste stap voor het lightbaking systeem is om voor alle licht objecten uit de scene de 'Mode' op 'baked' te zetten. Dit zorgd in eerste instantie 
-niet voor veranderingen maar zal bij bakken deze lichten mee nemen en na het berekenen van de lightmap zal hij dit licht uitzetten.  
+Eerste stap voor het lightbaking systeem is om voor alle licht objecten uit de scene de 'Mode' op 'baked' te zetten. Dit zorgt in eerste instantie 
+niet voor veranderingen maar bij het bakken zullen deze lichten meegenomen worden met het berekenen van de lightmap. Nadat dit klaar is zal hij deze 
+lichten uitzetten en alleen nog maar de gebakken data laten zien.  
 
 ![LichtShaduw_BakedMode](/Afbeeldingen/LichtShaduw_BakedMode.png)  
 
