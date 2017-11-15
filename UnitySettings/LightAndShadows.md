@@ -47,9 +47,25 @@ maken van gebakken data kan je de [Lighting Modes Reference Card](/UnitySettings
 
 #### Stappen plan Light baking  
 
+Stap een begint heel simpel. Sla je scene op. zonder opgeslagen scene kan Unity namelijk niet zijn light baking doen. Je hoeft niet perse elke verandering op te slaan 
+voordat je kan bakken maar er moet op zijn minst een opgeslagen file zijn van de huidige scene.  
 
+Voordat we beginnen met instellingen goed zetten gaan we eerst het automatish licht bakken uitzetten. Dit kunnen we doen via het 'lightning window' 
+dit window is te vinden via 'Window' > 'Lighting' > 'Settings', helemaal onderaan in het eerste of tweede tabje zorg dat 'Auto Generate' uit staat.  
+
+
+Save scene
+alle lights op baked zetten
+automatish uit
+resolutie instellen (texels per unity-settings)
+baked ambient GI
+BAKKEN
+bakken clearen met rebake als t fout gaat
 
 ### Light probes
 
+Light probes toevoegen in scene
+altijd boven terrain (anders zwarte objecten)
+BAKKEN
 ---
 [![Last Page](/Afbeeldingen/Arrow_back_small.png)](/UnitySettings/Physics.md)
