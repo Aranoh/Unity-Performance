@@ -105,15 +105,17 @@ objecten hiervoor zal 'Mixed Light' gebruikt moeten worden.
 Light probes zijn te vinden als nieuw game object onder light, ze worden 'Light Probe Group' genoemd. De eerste stap in het bakken van light probes voor dynamishe 
 objecten is dan ook om je scene te vullen met deze light probes groep. dit kan handmatig gedaan worden of er kan gebruik gemaakt worden van een script om je scene 
 te vullen met light probes. Het maakt niet direct heel veel uit waar de probes zich bevinden maar probes in een object of onder de grond kunnen voor een raar 
-effect zorgen op deze plekken geen licht zal komen. Er kan met light probes gespeeld worden totdat het gewenste resultaat behaald is.  
+effect zorgen omdat op deze plekken geen licht zal komen. Er kan met light probes gespeeld worden totdat het gewenste resultaat behaald is.  
 
 Dingen waar op gelet kan worden bij het plaatsen van probes:  
 
 * Muren  
 Zorg dat er links en rechts (of voor en achter) een muur een probe geplaatst is zodat an beide kanten van de muur licht inval gemapt kan worden.  
+
 * Terrain  
 Probes onder terrain zullen altijd in de schaduw zitten. Mocht je probes onder het terrain willen hebben zorg dan ook voor probes net boven het terrain zodat 
 dynamishe objecten van deze gebruik kunnen maken.  
+
 * Open ruimte  
 Aangezien in een open ruimte geen of weinig verandering zal zijn tussen licht inval kan het verstandig zijn om voor grote open ruimtes wat minder probes te gebruiken 
 zodat de baktijd versneld kan worden.  
